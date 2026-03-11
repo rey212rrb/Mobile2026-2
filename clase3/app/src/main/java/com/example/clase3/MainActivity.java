@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             indiceGrupo = 0;
 
         }
-
+        //Mostramos
         //Actualizamos el texto con los nuevos valores
         miGrupo.setText(grupos[indiceGrupo]);
         miTexto.setText(nombres[indiceGrupo][indiceAlumno]);

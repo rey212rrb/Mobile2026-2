@@ -13,8 +13,8 @@
         android:id="@+id/txvGrupo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:text="Grupo" />
+        android:text="Grupo"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/txvMiTexto"
@@ -28,7 +28,7 @@
         android:id="@+id/btnMiButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         android:text="Cambiar Nombre" />
 
 </LinearLayout>
