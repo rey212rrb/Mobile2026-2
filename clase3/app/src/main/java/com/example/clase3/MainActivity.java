@@ -7,37 +7,46 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    //1.
+    //AppCompatActivity: Hereda funciones de una pantalla Android
+    //implements View.OnClickListener: Le dice a la clase que debe estar atenta cuando alguien preciones un boton
+
+
+    //1. Declaramos objetos que controla lo que se ve en pantalla
     TextView miTexto;
     TextView miGrupo;
     Button miButton;
 
-    //3.
+    //3. Se decalra matriz bidimiencional
     String [][] nombres = {
             { "Cristian", "Pedro", "Pablo", "Mauricio" }, // 2291
             { "Kenia", "Paulina", "Giselle", "Alicia", "Claudia" } //2292
     };
 
+    //Arreglo simple con los grupos
     String [] grupos = { "2291", "2292" };
 
-    int indice = 0;
-    int indiceGrupo = 0;
+    int indiceAlumno = 0; // Controla que alumno estamos viendo
+    int indiceGrupo = 0; // Controla que grupo estamos viendo
+
+    //4.
 
     @Override
+    //Metodo onCreate
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState); // Llama a la configuración interna para preparar la ventana
+        setContentView(R.layout.activity_main); //Llama o infla diseño XML activuty_main
 
-        //2.
+        //2. Es el puente entre la clase y la vista por ID
         miButton = findViewById(R.id.btnMiButton);
         miTexto = findViewById(R.id.txvMiTexto);
         miGrupo = findViewById(R.id.txvGrupo);
 
-        miButton.setOnClickListener(this);
+        miButton.setOnClickListener(this); //A esta clase, le asignamos el boton para que cuando se precione, se ejecute el metodo onClick
 
+        //Validacion para que cuando inicie la App, aparezca el nombre del primer alumno y del grupo
         if (nombres.length > 0) {
             miGrupo.setText(grupos[indiceGrupo]);
-            miTexto.setText(nombres[indiceGrupo][indice]);
+            miTexto.setText(nombres[indiceGrupo][indiceAlumno]);
         }
     }
 
@@ -57,23 +66,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }+*/
 
     @Override
+    //Logica del boton
     public void onClick(View v) {
+
        // renderizaAlumnos();
         // renderizaGrupo();
-        indice++;
 
-        if (indice >= nombres[indiceGrupo].length) {
-            indice = 0;
-            indiceGrupo++;
+        indiceAlumno++; //Aumentamos en la posicion del alumno
+
+        //Validacion si ya llegamos al final del arreglo de un grupo
+        if (indiceAlumno >= nombres[indiceGrupo].length) {
+
+            indiceAlumno = 0; //Regresamos al primer Alumno
+
+            indiceGrupo++; //Bricamos a la siguiente grupo
         }
 
 
-        if (indiceGrupo >= grupos.length) {
+        if (indiceGrupo >= grupos.length) { //Si llegamos al final de los grupos, reiniciamos el indice de los grupos
+
             indiceGrupo = 0;
+
         }
 
+        //Actualizamos el texto con los nuevos valores
         miGrupo.setText(grupos[indiceGrupo]);
-        miTexto.setText(nombres[indiceGrupo][indice]);
+        miTexto.setText(nombres[indiceGrupo][indiceAlumno]);
 
     }
 }
