@@ -93,6 +93,13 @@
         android:layout_gravity="center">
 
         <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="C"/>
+
+        <Button
             android:id="@+id/btn9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,15 +112,10 @@
             android:text="0"/>
 
         <Button
-            android:id="@+id/btnLimpiar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="C"/>
-
-        <Button
             android:id="@+id/btnIgual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FA0A0A"
             android:text="="/>
 
 
@@ -160,8 +162,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30sp"
-        android:text="Resultado"
+        android:text="Resultado 0"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
 </LinearLayout>
