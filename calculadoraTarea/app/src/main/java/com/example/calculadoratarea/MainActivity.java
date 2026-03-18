@@ -19,6 +19,10 @@ import com.example.calculadoratarea.interfaces.ICalculadora;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText n1, n2;
+    double primerNumero = 0;
+    Operacion opPendiente = null;
+
+    boolean esNuevoNumero = true;
     TextView res;
 
     //Button suma, resta, mult, div;
@@ -32,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         n1 = findViewById(R.id.etNumero1);
-        n2 = findViewById(R.id.etNumero2);
+        //n2 = findViewById(R.id.etNumero2);
         res = findViewById(R.id.txvResutado);
 
         findViewById(R.id.btnSuma).setOnClickListener(this);
@@ -40,38 +44,81 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnMult).setOnClickListener(this);
         findViewById(R.id.btnDiv).setOnClickListener(this);
 
+        findViewById(R.id.btn0).setOnClickListener(this);
+        findViewById(R.id.btn1).setOnClickListener(this);
+        findViewById(R.id.btn2).setOnClickListener(this);
+        findViewById(R.id.btn3).setOnClickListener(this);
+        findViewById(R.id.btn4).setOnClickListener(this);
+        findViewById(R.id.btn5).setOnClickListener(this);
+        findViewById(R.id.btn6).setOnClickListener(this);
+        findViewById(R.id.btn7).setOnClickListener(this);
+        findViewById(R.id.btn8).setOnClickListener(this);
+        findViewById(R.id.btn9).setOnClickListener(this);
+
+
+        findViewById(R.id.btnLimpiar).setOnClickListener(this);
+        findViewById(R.id.btnIgual).setOnClickListener(this);
+
+
     }
+
 
     @Override
     public void onClick(View v) {
+        int id = v.getId();
 
-        double valor1 = Double.parseDouble(n1.getText().toString());
-        double valor2 = Double.parseDouble(n2.getText().toString());
-        double resultado = 0;
 
-        if(v.getId() == R.id.btnSuma) {
-            resultado = calculadora.calcular(valor1, valor2, Operacion.SUMA);
+        if (id == R.id.btn0 || id == R.id.btn1 || id == R.id.btn2 || id == R.id.btn3 ||
+                id == R.id.btn4 || id == R.id.btn5 || id == R.id.btn6 || id == R.id.btn7 ||
+                id == R.id.btn8 || id == R.id.btn9) {
+
+            Button botonPulsado = (Button) v;
+            String numero = botonPulsado.getText().toString();
+
+            if (esNuevoNumero) {
+                n1.setText(numero);
+                esNuevoNumero = false;
+            } else {
+                n1.append(numero);
+            }
+            return;
         }
 
-        if(v.getId() == R.id.btnResta){
 
-            resultado = calculadora.calcular(valor1, valor2, Operacion.RESTA);
+        if (id == R.id.btnSuma || id == R.id.btnResta || id == R.id.btnMult || id == R.id.btnDiv) {
 
+            primerNumero = Double.parseDouble(n1.getText().toString());
+
+            if (id == R.id.btnSuma) opPendiente = Operacion.SUMA;
+            if (id == R.id.btnResta) opPendiente = Operacion.RESTA;
+            if (id == R.id.btnMult) opPendiente = Operacion.MULTIPLICACION;
+            if (id == R.id.btnDiv) opPendiente = Operacion.DIVISION;
+
+            esNuevoNumero = true;
+            return;
         }
 
-        if(v.getId() == R.id.btnMult){
 
-            resultado = calculadora.calcular(valor1, valor2, Operacion.MULTIPLICACION);
+        if (id == R.id.btnIgual) {
 
+            double segundoNumero = Double.parseDouble(n1.getText().toString());
+
+
+            double resultado = calculadora.calcular(primerNumero, segundoNumero, opPendiente);
+
+            n1.setText(String.valueOf(resultado));
+            esNuevoNumero = true;
+            return;
         }
 
-        if(v.getId() == R.id.btnDiv){
-
-            resultado = calculadora.calcular(valor1, valor2, Operacion.DIVISION);
-
+        if (id == R.id.btnLimpiar) {
+            n1.setText("0");
+            primerNumero = 0;
+            opPendiente = null;
+            esNuevoNumero = true;
         }
-
-        res.setText("Resultado: " + resultado);
-
     }
+
+
+
 }
