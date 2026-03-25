@@ -38,7 +38,7 @@ public class ViewModel {
                 return  calculadora.multi(operacion.x, operacion.y);
 
             case DIV:
-                return calculadora.multi(operacion.x, operacion.y);
+                return calculadora.div(operacion.x, operacion.y);
 
             default:
                 return 0.0;

@@ -8,7 +8,7 @@ public class Calculadora implements ICalculadora {
     }
 
     @Override
-    public double resta(double y, double x) {
+    public double resta(double x, double y) {
         return x - y;
     }
 
