@@ -9,27 +9,43 @@ public class ViewModel {
 
     }
 
-    double sumar(double x, double y){
+    Double makeOperation(Operacion[] operacions){
 
-        return calculadora.sumar(x, y);
+        Double cache = 0.0;
+
+        for(Operacion operacion: operacions){
+
+           cache += makeOperation(operacion);
+
+        }
+
+        return cache;
+    }
+
+    Double makeOperation(Operacion operacion){
+
+        switch (operacion.getOperationType()){
+
+            //ADD, SUBSTRAC, MULTIP, DIV
+
+            case ADD:
+                return calculadora.sumar(operacion.x, operacion.y);
+
+            case SUBSTRAC:
+                return  calculadora.resta(operacion.x, operacion.y);
+
+            case MULTIP:
+                return  calculadora.multi(operacion.x, operacion.y);
+
+            case DIV:
+                return calculadora.multi(operacion.x, operacion.y);
+
+            default:
+                return 0.0;
+
+        }
 
     }
 
-    double resta (double y, double x){
 
-        return calculadora.resta(y, x);
-
-    }
-
-    double multi(double x, double y){
-
-        return calculadora.multi(x, y);
-
-    }
-
-    double div(double x, double y){
-
-        return calculadora.multi(x, y);
-
-    }
 }
