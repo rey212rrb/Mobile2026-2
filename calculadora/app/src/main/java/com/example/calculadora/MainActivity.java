@@ -48,8 +48,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private double limpiarYParsear(String valor) {
         String limpio = valor.replace("(", "").replace(")", "");
 
-        limpio = limpio.replace("--", "").replace("+-", "-");
+        if (limpio.endsWith("%")) {
+            limpio = limpio.replace("%", "");
+            return Double.parseDouble(limpio) / 100;
+        }
 
+        limpio = limpio.replace("--", "");
         if (limpio.isEmpty() || limpio.equals("-")) return 0.0;
 
         return Double.parseDouble(limpio);
@@ -69,10 +73,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 txvResult.setText(currentInput.isEmpty() ? "0" : currentInput);
             }
         } else if (id == R.id.btnPercentage) {
-            if (!currentInput.isEmpty()) {
-                double valor = limpiarYParsear(currentInput);
-                double resultado = valor / 100;
-                currentInput = String.valueOf(resultado);
+            if (!currentInput.isEmpty() && !currentInput.endsWith("%")) {
+                currentInput += "%";
                 txvResult.setText(currentInput);
             }
         } else if (id == R.id.btnPlusMinus) {
@@ -93,13 +95,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String operacionProcesada = operacionOriginal;
 
             try {
-
+                // Manejo de paréntesis pegados a números
                 operacionProcesada = operacionProcesada.replaceAll("(\\d)\\(", "$1X(");
                 operacionProcesada = operacionProcesada.replaceAll("\\)(\\d)", ")X$1");
                 operacionProcesada = operacionProcesada.replace(")(", ")X(");
 
                 txvOperation.setText(operacionOriginal + "=");
-
                 Operacion op = null;
 
                 if (operacionProcesada.contains("X")) {
@@ -114,17 +115,40 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     int lastIndex = operacionProcesada.lastIndexOf("-");
                     String p1 = operacionProcesada.substring(0, lastIndex);
                     String p2 = operacionProcesada.substring(lastIndex + 1);
-                    op = new Operacion(limpiarYParsear(p1), limpiarYParsear(p2), OperationType.SUBSTRAC);
+
+                    double n1 = limpiarYParsear(p1);
+                    double n2;
+
+                    // Si el segundo número es un porcentaje relativo (estilo iPhone)
+                    if (p2.endsWith("%")) {
+                        // Calculamos el % basado en el primer número
+                        double porcentajeVal = Double.parseDouble(p2.replace("%", "")) / 100.0;
+                        n2 = Math.abs(n1) * porcentajeVal;
+                    } else {
+                        n2 = limpiarYParsear(p2);
+                    }
+                    op = new Operacion(n1, n2, OperationType.SUBSTRAC);
                 }
                 else if (operacionProcesada.contains("/")) {
                     String[] partes = operacionProcesada.split("/");
                     op = new Operacion(limpiarYParsear(partes[0]), limpiarYParsear(partes[1]), OperationType.DIV);
                 }
+                else if (operacionProcesada.contains("%")) {
+                    String[] partes = operacionProcesada.split("%");
+                    if (partes.length == 2) {
+                        op = new Operacion(limpiarYParsear(partes[0] + "%"), limpiarYParsear(partes[1]), OperationType.MULTIP);
+                    }
+                }
 
                 if (op != null) {
                     Double resultado = vm.makeOperation(op);
-                    txvResult.setText(String.valueOf(resultado));
-                    currentInput = String.valueOf(resultado);
+                    // Formateo para que no muestre .0 si es entero
+                    if (resultado % 1 == 0) {
+                        txvResult.setText(String.valueOf(resultado.longValue()));
+                    } else {
+                        txvResult.setText(String.valueOf(resultado));
+                    }
+                    currentInput = txvResult.getText().toString();
                 }
 
             } catch (Exception e) {
@@ -134,6 +158,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             Button b = (Button) v;
             String buttonText = b.getText().toString();
+
+            if (buttonText.equals(".") && currentInput.contains(".")) return;
 
             if (currentInput.equals("0")) currentInput = buttonText;
             else currentInput += buttonText;
