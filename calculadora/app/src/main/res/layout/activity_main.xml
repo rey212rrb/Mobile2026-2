@@ -156,7 +156,7 @@
             android:layout_margin="8dp"
             android:background="@drawable/btn_operator"
             android:backgroundTint="@null"
-            android:text="X"
+            android:text="x"
             android:textColor="#FFFFFF"
             android:textSize="26sp"
             app:layout_columnWeight="1" />

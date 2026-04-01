@@ -45,6 +45,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnDelete).setOnClickListener(this);
     }
 
+    private double limpiarYParsear(String valor) {
+        String limpio = valor.replace("(", "").replace(")", "");
+
+        limpio = limpio.replace("--", "").replace("+-", "-");
+
+        if (limpio.isEmpty() || limpio.equals("-")) return 0.0;
+
+        return Double.parseDouble(limpio);
+    }
+
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -58,44 +68,57 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 currentInput = currentInput.substring(0, currentInput.length() - 1);
                 txvResult.setText(currentInput.isEmpty() ? "0" : currentInput);
             }
-        }else if (id == R.id.btnPercentage) {
+        } else if (id == R.id.btnPercentage) {
             if (!currentInput.isEmpty()) {
-                double valor = Double.parseDouble(currentInput);
+                double valor = limpiarYParsear(currentInput);
                 double resultado = valor / 100;
                 currentInput = String.valueOf(resultado);
                 txvResult.setText(currentInput);
             }
-        }else if (id == R.id.btnPlusMinus) {
+        } else if (id == R.id.btnPlusMinus) {
             if (!currentInput.isEmpty() && !currentInput.equals("0")) {
-                double valor = Double.parseDouble(currentInput);
-                double resultado = valor * -1; // Invertimos el signo
-                currentInput = String.valueOf(resultado);
+                if (currentInput.startsWith("(-") && currentInput.endsWith(")")) {
+                    currentInput = currentInput.substring(2, currentInput.length() - 1);
+                }
+                else if (currentInput.startsWith("-")) {
+                    currentInput = currentInput.substring(1);
+                }
+                else {
+                    currentInput = "(-" + currentInput + ")";
+                }
                 txvResult.setText(currentInput);
             }
         } else if (id == R.id.btnEqual) {
-
-            String operacionCompleta = txvResult.getText().toString();
-            txvOperation.setText(operacionCompleta + "=");
+            String operacionOriginal = txvResult.getText().toString();
+            String operacionProcesada = operacionOriginal;
 
             try {
-                double n1, n2;
+
+                operacionProcesada = operacionProcesada.replaceAll("(\\d)\\(", "$1X(");
+                operacionProcesada = operacionProcesada.replaceAll("\\)(\\d)", ")X$1");
+                operacionProcesada = operacionProcesada.replace(")(", ")X(");
+
+                txvOperation.setText(operacionOriginal + "=");
+
                 Operacion op = null;
 
-                if (operacionCompleta.contains("X")) {
-                    String[] partes = operacionCompleta.split("X");
-                    op = new Operacion(Double.parseDouble(partes[0]), Double.parseDouble(partes[1]), OperationType.MULTIP);
+                if (operacionProcesada.contains("X")) {
+                    String[] partes = operacionProcesada.split("X");
+                    op = new Operacion(limpiarYParsear(partes[0]), limpiarYParsear(partes[1]), OperationType.MULTIP);
                 }
-                else if (operacionCompleta.contains("+")) {
-                    String[] partes = operacionCompleta.split("\\+");
-                    op = new Operacion(Double.parseDouble(partes[0]), Double.parseDouble(partes[1]), OperationType.ADD);
+                else if (operacionProcesada.contains("+")) {
+                    String[] partes = operacionProcesada.split("\\+");
+                    op = new Operacion(limpiarYParsear(partes[0]), limpiarYParsear(partes[1]), OperationType.ADD);
                 }
-                else if (operacionCompleta.contains("-")) {
-                    String[] partes = operacionCompleta.split("-");
-                    op = new Operacion(Double.parseDouble(partes[0]), Double.parseDouble(partes[1]), OperationType.SUBSTRAC);
+                else if (operacionProcesada.contains("-")) {
+                    int lastIndex = operacionProcesada.lastIndexOf("-");
+                    String p1 = operacionProcesada.substring(0, lastIndex);
+                    String p2 = operacionProcesada.substring(lastIndex + 1);
+                    op = new Operacion(limpiarYParsear(p1), limpiarYParsear(p2), OperationType.SUBSTRAC);
                 }
-                else if (operacionCompleta.contains("/")) {
-                    String[] partes = operacionCompleta.split("/");
-                    op = new Operacion(Double.parseDouble(partes[0]), Double.parseDouble(partes[1]), OperationType.DIV);
+                else if (operacionProcesada.contains("/")) {
+                    String[] partes = operacionProcesada.split("/");
+                    op = new Operacion(limpiarYParsear(partes[0]), limpiarYParsear(partes[1]), OperationType.DIV);
                 }
 
                 if (op != null) {
@@ -108,8 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 txvResult.setText("Error");
                 currentInput = "";
             }
-        }
-        else {
+        } else {
             Button b = (Button) v;
             String buttonText = b.getText().toString();
 
@@ -119,4 +141,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             txvResult.setText(currentInput);
         }
     }
+
 }
