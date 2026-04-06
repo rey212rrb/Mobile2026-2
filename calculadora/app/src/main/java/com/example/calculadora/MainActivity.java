@@ -119,9 +119,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     double n1 = limpiarYParsear(p1);
                     double n2;
 
-                    // Si el segundo número es un porcentaje relativo (estilo iPhone)
                     if (p2.endsWith("%")) {
-                        // Calculamos el % basado en el primer número
                         double porcentajeVal = Double.parseDouble(p2.replace("%", "")) / 100.0;
                         n2 = Math.abs(n1) * porcentajeVal;
                     } else {
@@ -142,7 +140,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 if (op != null) {
                     Double resultado = vm.makeOperation(op);
-                    // Formateo para que no muestre .0 si es entero
                     if (resultado % 1 == 0) {
                         txvResult.setText(String.valueOf(resultado.longValue()));
                     } else {
