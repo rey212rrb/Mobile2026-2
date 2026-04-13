@@ -56,7 +56,7 @@ public class MiCliente {
 
         final okhttp3.MediaType JSON = okhttp3.MediaType.get("application/json; charset=utf-8");
 
-        String jsonString = "{\"characteres\":\"" + nombre + "\"}";
+        String jsonString = "{\"character\":\"" + nombre + "\"}";
         okhttp3.RequestBody body = okhttp3.RequestBody.create(jsonString, JSON);
 
         Request request = new Request.Builder()
