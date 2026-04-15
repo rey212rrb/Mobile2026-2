@@ -1,7 +1,9 @@
 package com.example.clase7;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -13,6 +15,8 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -20,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     MiAdaptador adapter;
-    ArrayList<String> listaNombres = new ArrayList<>();;
+    ArrayList<Personaje> listaNombres = new ArrayList<>();;
 
-    EditText edtNombre;
-    Button btnAgregar;
+    //EditText edtNombre;
+    //Button btnAgregar;
+
+    FloatingActionButton fabAgregar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,15 +45,15 @@ public class MainActivity extends AppCompatActivity {
 
         //Conectamos los elementos del xml con java mapeo de cogigo java a xml
         recyclerView = findViewById(R.id.my_recycler_view);
-        edtNombre = findViewById(R.id.edtNombre);
-        btnAgregar = findViewById(R.id.btnAgregar);
+        //edtNombre = findViewById(R.id.edtNombre);
+        //btnAgregar = findViewById(R.id.btnAgregar);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         AsyncTask.execute(() ->{
 
             try {
-                ArrayList<String> datosDesdeServer = miCliente.getElements();
+                ArrayList<Personaje> datosDesdeServer = miCliente.getElements();
                 runOnUiThread(() -> {
 
                     listaNombres.clear();
@@ -73,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         //inicializo
 
 
-        btnAgregar.setOnClickListener(v -> {
+        /*btnAgregar.setOnClickListener(v -> {
             String nombre = edtNombre.getText().toString().trim();
             //Si hay nombre, inyecta nombre
             if (!nombre.isEmpty() && adapter != null) {
@@ -94,6 +100,50 @@ public class MainActivity extends AppCompatActivity {
                 }
             //Borra la viewText :p
             //edtNombre.setText("");
+        });*/
+
+        /*btnAgregar.setOnClickListener(v -> {
+            Intent i = new Intent(MainActivity.this, AgregarActivity.class);
+            startActivity(i);
+        });*/
+
+        fabAgregar = findViewById(R.id.fabAgregar);
+        fabAgregar.setOnClickListener(v -> {
+            Intent i = new Intent(MainActivity.this, AgregarActivity.class);
+            startActivity(i);
         });
+
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        new Thread(() -> {
+            try {
+                Thread.sleep(500);
+
+                MiCliente miCliente = new MiCliente();
+                ArrayList<Personaje> listaActualizada = miCliente.getElements();
+
+                runOnUiThread(() -> {
+                    if (listaActualizada != null) {
+                        listaNombres.clear();
+                        listaNombres.addAll(listaActualizada);
+
+                        if (adapter != null) {
+                            adapter.notifyDataSetChanged();
+                            Log.d("EXITO", "Se cargaron " + listaNombres.size() + " elementos");
+                        } else {
+                            adapter = new MiAdaptador(listaNombres);
+                            recyclerView.setAdapter(adapter);
+                        }
+                    }
+                });
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }).start();
     }
 }

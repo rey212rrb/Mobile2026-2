@@ -1,17 +1,20 @@
 package com.example.clase7;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 public class MiAdaptador extends RecyclerView.Adapter<MiViewHolder> {
 
-    private ArrayList<String> localDataSet;
+    private ArrayList<Personaje> localDataSet;
 
-    public MiAdaptador(ArrayList<String> dataSet) {
+    public MiAdaptador(ArrayList<Personaje> dataSet) {
         localDataSet = dataSet;
     }
 
@@ -32,12 +35,39 @@ public class MiAdaptador extends RecyclerView.Adapter<MiViewHolder> {
         // Get element from your dataset at this position and replace the
         // contents of the view with that element
         //viewHolder.getTextView().setText(localDataSet[position]);
-        viewHolder.getTextView().setText(localDataSet.get(position));
+        //viewHolder.getTextView().setText(localDataSet.get(position));
+
+        Personaje personaje = localDataSet.get(position);
+
+        String name = personaje.getName();
+        viewHolder.getTextView().setText(name);
+
+        String url = personaje.getPhoto();
+        Glide
+                .with(viewHolder.itemView.getContext())
+                .load(url)
+                .centerCrop()
+                .into(viewHolder.getImageView());
+
+        viewHolder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(v.getContext(), DetalleActivity.class);
+            intent.putExtra("name", personaje.getName());
+            intent.putExtra("desc", personaje.getDesc());
+            intent.putExtra("photo", personaje.getPhoto());
+            intent.putExtra("attack", personaje.getAttack());
+            intent.putExtra("def", personaje.getDef());
+            v.getContext().startActivity(intent);
+        });
+
     }
 
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return localDataSet.size();
+    }
+
+    public void addElemento(Personaje newElement) {
+        localDataSet.add(newElement);
     }
 }
