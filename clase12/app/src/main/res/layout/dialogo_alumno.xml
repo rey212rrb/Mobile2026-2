@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre(s)" />
+
+    <EditText android:id="@+id/et_paterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Paterno" />
+
+    <EditText android:id="@+id/et_materno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Materno" />
+
+    <EditText android:id="@+id/et_cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de cuenta"
+        android:inputType="number" />
+</LinearLayout>
