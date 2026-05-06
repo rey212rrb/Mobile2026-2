@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyber_black"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textAllCaps="true"
+        android:textColor="@color/neon_blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/app_subtitle"
+        android:textColor="@color/matrix_green"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle" />
+
+    <LinearLayout
+        android:id="@+id/statsPanel"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_stats_panel"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtSubtitle">
+
+        <TextView
+            android:id="@+id/txtSteps"
+            style="@style/CyberStatText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/steps_initial" />
+
+        <TextView
+            android:id="@+id/txtCollisions"
+            style="@style/CyberStatText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/collisions_initial"
+            android:textColor="@color/neon_red" />
+
+        <TextView
+            android:id="@+id/txtAircraft"
+            style="@style/CyberStatText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/aircraft_initial"
+            android:textColor="@color/neon_blue" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridAirspace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/bg_grid_neon"
+        android:columnCount="5"
+        android:padding="8dp"
+        android:rowCount="5"
+        app:layout_constraintBottom_toTopOf="@id/controlPanel"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statsPanel" />
+
+    <LinearLayout
+        android:id="@+id/controlPanel"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            style="@style/CyberButtonSecondary"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/previous_step" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/CyberButtonSecondary"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/refresh_grid" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/CyberButtonPrimary"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:text="@string/next_step" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

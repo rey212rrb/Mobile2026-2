@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AvionesCentral</string>
+    <string name="app_title">Aviones Central</string>
+    <string name="app_subtitle">TACTICAL AIRSPACE COLLISION MONITOR</string>
+    <string name="steps_initial">STEPS: 0</string>
+    <string name="collisions_initial">COLLISIONS: 0</string>
+    <string name="aircraft_initial">AIRCRAFT: 0</string>
+    <string name="next_step">SIGUIENTE</string>
+    <string name="previous_step">ATRAS</string>
+    <string name="refresh_grid">ACTUALIZAR</string>
+</resources>

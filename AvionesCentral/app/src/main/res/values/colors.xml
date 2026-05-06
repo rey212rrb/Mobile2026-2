@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cyber_black">#121212</color>
+    <color name="cyber_panel">#181C1F</color>
+    <color name="cyber_cell">#0D1012</color>
+    <color name="cyber_cell_active">#071A20</color>
+    <color name="collision_fill">#24040A</color>
+    <color name="grid_line">#1E4246</color>
+    <color name="matrix_green">#39FF14</color>
+    <color name="neon_blue">#00F5FF</color>
+    <color name="neon_red">#FF1744</color>
+    <color name="button_fill">#15191C</color>
+    <color name="button_pressed">#263238</color>
+    <color name="button_disabled">#101214</color>
+</resources>

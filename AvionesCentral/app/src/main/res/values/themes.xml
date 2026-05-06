@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AvionesCentral" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorAccent">@color/neon_blue</item>
+    </style>
+
+    <style name="Theme.AvionesCentral" parent="Base.Theme.AvionesCentral" />
+
+    <style name="CyberStatText">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/matrix_green</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CyberButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textColor">@color/matrix_green</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="CyberButtonSecondary" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textColor">@color/neon_blue</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+</resources>
