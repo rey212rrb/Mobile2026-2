@@ -1,0 +1,20 @@
+Genera una aplicación para Android con código nativo en java 
+
+El rol que utilizara es el de un desarrollador senior 
+
+1. El requerimiento es genera
+2. La aplicación deberá de cotnener 3 tablas, alumnos, grupos y asistencias
+2.1 Un alumno dbera estar incrito en un o varios grupos
+2.2 Un grupo tiene muchos alumnos
+2.3 uN alumno isncrito en un grupo tiene una o muchas asistencias 
+3. La pantalla principal dbera de cargar la información de los grupos disponibles 
+3.1 la pantalla principal deberá de mostrar un recyvlerView, cada viw holder al hacer cloick deberá reemplazar el siguiente fragmento (curso)
+4. Al dar click en el curso seleccionado deberá de mostrar los alumnos incritos al curso 
+5. el sistema deberá mostrar una lista de asistencias, mostrando m¿nobre del alumno, el curso seleccionado 
+6. Un requerimiento necesario es que solo exita una actividad,, es decir deberá de manejarse con únicamente fragmentos como por ejemplo framento grupos, fragmento alumnos y fragmento asistencia
+7. La base de datos se Debra crear con room 
+8. el lenguaje de programación es java 
+9. Utiliza para los adaptadores clases genéricas 
+10. Utiliza una interfaz común par ala nevegacion entre framentos/pantallas 
+11. el diseño de la interfaz de UI deberá ser lo mas simple posible 
+12. Genera pruebas unitarias

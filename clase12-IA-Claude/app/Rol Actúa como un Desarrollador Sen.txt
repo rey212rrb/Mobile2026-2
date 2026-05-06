@@ -1,0 +1,41 @@
+Rol: Actúa como un Desarrollador Senior de Android.
+
+Tarea: Genera el código para una aplicación nativa en Java siguiendo los siguientes requerimientos:
+
+Arquitectura y Persistencia:
+
+Utiliza una Single Activity Architecture (una sola actividad que gestiona múltiples fragmentos).
+
+La base de datos debe implementarse con Room Persistence Library.
+
+Define tres tablas principales con sus respectivas relaciones: Alumnos, Grupos y Asistencias.
+
+Lógica de Datos (Relaciones):
+
+Muchos a Muchos: Un alumno puede estar inscrito en uno o varios grupos, y un grupo contiene a muchos alumnos.
+
+Uno a Muchos: Un alumno inscrito en un grupo puede tener una o muchas asistencias.
+
+Interfaz de Usuario (UI) y Navegación:
+
+El diseño debe ser minimalista y funcional.
+
+Implementa una interfaz común (Navigator/Listener) para gestionar la navegación entre fragmentos.
+
+Fragmento Grupos (Principal): Carga la lista de grupos disponibles en un RecyclerView. Al hacer clic en un elemento, debe navegar al siguiente fragmento.
+
+Fragmento Alumnos: Muestra la lista de alumnos inscritos al grupo seleccionado.
+
+Fragmento Asistencias: Muestra el historial de asistencias, incluyendo el nombre del alumno y el curso/grupo seleccionado.
+
+Estándares de Código:
+
+Lenguaje: Java.
+
+Implementa clases genéricas para los adaptadores de los RecyclerView.
+
+Usa el patrón de diseño recomendado para Room (DAOs, Entity y Database).
+
+Pruebas:
+
+Genera ejemplos de pruebas unitarias para la lógica de la base de datos o los ViewModels.
