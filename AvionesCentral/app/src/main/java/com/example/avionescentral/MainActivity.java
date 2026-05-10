@@ -1,13 +1,10 @@
 package com.example.avionescentral;
 
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.GridLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,21 +16,31 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int COLOR_NEON_BLUE = Color.rgb(0, 245, 255);
-    private static final int COLOR_MATRIX = Color.rgb(57, 255, 20);
-    private static final int COLOR_ALERT = Color.rgb(255, 23, 68);
-    private static final int COLOR_MUTED = Color.rgb(92, 111, 119);
+    private static final int SECRET_ZOOM_IN = 0;
+    private static final int SECRET_ZOOM_OUT = 1;
+    private static final int SECRET_PREVIOUS = 2;
+    private static final int SECRET_NEXT = 3;
+    private static final int[] SECRET_SEQUENCE = {
+            SECRET_ZOOM_IN,
+            SECRET_ZOOM_OUT,
+            SECRET_PREVIOUS,
+            SECRET_NEXT
+    };
 
     private final GridManager gridManager = new GridManager();
-    private final ArrayList<TextView> cells = new ArrayList<>();
 
-    private GridLayout gridAirspace;
+    private Space3DView gridAirspace;
     private TextView txtSteps;
     private TextView txtCollisions;
     private TextView txtAircraft;
     private Button btnPrevious;
     private Button btnNext;
     private Button btnRefresh;
+    private Button btnZoomIn;
+    private Button btnZoomOut;
+    private boolean shouldCenterCamera = true;
+    private boolean detonationMode;
+    private int secretStep;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         bindViews();
-        setupGrid();
         setupActions();
         render();
     }
@@ -62,90 +68,107 @@ public class MainActivity extends AppCompatActivity {
         btnPrevious = findViewById(R.id.btnPrevious);
         btnNext = findViewById(R.id.btnNext);
         btnRefresh = findViewById(R.id.btnRefresh);
+        btnZoomIn = findViewById(R.id.btnZoomIn);
+        btnZoomOut = findViewById(R.id.btnZoomOut);
     }
 
     private void setupActions() {
+        gridAirspace.setOnSpaceObjectClickListener((SpaceObject<Avion> object) -> openAircraftDetails(object.getPayload()));
+
         btnNext.setOnClickListener(v -> {
+            if (registerSecretInput(SECRET_NEXT)) {
+                detonationMode = true;
+                render();
+                return;
+            }
+            if (detonationMode) {
+                render();
+                return;
+            }
             gridManager.nextStep();
             render();
         });
 
         btnPrevious.setOnClickListener(v -> {
+            registerSecretInput(SECRET_PREVIOUS);
             if (gridManager.previousStep()) {
-                setupGrid();
                 render();
             }
         });
 
         btnRefresh.setOnClickListener(v -> {
             gridManager.reset();
-            setupGrid();
+            gridAirspace.getCamera().reset();
+            shouldCenterCamera = true;
+            detonationMode = false;
+            secretStep = 0;
             render();
+        });
+
+        btnZoomIn.setOnClickListener(v -> {
+            registerSecretInput(SECRET_ZOOM_IN);
+            gridAirspace.zoomIn();
+        });
+        btnZoomOut.setOnClickListener(v -> {
+            registerSecretInput(SECRET_ZOOM_OUT);
+            gridAirspace.zoomOut();
         });
     }
 
-    private void setupGrid() {
-        gridAirspace.removeAllViews();
-        cells.clear();
-        gridAirspace.setColumnCount(gridManager.getGridSize());
-        gridAirspace.setRowCount(gridManager.getGridSize());
-
-        int totalCells = gridManager.getGridSize() * gridManager.getGridSize();
-        for (int i = 0; i < totalCells; i++) {
-            TextView cell = new TextView(this);
-            GridLayout.LayoutParams params = new GridLayout.LayoutParams();
-            params.width = 0;
-            params.height = 0;
-            params.columnSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f);
-            params.rowSpec = GridLayout.spec(GridLayout.UNDEFINED, 1f);
-            params.setMargins(4, 4, 4, 4);
-
-            cell.setLayoutParams(params);
-            cell.setGravity(Gravity.CENTER);
-            cell.setTypeface(Typeface.MONOSPACE, Typeface.BOLD);
-            cell.setTextColor(COLOR_MATRIX);
-            cell.setTextSize(getCellTextSize());
-            cell.setBackgroundResource(R.drawable.bg_cell);
-
-            cells.add(cell);
-            gridAirspace.addView(cell);
-        }
-    }
-
     private void render() {
-        for (TextView cell : cells) {
-            cell.setText("");
-            cell.setTextColor(COLOR_MUTED);
-            cell.setBackgroundResource(R.drawable.bg_cell);
-        }
-
+        ArrayList<SpaceObject<Avion>> spaceObjects = new ArrayList<>();
         for (Avion avion : gridManager.getAircraft()) {
-            int index = avion.getY() * gridManager.getGridSize() + avion.getX();
-            TextView cell = cells.get(index);
-
-            String marker = avion.isCollision() ? "X" : avion.getDireccion().getGlyph();
-
-            cell.setText(marker);
-            cell.setTextColor(avion.isCollision() ? COLOR_ALERT : COLOR_NEON_BLUE);
-            cell.setBackgroundResource(avion.isCollision()
-                    ? R.drawable.bg_cell_collision
-                    : R.drawable.bg_cell_active);
+            spaceObjects.add(new SpaceObject<>(
+                    avion.getId(),
+                    avion.getX(),
+                    avion.getY(),
+                    avion.getZ(),
+                    getMarkerFor(avion),
+                    detonationMode || avion.isCollision(),
+                    avion
+            ));
+        }
+        gridAirspace.setWorldSize(gridManager.getGridSize());
+        gridAirspace.setSpaceObjects(spaceObjects);
+        if (shouldCenterCamera) {
+            gridAirspace.centerCameraOn(spaceObjects);
+            shouldCenterCamera = false;
         }
 
         txtSteps.setText("STEPS: " + gridManager.getSteps());
         txtCollisions.setText("COLLISIONS: " + gridManager.getCollisions());
-        txtAircraft.setText("GRID: " + gridManager.getGridSize() + "x" + gridManager.getGridSize()
+        txtAircraft.setText("SPACE: 3D"
                 + "\nAIR: " + gridManager.getAircraft().size());
-        btnPrevious.setEnabled(gridManager.getHistorySize() > 0);
+        btnPrevious.setEnabled(true);
     }
 
-    private float getCellTextSize() {
-        if (gridManager.getGridSize() >= 8) {
-            return 18;
+    private String getMarkerFor(Avion avion) {
+        if (detonationMode) {
+            return "*";
         }
-        if (gridManager.getGridSize() >= 6) {
-            return 21;
+        return avion.isCollision() ? "X" : avion.getDireccion().getGlyph();
+    }
+
+    private boolean registerSecretInput(int input) {
+        if (SECRET_SEQUENCE[secretStep] == input) {
+            secretStep++;
+            if (secretStep == SECRET_SEQUENCE.length) {
+                secretStep = 0;
+                return true;
+            }
+            return false;
         }
-        return 24;
+
+        secretStep = SECRET_SEQUENCE[0] == input ? 1 : 0;
+        return false;
+    }
+
+    private void openAircraftDetails(Avion avion) {
+        Toast.makeText(this,
+                "Avion #" + avion.getId() + "  x:" + avion.getX() + " y:" + avion.getY() + " z:" + avion.getZ(),
+                Toast.LENGTH_SHORT).show();
+        // En una arquitectura con Navigation Component:
+        // NavHostFragment.findNavController(currentFragment)
+        //         .navigate(DetailFragmentDirections.actionToDetail(avion.getId()));
     }
 }

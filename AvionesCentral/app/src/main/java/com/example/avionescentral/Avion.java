@@ -29,12 +29,14 @@ public final class Avion {
     private final Direccion direccion;
     private int x;
     private int y;
+    private int z;
     private boolean collision;
 
-    public Avion(int id, int x, int y, Direccion direccion) {
+    public Avion(int id, int x, int y, int z, Direccion direccion) {
         this.id = id;
         this.x = x;
         this.y = y;
+        this.z = z;
         this.direccion = direccion;
     }
 
@@ -42,6 +44,7 @@ public final class Avion {
         this.id = other.id;
         this.x = other.x;
         this.y = other.y;
+        this.z = other.z;
         this.direccion = other.direccion;
         this.collision = other.collision;
     }
@@ -63,6 +66,11 @@ public final class Avion {
         }
     }
 
+    public void wrapInside(int worldSize) {
+        x = Math.floorMod(x, worldSize);
+        y = Math.floorMod(y, worldSize);
+    }
+
     public boolean isInside(int gridSize) {
         return x >= 0 && x < gridSize && y >= 0 && y < gridSize;
     }
@@ -81,6 +89,10 @@ public final class Avion {
 
     public int getY() {
         return y;
+    }
+
+    public int getZ() {
+        return z;
     }
 
     public Direccion getDireccion() {

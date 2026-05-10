@@ -16,6 +16,8 @@ public final class GridManager {
     private static final int MIN_AIRCRAFT = 2;
     private static final int MAX_AIRCRAFT = 10;
     private static final int MAX_HISTORY = 80;
+    private static final int MIN_ALTITUDE = -160;
+    private static final int MAX_ALTITUDE = 260;
 
     private final Random random = new Random();
     private final ArrayList<Avion> aircraft = new ArrayList<>();
@@ -56,6 +58,7 @@ public final class GridManager {
                     i + 1,
                     x,
                     y,
+                    MIN_ALTITUDE + random.nextInt(MAX_ALTITUDE - MIN_ALTITUDE + 1),
                     directions[random.nextInt(directions.length)]
             ));
         }
@@ -69,7 +72,6 @@ public final class GridManager {
             avion.moveOneCell();
         }
 
-        aircraft.removeIf(avion -> !avion.isInside(gridSize));
         steps++;
         registerEndStepCollisions();
     }
