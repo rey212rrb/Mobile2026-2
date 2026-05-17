@@ -1,0 +1,31 @@
+<svg width="294px" height="198px" viewBox="0 0 294 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs>
+       <radialGradient cx="50%" cy="49.7770388%" fx="50%" fy="49.7770388%" r="94.6498045%" gradientTransform="translate(0.500000,0.497770),scale(0.666667,1.000000),rotate(90.000000),translate(-0.500000,-0.497770)" id="radialGradient-1">
+           <stop stop-color="#1967AC" offset="0%"></stop>
+           <stop stop-color="#075AA3" stop-opacity="0" offset="100%"></stop>
+       </radialGradient>
+       <rect id="path-2" x="0" y="0" width="288" height="192"></rect>
+       <filter x="-2.1%" y="-2.1%" width="103.5%" height="105.2%" filterUnits="objectBoundingBox" id="filter-3">
+           <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+           <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+           <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+       </filter>
+       <path d="M246.374249,5.68434189e-14 L-2.84217094e-14,156.077963 L0,0 L246.374249,0 Z" id="path-4"></path>
+   </defs>
+   <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+       <g id="bg_banner" transform="translate(4.000000, 2.000000)">
+           <g id="bg-+-Path-16-+-Path-16-Mask">
+               <g id="Mask">
+                   <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                   <use fill="#043263" fill-rule="evenodd" xlink:href="#path-2"></use>
+                   <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+               </g>
+               <mask id="mask-5" fill="white">
+                   <use xlink:href="#path-4"></use>
+               </mask>
+               <use id="Combined-Shape" fill="#237ABA" opacity="0.15" xlink:href="#path-4"></use>
+               <path d="M0.293258784,0 L288,0 L288,39.9686634 L-5.1159077e-13,98.2641509 L0.293258784,-1.42108547e-14 Z" id="Combined-Shape" fill="#237ABA" opacity="0.15"></path>
+           </g>
+       </g>
+   </g>
+</svg>

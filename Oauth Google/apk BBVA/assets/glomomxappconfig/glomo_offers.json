@@ -1,0 +1,67 @@
+{
+    "data":[
+        {
+        "image": {
+            "name": "avatar_CAMPAIGN0FIN-OF",
+            "id": "NKCQ02V6DV95E5ZK7JMVMG6M84XT7Q0354QNR03HHT3Q9YXDR4Z9A5VRAZJ7N0TS7GMRDZWRQM18P",
+            "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_CAMPAIGN0FND-OF"
+        },
+        "product": {
+            "id": "0FIN",
+            "productType": {
+                "name": "FUNDS",
+                "id": "FUNDS"
+            }
+        },
+        "amounts": [
+        {
+            "amount": "50.0",
+            "currency": "MXN"
+        }],
+        "name": "FONDOS DE INVERSION",
+        "description": "No necesitas ser experto, para invertir en Fondos BBVA. Comienza hoy Desde",
+        "id": "FUND_CONTRACTING",
+        "priority": 0
+        },
+        {
+            "image":
+            {
+                "name":"avatar_CAMPAIGN0PGR-OF",
+                "id":"NKCQ02V6DV95E5ZK7JMVMG6M84XT7Q0354QNR03HHT3Q9YXDR4Z9A5VRAZJ7N0TS7GMRDZWRQM18P",
+                "url":"https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_CAMPAIGN0PGR-OF"
+            },
+            "product":
+            {
+                "id":"0PGR",
+                "productType":
+                {
+                    "name":"DEPOSITS",
+                    "id":"DEPOSITS"
+                }
+            },
+            "amounts":[
+                {
+                    "amount":"2000.0",
+                    "currency":"MXN"
+                }
+            ],
+            "name":"INVERSION A PLAZOS",
+            "description":"Con Pagaré, tu dinero seguro crece. Invierte hoy mismo. Comienza desde",
+            "id":"DEPOSIT_CONTRACTING",
+            "priority":1
+        },
+        {
+            "product": {
+                "id": "0GOA",
+                "productType": {
+                    "name": "GOALS",
+                    "id": "GOALS"
+                }
+            },
+            "name": "METAS Y REGLAS DE AHORRO",
+            "description": "¡Alcanza todas tus metas!",
+            "id": "GOALS_CONTRACTING",
+            "priority": 2
+        }
+    ]
+}

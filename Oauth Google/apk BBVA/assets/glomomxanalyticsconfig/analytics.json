@@ -1,0 +1,5476 @@
+{
+  "data": {
+    "globalConfig": {
+      "projectName": "Glomo",
+      "appName": "App BBVA Mexico",
+      "businessUnit": "BBVA Mexico",
+      "userProfilePrefix": "003",
+      "gateways": {
+        "login": "login",
+        "bienvenida": "bienvenida",
+        "posicion global": "nueva posicion global",
+        "posicion global nueva cuentas": "nueva pg operaciones con cuentas",
+        "posicion global nueva tarjetas": "nueva pg operaciones con tarjetas",
+        "cuentas:detalle": "detalle de cuenta",
+        "tarjetas:detalle": "detalle de tarjeta",
+        "prestamos:detalle": "detalle de prestamo",
+        "fondos de inversion:detalle": "detalle de fondo de inversion",
+        "depositos:detalle": "detalle de deposito",
+        "seleccion cuenta" : "abrir cuenta",
+        "afiliacion:seleccion cuenta": "abrir cuenta",
+        "afiliacion avanzada": "seleccion cuenta avanzada",
+        "afiliacion basica": "seleccion cuenta basica",
+        "afiliacion basica:seleccion cuenta": "abrir cuenta",
+        "actualizar expediente": "actualizar",
+        "operaciones con qr:pagar o retirar":"operaciones con qr",
+        "solicitud de pago": "solicitud de pago",
+        "notificaciones:triple play": "push notification",
+        "cuentas:detalle:transferencias:pagina exitosa": "me interesa ventas contextuales",
+        "cuentas:detalle:comprar tiempo aire:pagina exitosa": "comprar tiempo aire",
+        "cuentas:detalle:recargas":"recargas",
+        "autorizacion credito buro:me interesa posicion global": "me interesa posicion global",
+        "seguridad y privacidad:accesos y firmas": "switch de huella"
+      },
+      "gatewayExempt": [
+        "mi perfil"
+      ]
+    },
+    "staticData": {
+      "login": {
+        "spanishName": "login",
+        "tags": {
+          "success": {
+            "requiresLogin": false,
+            "pageType": "home",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_login": "event12"
+            }
+          }
+        }
+      },
+      "debitCardRequest": {
+        "spanishName": "tarjeta de debito fisica",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:posicion global",
+              "appState": "app:privada:personas:posicion global",
+              "prop1": "posicion global",
+              "eVar45": "tarjeta de debito fisica:app on click start:posicion global",
+              "prop45": "tarjeta de debito fisica:app on click start:posicion global",
+              "eVar46": "contratacion:tarjeta de debito fisica",
+              "eVar65": "credit card holder",
+              "prop46": "contratacion:tarjeta de debito fisica",
+              "eVar49": "online",
+              "eVar59": "tarjeta de debito fisica:app on click start:posicion global",
+              "pev2": "AMACTION:tarjeta de debito fisica:app on click start:posicion global"
+            }
+          }
+        }
+      },
+      "landing": {
+        "spanishName": "landing",
+        "tags": {
+          "main": {
+            "pageName": "usuario recordado",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:landing:usuario recordado",
+              "prop1": "landing",
+              "prop2": "landing:usuario recordado"
+            }
+          },
+          "shortcut": {
+            "pageName": "usuario recordado",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:landing:usuario recordado",
+              "prop1": "landing",
+              "prop2": "landing:usuario recordado",
+              "evento_linkclick": "event6"
+            }
+          },
+          "sales": {
+            "pageName": "usuario recordado",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:landing:usuario recordado",
+              "prop1": "landing",
+              "prop2": "landing:usuario recordado",
+              "evento_linkclick": "event6"
+            }
+          },
+          "messages": {
+            "pageName": "usuario recordado",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:landing:usuario recordado",
+              "prop1": "landing",
+              "prop2": "landing:usuario recordado",
+              "evento_linkclick": "event6"
+            }
+          }
+        }
+      },
+      "deviceRoot": {
+        "spanishName": "dispositivo rooteado",
+        "tags": {
+          "deviceRoot": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar24": "First time",
+              "eVar28": "root"
+            }
+          }
+        }
+      },
+      "welcomeDistribution": {
+        "spanishName": "bienvenida",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "welcomeCachedUser": {
+            "pageName": "usuario con cache",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:bienvenida:usuario con cache",
+              "prop1": "bienvenida",
+              "prop2": "bienvenida:usuario con cache"
+            }
+          },
+          "newCustomerLink": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;quiero una cuenta",
+              "customLink": "internal link;quiero una cuenta"
+            },
+            "event": "link click",
+            "customLink": "internal link;quiero una cuenta"
+          }
+        }
+      },
+      "welcomeUpdate": {
+        "spanishName": "actualizacion",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "WelcomeOldUsers": {
+        "spanishName": "bienvenida clientes",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "dashboard": {
+        "spanishName": "posicion global",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "sidebar": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;barra lateral;app:privada:personas:posicion global"
+            }
+          },
+          "internalCampaignImpressions": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event34",
+              "evento_internalCampaignImpressions_2": "event35"
+            }
+          },
+          "internalCampaignClickClose": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickClose": "event37"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          },
+          "mobileTopUp": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;recargas y paquetes",
+              "customLink": "internal link;recargas y paquetes"
+            },
+            "event": "link click"
+          },
+          "cardAccountStatements": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;estado cuenta operaciones con tarjetas",
+              "customLink": "internal link;estado cuenta operaciones con tarjetas"
+            },
+            "event": "link click"
+          },
+          "accountStatements": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;estado cuenta operaciones con cuentas",
+              "customLink": "internal link;estado cuenta operaciones con cuentas"
+            },
+            "event": "link click"
+          },
+          "opportunities": {
+              "requiresLogin": true,
+              "pageType": "informacion",
+              "isAction": true,
+              "eventsInfo": {
+                "evento_linkclick": "event6",
+                "eVar6": "internal link;nueva oportunidades header",
+                "customLink": "internal link;nueva oportunidades header"
+              }
+          },
+          "transfers": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "transfers",
+                "eVar49": "online",
+                "eVar45": "transferencias:app on click start:nueva posicion global",
+                "prop45": "transferencias:app on click start:nueva posicion global",
+                "eVar46": "operativa:transferencias",
+                "prop46": "operativa:transferencias",
+                "eVar59": "transferencias:app on click start:nueva posicion global",
+                "customLink": "transferencias:app on click start:nueva posicion global"
+              }
+          },
+          "transfersAccount": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "transfers",
+                "eVar49": "online",
+                "eVar45": "transferencias:app on click start:nueva pg operaciones con cuentas",
+                "prop45": "transferencias:app on click start:nueva pg operaciones con cuentas",
+                "eVar46": "operativa:transferencias",
+                "prop46": "operativa:transferencias",
+                "eVar59": "transferencias:app on click start:nueva pg operaciones con cuentas",
+                "customLink": "transferencias:app on click start:nueva pg operaciones con cuentas"
+              }
+          },
+          "internationalTransfer": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                  "eVar65": "international transfer",
+                  "eVar49": "online",
+                  "eVar45": "transferencias internacionales:app on click start:nueva pg operaciones con cuentas",
+                  "prop45": "transferencias internacionales:app on click start:nueva pg operaciones con cuentas",
+                  "eVar46": "operativa:transferencias internacionales",
+                  "prop46": "operativa:transferencias internacionales",
+                  "eVar59": "transferencias internacionales:app on click start:nueva pg operaciones con cuentas",
+                  "customLink": "transferencias internacionales:app on click start:nueva pg operaciones con cuentas"
+              }
+          },
+          "internationalTransferLevel": {
+              "spanishName": "transferencias internacionales",
+              "defaultGateway": "subir nivel cuenta",
+              "requiresLogin": true,
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": false,
+              "eventsInfo": {
+                  "pageName": "app:privada:personas:transferencias internacionales:subir nivel cuenta",
+                  "eVar1": "app:privada:personas:transferencias internacionales:subir nivel cuenta",
+                  "prop1": "transferencias internacionales",
+                  "prop2": "subir nivel cuenta"
+              }
+          },
+          "transfersCard": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "transfers",
+                "eVar49": "online",
+                "eVar45": "transferencias:app on click start:nueva pg operaciones con tarjetas",
+                "prop45": "transferencias:app on click start:nueva pg operaciones con tarjetas",
+                "eVar46": "operativa:transferencias",
+                "prop46": "operativa:transferencias",
+                "eVar59": "transferencias:app on click start:nueva pg operaciones con tarjetas",
+                "customLink": "transferencias:app on click start:nueva pg operaciones con tarjetas"
+              }
+          },
+          "cardlessWithdrawal": {
+              "requiresLogin": true,
+              "pageType": "informacion",
+              "event": "cardless withdrawal",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "cardless withdrawal",
+                "eVar49": "online",
+                "eVar45": "retiro sin tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "prop45": "retiro sin tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "eVar46": "operativa:retiro sin tarjeta",
+                "prop46": "operativa:retiro sin tarjeta",
+                "eVar59": "retiro sin tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "customLink": "retiro sin tarjeta:app on click start:nueva pg operaciones con cuentas"
+              }
+          },
+          "creditCardPayments": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "credit card payments",
+                "eVar49": "online",
+                "eVar45": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "prop45": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "eVar46": "operativa:pagar tarjeta",
+                "prop46": "operativa:pagar tarjeta",
+                "eVar59": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas",
+                "customLink": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas"
+              }
+          },
+          "creditCardPaymentsCards": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "credit card payments",
+                "eVar49": "online",
+                "eVar45": "pagar tarjeta:app on click start:nueva pg operaciones con tarjetas",
+                "prop45": "pagar tarjeta:app on click start:nueva pg operaciones con tarjetas",
+                "eVar46": "operativa:pagar tarjeta",
+                "prop46": "operativa:pagar tarjeta",
+                "eVar59": "pagar tarjeta:app on click start:nueva pg operaciones con tarjetas",
+                "customLink": "pagar tarjeta:app on click start:nueva pg operaciones con tarjetas"
+              }
+          },
+          "billPayments": {
+              "requiresLogin": true,
+              "pageName": "",
+              "pageType": "informacion",
+              "event": "app on click start",
+              "isAction": true,
+              "eventsInfo": {
+                "eVar65": "bill payments",
+                "eVar49": "online",
+                "eVar45": "pagar servicio:app on click start:nueva pg operaciones con cuentas",
+                "prop45": "pagar servicio:app on click start:nueva pg operaciones con cuentas",
+                "eVar46": "operativa:pagar servicio",
+                "prop46": "operativa:pagar servicio",
+                "eVar59": "pagar servicio:app on click start:nueva pg operaciones con cuentas",
+                "customLink": "pagar servicio:app on click start:nueva pg operaciones con cuentas"
+              }
+          },
+          "oportunitiesHeader": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;nueva oportunidades header"
+            },
+            "event": "link click",
+            "customLink": "internal link;nueva oportunidades header"
+          },
+          "oportunitiesFooter": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;oportunidades footer"
+            },
+            "event": "link click",
+            "customLink": "internal link;oportunidades footer"
+          },
+          "activateCard": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;activar tarjeta"
+            },
+            "event": "link click",
+            "customLink": "internal link;activar tarjeta"
+          },
+          "pinRequest": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;ver nip"
+            },
+            "event": "link click",
+            "customLink": "internal link;ver nip"
+          },
+          "incomeVsExpensesTabBar": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;click en tab bar"
+            },
+            "event": "link click",
+            "customLink": "interno;click en tab bar"
+          },
+          "incomeVsExpensesSeeMore": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;click en ver mas"
+            },
+            "event": "link click",
+            "customLink": "interno;click en ver mas"
+          },
+          "errorsPPFServices": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "pageName": "prestamos:plan de pagos fijos:error carga de datos",
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "evento_errorPage": "event32"
+            }
+          },
+          "evolutionQuery": {
+            "requiresLogin": true,
+            "isAction": true,
+            "pageType": "informacion",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;consultar evolucion;app:privada:personas:posicion global",
+              "eVar15": "online:app:de",
+              "eVar21": "Invest"
+            }
+          },
+          "sustainability": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar6": "internal link;sostenibilidad menu lateral",
+              "evento_linkclick": "event6",
+              "customLink": "internal link;sostenibilidad menu lateral"
+            }
+          },
+          "planAccount": {
+            "requiresLogin": true,
+            "isAction": false,
+            "pageType": "informacion",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;plan",
+              "eVar1": "app:privada:personas:posicion global",
+              "prop1": "posicion global",
+              "customLink": "internal link;plan"
+            },
+            "event": "link click"
+          },
+          "linkClick": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "event6": "evento_linkclick",
+              "customLink": "internal link;puntos y promociones",
+              "eVar21": "Rewards"
+            }
+          }
+        }
+      },
+      "accountTransfers": {
+        "spanishName": "transferencias",
+        "applicationCode": "090",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con cuentas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "transfers"
+            },
+            "customLink": "transferencias:app on click start:nueva pg operaciones con cuentas"
+          }
+        }
+      },
+      "cardsTransfers": {
+        "spanishName": "transferencias",
+        "applicationCode": "090",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con tarjetas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "transfers"
+            },
+            "customLink": "transferencias:app on click start:nueva pg operaciones con tarjetas"
+          }
+        }
+      },
+      "transfers": {
+        "spanishName": "transferencias",
+        "applicationCode": "090",
+        "defaultGateway": "cuentas:detalle",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "transfers",
+              "customLink": "transferencias:app on click start:nueva posicion global"
+            }
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 destinatario",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 destinatario",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 destinatario",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 destinatario",
+            "isAction": true
+          },
+          "stepTwoAmount": {
+            "pageName": "2 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 monto",
+            "isAction": false
+          },
+          "stepThreeConcept": {
+            "pageName": "3 concepto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 concepto",
+            "isAction": false
+          },
+          "stepFourConfirmation": {
+            "pageName": "4 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "4 confirmacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false
+          },
+          "appCompletedCrossSaleOffer": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event34",
+              "evento_internalCampaignImpressions_2": "event35"
+            }
+          },
+          "appCompletedCrossSaleClick": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          },
+          "failureOnlyAccountsAsOrigin": {
+            "pageName": "solo cuentas son permitidas como origen en este momento",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "failureOnlyAccountsAsDestination": {
+            "pageName": "solo cuentas son permitidas como destino en este momento",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "failureWhenRegisteringService": {
+            "pageName": "error al dar de alta un servicio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          }
+        }
+      },
+      "cardsCreditCardPayments": {
+        "spanishName": "pagar tarjeta",
+        "applicationCode": "093",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con tarjetas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "credit card payments",
+              "customLink": "pagar tarjeta:app on click start:nueva pg operaciones con tarjetas"
+
+            }
+          }
+        }
+      },
+      "creditCardPayments": {
+        "spanishName": "pagar tarjeta",
+        "applicationCode": "093",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con cuentas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "credit card payments",
+              "customLink": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas"
+            }
+          },
+          "cardSelection": {
+            "pageName": "seleccion tarjeta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 monto",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 monto",
+            "isAction": true
+          },
+          "stepTwoConfirmation": {
+            "pageName": "2 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 confirmacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          }
+        }
+      },
+      "taxPayments": {
+        "spanishName": "pagar impuesto",
+        "applicationCode": "092",
+        "defaultGateway": "cuentas:detalle"
+      },
+      "operationQRCodi": {
+          "spanishName": "operaciones con qr",
+          "applicationCode": "093",
+          "tags" : {
+              "appOnClickStart" : {
+                  "requiresLogin": true,
+                  "ignoreSpanishName": true,
+                  "pageName": "posicion global",
+                  "pageType": "informacion",
+                  "isAction": true,
+                  "event": "app on click start",
+                  "eventsInfo": {
+                      "products": "tarjetas",
+                      "eVar65": "qr payments",
+                      "eVar45": "operaciones con qr:app on click start:nueva pg operaciones con cuentas",
+                      "prop45": "operaciones con qr:app on click start:nueva pg operaciones con cuentas",
+                      "eVar46": "operativa:operaciones con qr",
+                      "prop46": "operativa:operaciones con qr",
+                      "eVar49": "online",
+                      "eVar59": "operaciones con qr:app on click start:nueva pg operaciones con cuentas",
+                      "customLink": "operaciones con qr:app on click start:nueva pg operaciones con cuentas"
+                  }
+              }
+          }
+      },
+      "billPayments": {
+        "spanishName": "pagar servicio",
+        "applicationCode": "091",
+        "defaultGateway": "cuentas:detalle",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con cuentas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "bill payments",
+              "customLink": "pagar tarjeta:app on click start:nueva pg operaciones con cuentas"
+            }
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 servicio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 servicio",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 servicio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 servicio",
+            "isAction": true
+          },
+          "stepTwoServiceDetail": {
+            "pageName": "2 detalle servicio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 detalle servicio",
+            "isAction": false
+          },
+          "stepThreeConcept": {
+            "pageName": "3 concepto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 concepto",
+            "isAction": false
+          },
+          "stepFourConfirmation": {
+            "pageName": "4 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "4 confirmacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "preRegisterError": {
+            "pageName": "error en el pre-registro",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          }
+        }
+      },
+      "refactorBillPayments": {
+          "spanishName": "pagar servicio",
+          "applicationCode": "091",
+          "tags": {
+              "appOnClickStart": {
+                  "requiresLogin": true,
+                  "pageType": "informacion",
+                  "event": "app on click start",
+                  "isAction": true,
+                  "eventsInfo": {
+                    "eVar17": "ES",
+                    "prop17": "ES",
+                    "eVar15": "online:app:de",
+                    "prop15": "online:app:de",
+                    "prop22": "12",
+                    "prop18": "100.0",
+                    "prop19": "100.0",
+                    "prop20": "1136.0"
+                  }
+              }
+          }
+      },
+      "deviceActivation": {
+        "spanishName": "recuperacion token movil",
+        "applicationCode": "103",
+        "requiresProducts": false,
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageType": "home",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 informacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 informacion",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 informacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 informacion",
+            "isAction": true
+          },
+          "stepTwoIdentity": {
+            "pageName": "2 confirmacion identidad",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 confirmacion identidad",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "aprobado",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar57": "cliente reactivado"
+            }
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "digitalActivationRegister": {
+        "spanishName": "registro token movil",
+        "applicationCode": "043",
+        "requiresProducts": false,
+        "tags": {
+          "appOnClickStart": {
+            "ignoreSpanishName": true,
+            "pageName": "login",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "digital activation"
+            }
+          }
+        }
+      },
+      "digitalActivation": {
+        "spanishName": "token movil",
+        "applicationCode": "097",
+        "requiresProducts": false,
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageType": "home",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 datos",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 datos",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 datos",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 datos",
+            "isAction": true
+          },
+          "generationNotice": {
+            "pageName": "aviso generacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "email": {
+            "pageName": "email",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "signature": {
+            "pageName": "firma",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepTwoPassword": {
+            "pageName": "2 contrasena",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 contrasena",
+            "isAction": false
+          },
+          "stepThreeConfirmation": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 confirmacion",
+            "isAction": false
+          },
+          "securityNotice": {
+            "pageName": "aviso seguridad",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "aprobado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "accessKeyRecoveryPassword": {
+        "spanishName": "olvido contrasena",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1": "app:publica:general:olvido contrasena:2 identificate",
+              "eVar47": "qr",
+              "eVar59": "pagar con celular:app on click start:olvido contrasena",
+              "prop31": "App BBVA Mexico",
+              "eVar21": "Glomo"
+            }
+          }
+        }
+      },
+      "accessKeyRecovery": {
+        "spanishName": "olvido contrasena",
+        "applicationCode": "096",
+        "requiresProducts": false,
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageType": "home",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 datos",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 datos",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 datos",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 datos",
+            "isAction": true
+          },
+          "stepTwoPersonalInformation": {
+            "pageName": "2 informacion personal",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 informacion personal",
+            "isAction": false
+          },
+          "stepThreeModifyPassword": {
+            "pageName": "3 modifica contrasena",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 modifica contrasena",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "aprobado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "atmAndBranchLocator": {
+        "spanishName": "localizador",
+        "applicationCode": "",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "branchDetail": {
+            "pageName": "detalle sucursal",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "atmDetail": {
+            "pageName": "detalle cajero",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "historical": {
+        "spanishName": "historial",
+        "applicationCode": "",
+        "tags": {
+          "historicalBillPayments": {
+            "pageName": "pago servicio",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "historicalMobileTopUp": {
+            "pageName": "recarga celular",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "historicalCardlessWithdrawal": {
+            "pageName": "retiro sin tarjeta",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "cardOnOff": {
+        "spanishName": "apagar tarjeta",
+        "applicationCode": "",
+        "tags": {
+          "cardTurnedOff": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "assistance": {
+        "spanishName": "ayuda",
+        "applicationCode": "",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "userProfile": {
+        "spanishName": "mi perfil",
+        "applicationCode": "",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "changePhoto": {
+            "pageName": "personalizar imagen",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "changeEmail": {
+            "pageName": "actualizar email",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "changePhone": {
+            "pageName": "modificar celular",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "changePassword": {
+            "pageName": "cambiar contrasena",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "instantCashOneClick": {
+        "spanishName": "efectivo inmediato one click",
+        "applicationCode": "011",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 calculo cuota",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app page visit",
+            "eventsInfo": {
+              "evento_qualifiedVisit_NS": "event60"
+            },
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 calculo cuota",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app started",
+            "isAction": true
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepTwoConfirmation": {
+            "pageName": "2 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "contratado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "callMeBack": {
+            "pageName": "1 detalle",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "event": "link click",
+            "eventsInfo": {
+                "evento_linkclick": "event6",
+                "eVar6": "interno;quiero llamar a un asesor personal;app:privada:personas:efectivo inmediato one click:1 detalle",
+                "prop1": "efectivo inmediato one click",
+                "prop2": "1 detalle"
+            }
+          }
+        }
+      },
+      "secureDigitalGoal": {
+        "spanishName": "meta segura digital",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "goal insurance"
+            }
+          },
+          "internalCampaignClickThrough": {
+              "requiresLogin": true,
+              "pageType": "informacion",
+              "isAction": true,
+              "eventsInfo": {
+                "appState": "app:privada:personas:posicion global",
+                "eVar29": "BBVA Mexico",
+                "prop22": "12",
+                "event36": "evento_internalCampaignClickthrough",
+                "list2": "superior centro:banner home::meta segura digital:::0.0"
+            }
+          },
+          "internalCampaignImpressions": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event36",
+              "evento_internalCampaignClickthrough": "event36",
+              "prop1": "posicion global"
+            }
+          }
+        }
+      },
+      "comboLoanCard": {
+        "spanishName": "combo prestamo tarjeta",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "posicion global",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "mix loan credit card",
+              "eVar45": "combo prestamo tarjeta:app on click start:posicion global",
+              "eVar46": "contratacion:combo prestamo tarjeta",
+              "eVar59": "combo prestamo tarjeta:app on click start:posicion global"
+            }
+          }
+        }
+      },
+      "creditCardHolderOneClick": {
+        "spanishName": "tarjeta de credito one click",
+        "applicationCode": "011",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "payrollPortabilityOneClick": {
+        "spanishName": "portabilidad nomina",
+        "applicationCode": "106",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "loanPayment": {
+        "spanishName": "pagar prestamo",
+        "applicationCode": "113",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "payrollAdvanceOneClick": {
+        "spanishName": "adelanto sueldo",
+        "applicationCode": "023",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "creditCardUpgradeOneClick": {
+        "spanishName": "ascenso one click",
+        "applicationCode": "031",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "lifeInsuranceOneClick": {
+        "spanishName": "seguro de vida one click",
+        "applicationCode": "033",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          }
+        }
+      },
+      "creditLimitIncreaseOneClick": {
+        "spanishName": "incremento de linea credito one click",
+        "applicationCode": "008",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 incremento",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app page visit",
+            "eventsInfo": {
+              "evento_qualifiedVisit_NS": "event60"
+            },
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 incremento",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app started",
+            "isAction": true
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "contratado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "loanOneClick": {
+        "spanishName": "prestamo personal one click",
+        "applicationCode": "014",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app page visit",
+            "eventsInfo": {
+              "evento_qualifiedVisit_NS": "event60"
+            },
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 detalle",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app started",
+            "isAction": true
+          },
+          "stepTwoTermsAndConditions": {
+            "pageName": "2 terminos y condiciones",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "isAction": false
+          },
+          "stepThreeConfirmation": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "contratado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "accounts": {
+        "spanishName": "cuentas:detalle",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "moreInfo": {
+            "pageName": "mas informacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "additionalActions": {
+            "pageName": "acciones adicionales",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "positiveBalance": {
+            "pageName": "balance positivo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "cutDay": {
+            "pageName": "fecha corte",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "canGenerateInterest": {
+            "pageName": "puede generar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "avoidInterest": {
+            "pageName": "evitar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "editAlias": {
+            "pageName": "editar alias",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionList": {
+            "pageName": "movimientos",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionDetail": {
+            "pageName": "movimientos:consulta",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "linkPhone": {
+            "pageName": "vincular celular",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "unlinkPhone": {
+            "pageName": "desvincular celular",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "codiCel": {
+            "event": "app on click start",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar45": "enviar dinero:app on click start:detalle de cuenta",
+              "eVar46": "operativa:enviar dinero",
+              "eVar65": "sendMoney"
+            }
+          },
+          "internalCampaignClickClose": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickClose": "event37",
+              "-accounts-superior-1-1:insight fh::N11-Vale la pena apartarlo:cuentas::": "eVar35"
+            }
+          },
+          "internalCampaignClickThroughAccount": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36",
+              "-accounts-superior-1-1:insight fh::N11-Vale la pena apartarlo:cuentas::": "eVar35"
+            }
+          },
+          "internalCampaignImpressions": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event34",
+              "evento_internalCampaignImpressions_2": "event35"
+            }
+          }
+        }
+      },
+      "loans": {
+        "spanishName": "prestamos:detalle",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "moreInfo": {
+            "pageName": "mas informacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "additionalActions": {
+            "pageName": "acciones adicionales",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "positiveBalance": {
+            "pageName": "balance positivo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "cutDay": {
+            "pageName": "fecha corte",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "canGenerateInterest": {
+            "pageName": "puede generar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "avoidInterest": {
+            "pageName": "evitar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "editAlias": {
+            "pageName": "editar alias",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "promotions": {
+        "spanishName": "promociones",
+        "applicationCode": "",
+        "tags": {
+          "main": {
+            "pageName": "",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "categoriesConfiguration": {
+            "pageName": "configurar promociones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "promotionsFilter": {
+            "pageName": "busqueda",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "details": {
+            "pageName": "detalle",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "serviceError": {
+            "pageName": "error de comunicaciones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "categories": {
+            "pageName": "",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "categoriesConfirm": {
+            "pageName": "configurar promociones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;boton confirmar;app:privada:personas:promociones:configurar promociones"
+            },
+            "customLink": "interno;boton confirmar;app:privada:personas:promociones:configurar promociones"
+          },
+          "categoriesNotConfirm": {
+            "pageName": "configurar promociones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;no quiero configurar favoritas;app:privada:personas:promociones:configurar promociones"
+            },
+            "customLink": "interno;no quiero configurar favoritas;app:privada:personas:promociones:configurar promociones"
+          },
+          "promotionsFilterResults": {
+            "pageName": "busqueda:resultados",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalSearchResultsCount": "event9",
+              "evento_internalSearch": "event11",
+              "eVar30": "app:privada:personas:promociones:busqueda",
+              "prop66": "app:privada:personas:promociones:busqueda",
+              "eVar10": "+1"
+            }
+          },
+          "promotionsFilterNoResults": {
+            "pageName": "busqueda:resultados",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalSearchResultsCount": "event9",
+              "evento_internalSearchNule": "event10",
+              "eVar30": "app:privada:personas:promociones:busqueda",
+              "prop66": "app:privada:personas:promociones:busqueda",
+              "eVar10": "+1"
+            }
+          },
+          "promotionsRelated": {
+            "pageName": "relacionados",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "promotionsNearYou": {
+            "pageName": "cerca de ti",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "promotionsNearYouListPois": {
+            "pageName": "cerca de ti:listado poi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "suggested": {
+            "pageName": "sugeridas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "featured": {
+            "pageName": "destacadas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          }
+        }
+      },
+      "cardsDigital": {
+        "spanishName": "tarjetas:tarjeta digital",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "pageName": "detalle",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "seeCvv": {
+            "pageName": "ver cvv",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "cards": {
+        "spanishName": "tarjetas:detalle",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "moreInfo": {
+            "pageName": "mas informacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "additionalActions": {
+            "pageName": "acciones adicionales",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "minimumPayment": {
+            "pageName": "pago minimo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "rewards": {
+            "pageName": "puntos bbva",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "appOnClickStartRewards": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "positiveBalance": {
+            "pageName": "balance positivo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "cutDay": {
+            "pageName": "fecha corte",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "canGenerateInterest": {
+            "pageName": "puede generar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "avoidInterest": {
+            "pageName": "evitar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionList": {
+            "pageName": "movimientos",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionDetail": {
+            "pageName": "movimientos:consulta",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "editAlias": {
+            "pageName": "editar alias",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "mutualFunds": {
+        "spanishName": "fondos de inversion:detalle",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "moreInfo": {
+            "pageName": "mas informacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "additionalActions": {
+            "pageName": "acciones adicionales",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "positiveBalance": {
+            "pageName": "balance positivo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "cutDay": {
+            "pageName": "fecha corte",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "canGenerateInterest": {
+            "pageName": "puede generar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "avoidInterest": {
+            "pageName": "evitar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "deposits": {
+        "spanishName": "depositos:detalle",
+        "applicationCode": "",
+        "tags": {
+          "details": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "moreInfo": {
+            "pageName": "mas informacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "additionalActions": {
+            "pageName": "acciones adicionales",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "positiveBalance": {
+            "pageName": "balance positivo",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "cutDay": {
+            "pageName": "fecha corte",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "canGenerateInterest": {
+            "pageName": "puede generar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "avoidInterest": {
+            "pageName": "evitar intereses",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionList": {
+            "pageName": "movimientos",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "transactionDetail": {
+            "pageName": "movimientos:consulta",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "editAlias": {
+            "pageName": "editar alias",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "mobileTopUp": {
+        "spanishName": "comprar tiempo aire",
+        "applicationCode": "094",
+        "defaultGateway": "cuentas:detalle",
+        "requiresProducts": false,
+        "projectName": "Glomo",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+                "pagename": "app:privada:personas:cuentas:detalle:recargas",
+                "eVar1": "app:privada:personas:cuentas:detalle:recargas",
+                "appState": "app:privada:personas:cuentas:detalle:recargas",
+                "prop1": "cuentas",
+                "prop2": "cuentas:detalle",
+                "prop3": "cuentas:detalle:recargas",
+                "eVar65": "mobile top up"
+            }
+          },
+          "appPageVisits": {
+            "pageName": "1 destinatario",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 destinatario",
+            "isAction": false,
+            "eventsInfo": {
+                "eVar65": "mobile top up"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 destinatario",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 destinatario",
+            "isAction": true
+          },
+          "stepTwoAmount": {
+            "pageName": "2 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 monto",
+            "isAction": false
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepThreeConfirmation": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 confirmacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "serviceError": {
+            "pageName": "error de comunicaciones",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "appCompletedInternalCampaign": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event34",
+              "evento_internalCampaignImpressions_2": "event35"
+            }
+          },
+          "appOnClickStartOfferTDC": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          }
+        }
+      },
+      "accountsCardlessWithdrawal": {
+        "spanishName": "retiro sin tarjeta",
+        "applicationCode": "095",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "nueva pg operaciones con cuentas",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "cardless withdrawall",
+              "customLink": "retiro sin tarjeta:app on click start:nueva pg operaciones con cuentas"
+            }
+          }
+        }
+      },
+      "cardlessWithdrawal": {
+        "spanishName": "retiro sin tarjeta",
+        "applicationCode": "095",
+        "defaultGateway": "cuentas:detalle",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "cardless withdrawall"
+            },
+            "customLink": "retiro sin tarjeta:app on click start:nueva posicion global"
+          },
+          "information": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "info": {
+            "pageName": "informacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 monto",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 monto",
+            "isAction": true
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepConcept": {
+            "pageName": "2 concepto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 concepto",
+            "isAction": false
+          },
+          "stepConfirmation": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 confirmacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false
+          },
+          "failure": {
+            "pageName": "operacion no realizada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "failureCardlessDetail": {
+            "pageName": "error mostrar detalle de envio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "readerQrCode": {
+            "pageName": "pagina exitosa",
+            "pageType": "transaccion",
+            "requiresLogin": true,
+            "isAction": false,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;leer codigo qr;app:privada:personas:cuentas:detalle:retiro sin tarjeta:pagina exitosa"
+            }
+          }
+        }
+      },
+      "notifications": {
+        "spanishName": "notificaciones",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "sidebar": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;barra lateral;app:privada:personas:notificaciones"
+            }
+          }
+        }
+      },
+      "confirmationConsumption": {
+        "spanishName": "notificaciones",
+        "tags": {
+          "advanceFootPrint": {
+            "pageName": "detalle",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "about": {
+        "spanishName": "acerca de",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "exchangeRate": {
+        "spanishName": "tipo de cambio",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "configuration": {
+        "spanishName": "configuracion",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "applications": {
+        "spanishName": "aplicaciones",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "upgrade": {
+        "spanishName": "actualizacion",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "mandatoryUpgrade": {
+        "spanishName": "actualizacion forzosa",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "preOnboarding": {
+        "spanishName": "afiliacion",
+        "applicationCode": "104",
+        "tags": {
+          "chooseAccount": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "onboarding": {
+        "spanishName": "afiliacion basica",
+        "applicationCode": "104",
+        "projectName": "Glomo",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "info": {
+            "pageName": "informacion",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle de cuenta",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 detalle de cuenta",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "afiliacion basica:app on click start:abrir cuenta",
+              "evento_qualifiedVisits_NS": "event60",
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 detalle de cuenta",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 detalle de cuenta",
+            "isAction": true,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepTwoPersonalData": {
+            "pageName": "2 datos personales",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 datos personales",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepThreeAddress": {
+            "pageName": "3 domicilio",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 domicilio",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepFourContactData": {
+            "pageName": "4 datos contacto",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "4 datos contacto",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepFiveSignature": {
+            "pageName": "5 firma libreton",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 5,
+            "event": "app step",
+            "applicationStep": "5 firma libreton",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepSixPassword": {
+            "pageName": "6 contrasena",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 6,
+            "event": "app step",
+            "applicationStep": "6 contrasena",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepSevenConfirmation": {
+            "pageName": "7 confirmacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 7,
+            "event": "app step",
+            "applicationStep": "7 confirmacion",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "stepEightSMS": {
+            "pageName": "8 aceptar sms",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 8,
+            "event": "app step",
+            "applicationStep": "8 aceptar sms",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital basica",
+              "eVar65": "onboarding"
+            }
+          },
+          "signature": {
+            "pageName": "firma",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "errorRenapo": {
+            "serverError": "cuentas:afiliacion basica:datos no coinciden con renapo",
+            "defaultGateway": "cuentas",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "datos no coinciden con renapo",
+              "prop32": "datos no coinciden con renapo"
+            }
+          },
+          "errorInternetConnection": {
+            "serverError": "cuentas:afiliacion basica:error de conexion",
+            "defaultGateway": "cuentas",
+            "pageName": "error de conexion",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32"
+            }
+          },
+          "n2ToN4": {
+            "pageName": "haz tu cuenta a tu medida",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "teenOnboardingOneClick": {
+        "spanishName": "cuenta digital adolescentes",
+        "applicationCode": "119",
+        "projectName": "Glomo",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "ignoreSpanishName": true,
+            "defaultGateway": "afiliacion",
+            "isAction": true,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "info": {
+            "pageName": "informacion",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle de cuenta",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 detalle de cuenta",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_qualifiedVisits_NS": "event60",
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 detalle de cuenta",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 detalle de cuenta",
+            "isAction": true,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepTwoPersonalData": {
+            "pageName": "2 datos personales",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 datos personales",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepThreeAddress": {
+            "pageName": "3 domicilio",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 domicilio",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepFourContactData": {
+            "pageName": "4 datos contacto",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "4 datos contacto",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepFiveReceipts": {
+            "pageName": "5 comprobantes",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 5,
+            "event": "app step",
+            "applicationStep": "5 comprobantes",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepSixTutorData": {
+            "pageName": "6 datos padre madre tutor",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 6,
+            "event": "app step",
+            "applicationStep": "6 datos padre madre tutor",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepSevenSignature": {
+            "pageName": "7 firma libreton",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 7,
+            "event": "app step",
+            "applicationStep": "7 firma libreton",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepEightPassword": {
+            "pageName": "8 contrasena",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 8,
+            "event": "app step",
+            "applicationStep": "8 contrasena",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepNineConfirmation": {
+            "pageName": "9 confirmacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 9,
+            "event": "app step",
+            "applicationStep": "9 confirmacion",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepTenSMS": {
+            "pageName": "10 aceptar sms",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 10,
+            "event": "app step",
+            "applicationStep": "10 aceptar sms",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "stepElevenOTP": {
+            "pageName": "11 otp",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 11,
+            "event": "app step",
+            "applicationStep": "11 otp",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "applicationState": "contratado",
+            "event": "app completed",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false,
+            "eventsInfo": {
+              "products": "cuenta digital adolescentes",
+              "eVar65": "onboarding account"
+            }
+          },
+          "signature": {
+            "pageName": "7 firma libreton:firmar",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "errorRenapo": {
+            "defaultGateway": "",
+            "pageName": "datos no coinciden con renapo",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32"
+            }
+          },
+          "errorInternetConnection": {
+            "serverError": "cuentas:afiliacion:error de conexion",
+            "defaultGateway": "cuentas",
+            "pageName": "error de conexion",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32"
+            }
+          },
+          "firstWorkReceipt": {
+            "pageName": "5 comprobantes:primer comprobante",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "payrollReceiptAdvise": {
+            "pageName": "5 comprobantes:agregar nomina",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "bossLetterReceiptAdvise": {
+            "pageName": "5 comprobantes:carta del patron",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "secondWorkReceipt": {
+            "pageName": "5 comprobantes:segundo comprobante",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "imssObverseReceiptAdvise": {
+            "pageName": "5 comprobantes:identificacion imss",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "imssReverseReceiptAdvise": {
+            "pageName": "5 comprobantes:agregar reverso",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "takePhotoAdvise": {
+            "pageName": "5 comprobantes:recomendaciones foto",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "isssteReceiptAdvise": {
+            "pageName": "5 comprobantes:identificacion issste",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "workReceiptsConfirmation": {
+            "pageName": "5 comprobantes:confirmacion",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "receiptPreview": {
+            "pageName": "5 comprobantes:previsualizacion foto",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "fullOnboarding": {
+        "spanishName": "afiliacion avanzada",
+        "applicationCode": "104",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": false,
+            "pageType": "home",
+            "event": "app on click start",
+            "isAction": true
+          },
+          "info": {
+            "pageName": "detalle de cuenta",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "questionaire": {
+            "pageName": "cuestionario",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 expediente digital",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 expediente digital",
+            "isAction": false
+          },
+          "appStarted": {
+            "pageName": "1 expediente digital",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 expediente digital",
+            "isAction": true
+          },
+          "selfie": {
+            "pageName": "1 expediente digital:captura rostro",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "documentObverse": {
+            "pageName": "1 expediente digital:captura frontal",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "documentReverse": {
+            "pageName": "1 expediente digital:captura reverso",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepTwoPersonalData": {
+            "pageName": "2 datos personales",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 datos personales",
+            "isAction": false
+          },
+          "stepThreeAddress": {
+            "pageName": "3 domicilio",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 domicilio",
+            "isAction": false
+          },
+          "stepFourContactData": {
+            "pageName": "4 datos contacto",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "4 datos contacto",
+            "isAction": false
+          },
+          "stepFiveVideoCall": {
+            "pageName": "5 videollamada",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 5,
+            "event": "app step",
+            "applicationStep": "5 videollamada",
+            "isAction": false
+          },
+          "videocallCalling": {
+            "pageName": "5 videollamada:llamando",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "stepSixConstractsSignature": {
+            "pageName": "6 documentos contractuales",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 6,
+            "event": "app step",
+            "applicationStep": "6 documentos contractuales",
+            "isAction": false
+          },
+          "stepSevenPassword": {
+            "pageName": "7 contrasena",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 7,
+            "event": "app step",
+            "applicationStep": "7 contrasena",
+            "isAction": false
+          },
+          "stepEightConfirmation": {
+            "pageName": "8 confirmacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "stepNumber": 8,
+            "event": "app step",
+            "applicationStep": "8 confirmacion",
+            "isAction": false
+          },
+          "activationAdvice": {
+            "pageName": "activacion",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "aprobado",
+            "isAction": false
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": false,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false
+          }
+        }
+      },
+      "upgradeCustomer": {
+        "spanishName": "actualizar expediente",
+        "applicationCode": "106",
+        "projectName": "Glomo",
+        "tags": {
+          "updateAlert": {
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "outOfTime": {
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "horario fuera de oficina"
+            }
+          },
+          "outdated": {
+            "defaultGateway": "cuentas",
+            "pageName": "expediente desactualizado",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "prop2": "cuentas:expediente desactualizado",
+              "eVar21": "Glomo"
+            }
+          },
+          "outdatedOutOfTime": {
+            "defaultGateway": "cuentas",
+            "pageName": "expediente desactualizado",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "horario fuera de oficina",
+              "prop32": "horario fuera de oficina"
+            }
+          },
+          "incomplete": {
+            "defaultGateway": "cuentas",
+            "pageName": "actualizar expediente",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true
+          },
+          "incompleteOutOfTime": {
+            "defaultGateway": "cuentas",
+            "pageName": "actualizar expediente",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "horario fuera de oficina"
+            }
+          },
+          "appOnClickStart": {
+            "pageName": "actualizar expediente",
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer",
+              "prop2": "cuentas:actualizar expediente"
+            }
+          },
+          "appOnClickStartCard": {
+            "pageName": "detalle",
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:actualizar expediente:app on click start:comenzar",
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:comenzar",
+              "eVar65": "upgrade customer",
+              "prop2": "cuentas:detalle"
+            }
+          },
+          "appOnClickStartBlocked": {
+            "pageName": "expediente desactualizado",
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:actualizar expediente:app on click start:actualizar",
+            "eventsInfo": {
+              "eVar65": "upgrade customer",
+              "prop2": "cuentas:expediente desactualizado"
+            }
+          },
+          "appOnClickStartIncomplete": {
+            "pageName": "actualizar expediente",
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "event": "app on click start",
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:actualizar expediente:app on click start:actualizar",
+            "eventsInfo": {
+              "eVar65": "upgrade customer"
+            }
+          },
+          "appOnClickStartPagare": {
+            "pageName": "pagare one click:error seleccion cuenta",
+            "defaultGateway": "inversiones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:actualizar expediente:app on click start:actualizar error pagare one click",
+            "eventsInfo": {
+              "eVar65": "upgrade customer",
+              "eVar59": "actualizar expediente:app on click start:actualizar error desde pagare",
+              "prop2": "inversiones:pagare one click"
+            }
+          },
+          "updateRequirements": {
+            "pageName": "1 requisitos",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app page visit",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer"
+            }
+          },
+          "questionaire": {
+            "pageName": "cuestionario",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "addressDocument": {
+            "pageName": "comprobante domicilio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "appPageVisits": {
+            "pageName": "1 requisitos",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 requisitos",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 requisitos",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "1 requisitos",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "selfie": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "event": "link click",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click foto",
+              "customLink": "AMACTION:internal link;click foto"
+            }
+          },
+          "documentObverse": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "event": "link click",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click ine",
+              "customLink": "AMACTION:internal link;click ine"
+            }
+          },
+          "documentReverse": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "event": "link click",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "customLink": "AMACTION:internal link;click comprobante domicilio",
+              "eVar6": "internal link;click ine reverse"
+            }
+          },
+          "address": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "event": "link click",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "customLink": "AMACTION:internal link;click comprobante domicilio",
+              "eVar6": "internal link;click comprobante domicilio"
+            }
+          },
+          "stepTwoDigital": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 expediente digital",
+            "isAction": false,
+            "eventsInfo": {
+                "eVar59": "actualizar expediente:app on click start:actualiza tu expediente"
+            }
+          },
+          "stepThreeFrontalCapture": {
+            "pageName": "2 expediente digital:captura frontal",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "2 expediente digital:captura frontal",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepFourReverseCapture": {
+            "pageName": "2 expediente digital:captura reverso",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app step",
+            "applicationStep": "2 expediente digital:captura reverso",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepFiveSelfie": {
+            "pageName": "2 expediente digital:captura rostro",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 5,
+            "event": "app step",
+            "applicationStep": "2 expediente digital:captura rostro",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepSixPersonalData": {
+            "pageName": "3 datos personales",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 6,
+            "event": "app step",
+            "applicationStep": "3 datos personales",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepSevenAddress": {
+            "pageName": "4 domicilio",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 7,
+            "event": "app step",
+            "applicationStep": "4 domicilio",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepEightVideoCall": {
+            "pageName": "5 videollamada",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 8,
+            "event": "app step",
+            "applicationStep": "5 videollamada",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "stepEightCall": {
+            "pageName": "5 videollamada:llamando",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 9,
+            "event": "app step",
+            "applicationStep": "5 videollamada",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer",
+              "eVar71": "evento_appStep9_NS",
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente"
+            }
+          },
+          "stepEightCallInProgress": {
+            "pageName": "5 videollamada:llamada en curso",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 10,
+            "event": "app step",
+            "applicationStep": "5 videollamada",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer",
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente"
+            }
+          },
+          "stepNineDocuments": {
+            "pageName": "6 documentos contractuales",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 11,
+            "event": "app step",
+            "applicationStep": "7 documentos contractuales",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer",
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente"
+            }
+          },
+          "stepTenOTP": {
+            "pageName": "7 otp",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 12,
+            "event": "app step",
+            "applicationStep": "8 otp",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer"
+            }
+          },
+          "videocallCalling": {
+            "pageName": "5 videollamada:llamando",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "videocallCallInProgress": {
+            "pageName": "5 videollamada:llamada en curso",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false
+          },
+          "signature": {
+            "pageName": "firma",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "roomRejection": {
+            "pageName": "sesion expirada videollamada",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar59": "actualizar expediente:app on click start:actualiza tu expediente",
+              "eVar65": "upgrade customer"
+            }
+          },
+          "appCompletedRejected": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "upgrade customer"
+            }
+          },
+          "errorBiometrics": {
+            "defaultGateway": "cuentas",
+            "ignoreSpanishName": true,
+            "pageName": "actualizar expediente",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "biometricos no exitosos"
+            }
+          },
+          "errorRenapo": {
+            "defaultGateway": "cuentas",
+            "ignoreSpanishName": true,
+            "pageName": "actualizar expediente",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "eVar32": "datos no coinciden con renapo",
+              "evento_errorPage": "event32"
+            }
+          },
+          "errorInternetConnection": {
+            "defaultGateway": "cuentas",
+            "ignoreSpanishName": true,
+            "pageName": "actualizar expediente",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "errorType": "serverError",
+            "eventsInfo": {
+              "eVar32": "error de conexion",
+              "evento_errorPage": "event32"
+            }
+          },
+          "anotherTime": {
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "link click",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click en otro momento flujo normal",
+              "customLink": "AMACTION:internal link;click en otro momento flujo normal"
+            }
+          },
+          "closeHomeScreen": {
+            "defaultGateway": "cuentas",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "link click",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click cerrar flujo normal",
+              "customLink": "AMACTION:internal link;click cerrar flujo normal"
+            }
+          },
+          "closeBiometricScreen": {
+            "pageName": "2 expediente digital",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "link click",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click cerrar biometricos",
+              "customLink": "AMACTION:internal link;click cerrar biometricos"
+            }
+          },
+          "closeCancelCall": {
+            "pageName": "5 videollamada:llamando",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "link click",
+            "isAction": false,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;click cancelar videollamada",
+              "customLink": "AMACTION:internal link;click cancelar videollamada"
+            }
+          }
+        }
+      },
+      "qrPayments": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "appPageVisits": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "applicationStep": "pagar con celular:app page visit:1 detalle de operacion",
+            "event": "app page visit",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "information": {
+            "pageName": "informacion codigo qr",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app page visits",
+            "isAction": false,
+            "ignoreSpanishName": true
+          },
+          "stepDestinatary": {
+            "pageName": "1 destinatario",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "event": "app page visits",
+            "applicationStep": "1 destinatario",
+            "isAction": false
+          },
+          "stepAmount": {
+            "pageName": "importe",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 4,
+            "event": "app page visits",
+            "applicationStep": "importe",
+            "isAction": false
+          },
+          "stepConcept": {
+            "pageName": "motivo de pago",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 5,
+            "event": "app page visits",
+            "applicationStep": "motivo de pago",
+            "isAction": false
+          },
+          "stepAccount": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 6,
+            "event": "app page visits",
+            "applicationStep": "seleccion cuenta",
+            "isAction": false
+          },
+          "stepConfirmation": {
+            "pageName": "2 confirmacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 7,
+            "event": "app page visits",
+            "applicationStep": "2 confirmacion",
+            "isAction": false
+          },
+          "success": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 8,
+            "event": "app completed",
+            "applicationStep": "pagina exitosa",
+            "isAction": false
+          },
+          "stepConceptCodi": {
+            "pageName": "2 motivo de pago",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "motivo de pago",
+            "isAction": false
+          },
+          "stepAccountCodi": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app page visit",
+            "applicationStep": "pagar con celular:app page visit:1 detalle de operacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments",
+              "eVar47": "qr"
+            }
+          },
+          "stepConfirmationCodi": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "stepNumber": 3,
+            "event": "app step",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "successCodiTransfer": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationStep": "pagina exitosa",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          }
+        }
+      },
+      "codiQRPayments": {
+        "spanishName": "pagar con qr",
+        "applicationCode": "120",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "customLink": "AMACTION:pagar con qr:app on click start:operaciones con qr",
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "appPageVisits": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 monto",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 monto",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "importe",
+            "isAction": true,
+            "customLink": "AMACTION:pagar con qr:app started:importe",
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "codiStepTwoConcept": {
+            "pageName": "2 motivo de pago",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "event": "app step",
+            "applicationStep": "2 motivo de pago",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "accountSelection": {
+            "pageName": "seleccion cuenta",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "codiStepThreeConfirmation": {
+            "pageName": "3 confirmacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "stepNumber": 3,
+            "event": "app step",
+            "applicationStep": "3 confirmacion",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          }
+        }
+      },
+      "codiOperations": {
+        "spanishName": "operaciones con qr",
+        "tags": {
+          "createQR": {
+            "pageName": "cobrar",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "interno;crear qr;app:publica:general:operaciones con qr:cobrar"
+            }
+          },
+          "rejectedPayment": {
+            "pageName": "pago rechazado",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "postponedPayment": {
+            "pageName": "pago pospuesto",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "invalidQRCoDi": {
+            "pageName": "error codigo qr invalido",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "limitedPayment": {
+            "pageName": "error pago limitado",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "operationNotAllowed": {
+            "pageName": "error operacion no permitida",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          },
+          "codeNotAvailable": {
+            "pageName": "error codigo no vigente",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "errorType": "serverError"
+          }
+        }
+      },
+      "codiEnablePhonePayments": {
+        "spanishName": "pagos con numero celular",
+        "applicationCode": "136",
+        "tags": {
+          "enablePhonePayments": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "interno;activar pagos con celular;app:privada:personas:pagos con numero celular"
+            }
+          }
+        }
+      },
+      "codiHistoricPayments": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "historic": {
+            "pageName": "consulta pagos codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "codiFromLoginRequest": {
+        "spanishName": "general",
+        "applicationCode": "136",
+        "tags": {
+            "appOnClickStart": {
+              "pageName": "login",
+              "event": "app on click start",
+              "requiresLogin": false,
+              "pageType": "home",
+              "isAction": true,
+              "ignoreSpanishName": true,
+              "customLink": "AMACTION:pagar con celular:app on click start:login",
+              "eventsInfo": {
+                "eVar1": "app:publica:general:login",
+                "prop1": "login",
+                "appState": "app:publica:general:login",
+                "eVar65": "qr payments",
+                "prop45": "pagar con celular:app on click start:login",
+                "eVar45": "pagar con celular:app on click start:login",
+                "prop46": "operativa:pagar con celular",
+                "eVar46": "operativa:pagar con celular",
+                "eVar49": "online"
+              }
+            }
+        }
+      },
+      "codiFromSideMenuRequest": {
+        "spanishName": "personas",
+        "applicationCode": "136",
+        "tags": {
+            "appOnClickStart": {
+              "pageName": "posicion global",
+              "requiresLogin": true,
+              "pageType": "informacion",
+              "applicationState": "finalizado",
+              "event": "app on click start",
+              "isAction": true,
+              "ignoreSpanishName": true,
+              "customLink": "AMACTION:pagar con celular:app on click start:menu lateral",
+              "eventsInfo": {
+                "prop1": "posicion global",
+                "eVar1": "app:privada:personas:posicion global",
+                "eVar65": "qr payments",
+                "prop45": "pagar con celular:app on click start:menu lateral",
+                "eVar45": "pagar con celular:app on click start:menu lateral",
+                "prop46": "operativa:pagar con celular",
+                "eVar46": "operativa:pagar con celular",
+                "eVar49": "online"
+              }
+            }
+        }
+      },
+      "codiPaymentRejectedRequest": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+            "appCompleted": {
+              "pageName": "pagina exitosa",
+              "requiresLogin": true,
+              "pageType": "transaccion",
+              "event": "app completed",
+              "applicationState": "rejected codi",
+              "isAction": false,
+              "eventsInfo": {
+                "eVar65": "qr payments",
+                "prop45": "pagar con celular:app completed:pagina exitosa",
+                "eVar45": "pagar con celular:app completed:pagina exitosa",
+                "prop46": "operativa:pagar con celular",
+                "eVar46": "operativa:pagar con celular",
+                "eVar49": "online"
+              }
+            }
+        }
+      },
+      "codiPaymentRequest": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "solicitud de pago",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "customLink": "AMACTION:pagar con celular:app on click start:solicitud de pago",
+            "eventsInfo": {
+              "eVar65": "cell payments"
+            }
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle de operacion",
+            "applicationCode": "136",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app page visit",
+            "applicationStep": "1 confirmacion",
+            "isAction": false,
+            "eventsInfo": {
+                "eVar65": "qr payments",
+                "prop45": "pagar con celular:app page visit:1 detalle de operacion",
+                "evar45": "pagar con celular:app page visit:1 detalle de operacion",
+                "prop46": "operativa:pagar con celular",
+                "eVar46": "operativa:pagar con celular",
+                "eVar21": "Glomo",
+                "eVar49": "online",
+                "eVar28": "no root"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 detalle de operacion",
+            "applicationCode": "136",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "continuar",
+            "isAction": true,
+            "customLink": "AMACTION:pagar con celular:app on click start:menu lateral",
+            "eventsInfo": {
+                "eVar65": "qr payments",
+                "eVar45": "pagar con celular:app started:continuar",
+                "prop45": "pagar con celular:app started:continuar",
+                "prop2": "pagar con celular:1 detalle de operacion"
+            }
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "applicationCode": "136",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationState": "finalizado codi",
+            "isAction": false,
+            "eventsInfo": {
+                "eVar65": "qr payments",
+                "prop45": "pagar con celular:app completed:pagina exitosa",
+                "eVar45": "pagar con celular:app completed:pagina exitosa",
+                "prop46": "operativa:pagar con celular",
+                "eVar46": "operativa:pagar con celular"
+           }
+         },
+         "postpone": {
+             "pageName": "pago pospuesto codi",
+             "applicationCode": "136",
+             "requiresLogin": true,
+             "pageType": "informacion",
+             "isAction": false
+         },
+         "scanQR": {
+             "pageName": "escanear qr",
+             "applicationCode": "136",
+             "requiresLogin": true,
+             "pageType": "informacion",
+             "isAction": false
+         },
+         "charge": {
+           "pageName": "detalle notificacion codi",
+           "applicationCode": "136",
+           "requiresLogin": true,
+           "pageType": "informacion",
+           "isAction": false
+         },
+         "appStep2OTP": {
+           "pageName": "2 otp",
+           "applicationCode": "136",
+           "requiresLogin": true,
+           "pageType": "transaccion",
+           "event": "app step 2",
+           "isAction": false,
+           "eventsInfo": {
+             "eVar65": "qr payments",
+             "prop45": "pagar con celular:app step 2:2 otp",
+             "eVar45": "pagar con celular:app step 2:2 otp",
+             "prop46": "operativa:pagar con celular",
+             "eVar46": "operativa:pagar con celular",
+             "eVar49": "online",
+             "eVar47": "push"
+           }
+         },
+         "appOnClickStartfromPush": {
+           "pageName": "detalle",
+           "applicationCode": "136",
+           "requiresLogin": true,
+           "pageType": "informacion",
+           "event": "app on click start codi",
+           "isAction": true,
+           "customLink": "AMACTION:pagar con celular:app on click start:detalle",
+           "eventsInfo": {
+             "eVar65": "qr payments",
+             "prop45": "pagar con celular:app on click start:detalle",
+             "eVar45": "pagar con celular:app on click start:detalle",
+             "prop46": "operativa:pagar con celular",
+             "eVar46": "operativa:pagar con celular",
+             "eVar49": "online",
+             "eVar47": "push"
+            }
+          }
+        }
+      },
+      "codiConfiguration": {
+        "spanishName": "configuracion pagos codi",
+        "tags": {
+          "configuration": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "codiRemoveRegistration": {
+        "spanishName": "eliminar registro codi",
+        "tags": {
+          "remove": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "interno;eliminar registro codi;app:privada:personas:eliminar registro codi"
+            }
+          }
+        }
+      },
+      "codiNotifications": {
+        "spanishName": "notificaciones",
+        "tags": {
+          "payment": {
+            "pageName": "abono codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "charge": {
+            "pageName": "cargo codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "chargeNotMade": {
+            "pageName": "cobro no realizado",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true
+          },
+          "accountVerified": {
+            "pageName": "cuenta verificada",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "accountNotVerified": {
+            "pageName": "cuenta no verificada",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "feedback": {
+        "spanishName": "feedback nps",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "prop22": "in process"
+            }
+          },
+          "internalLink": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "prop22": "in process",
+              "eVar6": "interno;cerrar nps;app:privada:personas:feedback nps"
+            }
+          }
+        }
+      },
+      "rateApp": {
+        "spanishName": "valora nuestra app",
+        "tags": {
+          "okButton": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "prop22": "in process",
+              "eVar6": "externo;ok compartir valoracion;app:privada:personas:valora nuestra app"
+            }
+          }
+        }
+      },
+      "smartAssistance": {
+        "spanishName": "asistencia inteligente",
+        "tags": {
+          "main": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "prop22": "loadTime"
+            }
+          }
+        }
+      },
+      "qrCodi": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "accesCodiMenuLateral": {
+            "pageName": "posicion global",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:pagar con celular:app on click start:menu lateral",
+            "event": "app on click start button",
+            "eventsInfo": {
+              "eVar45": "pagar con celular:app on click start:menu lateral",
+              "eVar46": "operativa:pagar con celular",
+              "eVar49": "online",
+              "eVar59": "pagar con celular:app on click start:menu lateral",
+              "eVar65": "qr payments",
+              "pev2": "AMACTION:pagar con celular:app on click start:menu lateral",
+              "prop45": "pagar con celular:app on click start:menu lateral",
+              "prop46": "operativa:pagar con celular"
+            }
+          },
+          "acceptedPushCodi": {
+            "pageName": "pagar con celular:detalle",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "customLink": "AMACTION:pagar con celular:app on click start:detalle",
+            "event": "app on click start button",
+            "eventsInfo": {
+              "prop1": "pagar con celular",
+              "eVar45": "pagar con celular:app on click start:detalle",
+              "eVar46": "operativa:pagar con celular",
+              "eVar49": "online",
+              "eVar59": "pagar con celular:app on click start:detalle",
+              "eVar65": "qr payments",
+              "pev2": "AMACTION:pagar con celular:app on click start:detalle",
+              "prop45": "pagar con celular:app on click start:detalle",
+              "prop46": "operativa:pagar con celular"
+            }
+          },
+          "accesCodiQr": {
+            "pageName": "login",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "event": "app on click start button",
+            "customLink": "AMACTION:pagar con celular:app on click start:login",
+            "eventsInfo": {
+              "prop1": "login",
+              "eVar45": "pagar con celular:app on click start:login",
+              "eVar46": "operativa:pagar con celular",
+              "eVar59": "pagar con celular:app on click start:login",
+              "eVar65": "qr payments",
+              "pev2": "AMACTION:pagar con celular:app on click start:login",
+              "prop45": "pagar con celular:app on click start:login",
+              "prop46": "operativa:pagar con celular"
+            }
+          },
+          "codiTokenOTP": {
+            "pageName": "2 otp",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "event": "app step",
+            "applicationStep": "2 otp",
+            "stepNumber": 2,
+            "defaultGateway": "pagar con celular",
+            "eventsInfo": {
+              "eVar45": "pagar con celular:app step 2:2 otp",
+              "eVar46": "perativa:pagar con celular",
+              "prop45": "pagar con celular:app step 2:2 otp",
+              "prop46": "operativa:pagar con celular",
+              "eVar65": "qr payments"            }
+          },
+          "codiCapturarQR": {
+            "pageName": "escanear qr",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "defaultGateway": "pagar con celular",
+            "ignoreSpanishName": true
+          },
+          "terms": {
+            "pageName": "terminos y condiciones",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "securityCode": {
+            "pageName": "codigo seguridad",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }          },
+          "postponePayment": {
+            "pageName": "pago pospuesto codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "pagar con celular"
+          },
+          "checkMovements": {
+            "pageName": "consulta pagos codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "pagar con celular"
+          },
+          "rejectPayment": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "pagar con celular",
+            "event": "app completed",
+            "applicationState": "rechazado",
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "historical": {
+            "pageName": "consulta pagos codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true
+          },
+          "configurationCodi": {
+            "pageName": "configuracion pagos codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true
+          },
+          "paymentCodi": {
+            "pageName": "abono codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "notificaciones"
+          },
+          "chargeCodi": {
+            "pageName": "detalle notificacion codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "notificaciones"
+          },
+          "unverifiedAccount": {
+            "pageName": "cuenta no verificada",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "notificaciones"
+          },
+          "verifiedAccount": {
+            "pageName": "cuenta verificada",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "notificaciones"
+          },
+          "unrealizedChargeCodi": {
+            "pageName": "cobro no realizado",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "notificaciones"
+          },
+          "invalidQr": {
+            "pageName": "error codigo qr invalido",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "operaciones con qr",
+            "errorType": "serverError"
+          },
+          "limitedPayment": {
+            "pageName": "error pago limitado",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "operaciones con qr",
+            "errorType": "serverError"
+          },
+          "illegalOperation": {
+            "pageName": "error operacion no permitida",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "operaciones con qr",
+            "errorType": "serverError"
+          },
+          "invalidCode": {
+            "pageName": "error codigo no vigente",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": false,
+            "ignoreSpanishName": true,
+            "defaultGateway": "operaciones con qr",
+            "errorType": "serverError"
+          },
+          "crearQr": {
+            "pageName": "cobrar",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "defaultGateway": "operaciones con qr",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;crear qr;app:publica:general:operaciones con qr:cobrar",
+              "eVar65": "qr payments"            }
+          },
+          "defaultBankCodi": {
+            "pageName": "pagos con numero celular",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;activar pagos con celular;app:privada:personas:pagos con numero celular",
+              "eVar65": "qr payments"            }
+          },
+          "unsubscribeCodi": {
+            "pageName": "eliminar registro codi",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "interno;eliminar registro codi;app:privada:personas:eliminar registro codi"
+            }
+          }
+        }
+      },
+      "cellPayments": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageName": "pagar con celular:detalle",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "applicationStep": "pagar con celular",
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "prop22": "in process",
+              "products": "",
+              "eVar65": "qr payments"            }
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "applicationStep": "pagar con celular:app page visit:1 detalle de operacion",
+            "event": "app page visit",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "applicationStep": "pagar con celular:app page visit:continuar",
+            "event": "app started",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          },
+          "successCodiTransfer": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app completed",
+            "applicationStep": "pagina exitosa",
+            "eventsInfo": {
+              "eVar65": "qr payments"
+            }
+          }
+        }
+      },
+      "qrPaymentsCodi": {
+        "spanishName": "pagar con celular",
+        "applicationCode": "136",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "pageName": "operaciones con qr:pagar o retirar",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "applicationStep": "operaciones con qr",
+            "eventsInfo": {
+              "prop22": "in process",
+              "eVar65": "qr payments",
+              "eVar47": "qr"
+            }
+          },
+          "appPageVisits": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app page visit",
+            "applicationStep": "pagar con celular:app page visit:1 detalle de operacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "qr payments",
+              "eVar47": "qr"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 detalle de operacion",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "event": "app started",
+            "applicationStep": "pagar con celular:app page visit:continuar",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "qr payments",
+              "eVar47": "qr"
+            }
+          }
+        }
+      },
+      "root": {
+        "spanishName": "dispositivo rooteado",
+        "tags": {
+          "main": {
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar24": "First time",
+              "eVar28": "root"
+            }
+          }
+        }
+      },
+      "reactivarBBVA": {
+        "spanishName": "reactivar bbva",
+        "tags": {
+          "facialRecognitionDetail": {
+            "pageName": "detalles reconocimiento facial",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "takePhoto": {
+            "pageName": "realizar foto",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "photoValidation": {
+            "pageName": "validacion foto",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "mobileServicesDetail": {
+            "pageName": "detalle servicios moviles",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "activateMobileServices": {
+            "pageName": "activar servicios moviles",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          },
+          "mobileTokenDetail": {
+            "pageName": "detalle token movil",
+            "requiresLogin": false,
+            "pageType": "informacion",
+            "isAction": false
+          }
+        }
+      },
+      "bureauAuthorization": {
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "customLink": "AMACTION:autorizacion credito buro:app on click start:me interesa posicion global",
+            "eventsInfo": {
+              "eVar65": "credit bureau authorization"
+            }
+          }
+        }
+      },
+      "creditBureauAuthorization": {
+        "spanishName": "autorizacion credito buro",
+        "applicationCode": "",
+        "projectName": "Glomo",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "autorizacion credito buro:me interesa posicion global",
+            "ignoreSpanishName": true,
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "customLink": "AMACTION:autorizacion credito buro:app on click start:me interesa posicion global",
+            "eventsInfo": {
+              "eVar65": "credit bureau authorization",
+              "eVar59": "autorizacion credito buro:app on click start:me interesa posicion global",
+              "eVar47": "proceso nomina vinculante",
+              "pev2": "AMACTION:autorizacion credito buro:app on click start:me interesa posicion global",
+              "eVar45": "autorizacion credito buro:app on click start:me interesa posicion global",
+              "eVar1": "app:privada:personas:posicion global",
+              "appState": "app:privada:personas:posicion global",
+              "prop1": "posicion global"
+            }
+          }
+        }
+      },
+      "pushNotificationTriplePlay": {
+        "spanishName": "notificaciones",
+        "applicationCode": "130",
+        "tags": {
+          "pushNotification": {
+            "pageName": "triple play",
+            "requiresLogin": true,
+            "isAction": true,
+            "customLink": "tarjeta de credito one click:app on click start:push notification",
+            "event": "app on click start",
+            "pageType": "informacion",
+            "eventsInfo": {
+              "eVar21": "Glomo",
+              "eVar65": "credit card holder",
+              "eVar59": "tarjeta de credito one click:app on click start:push notification",
+              "prop31": "App BBVA Mexico"
+            }
+          },
+          "pushLoad": {
+            "pageName": "triple play",
+            "requiresLogin": true,
+            "isAction": false,
+            "pageType": "informacion",
+            "eventsInfo": {
+              "eVar21": "Glomo",
+              "prop31": "App BBVA Mexico"
+            }
+          }
+        }
+      },
+      "contextualSalesOffer": {
+        "spanishName": "tarjeta de credito one click",
+        "applicationCode": "130",
+        "defaultGateway": "cuentas:detalle:transferencias:pagina exitosa",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app on click start",
+            "pageName": "me interesa ventas contextuales",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "credit card holder",
+              "eVar59": "tarjeta de credito one click:app on click start:me interesa ventas contextuales",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:transferencias",
+              "prop4": "cuentas:detalle:transferencias:pagina exitosa"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event36",
+              "evento_internalCampaignClickthrough": "event36",
+              "event36": "evento_internalCampaignClickthrough",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:transferencias",
+              "prop4": "cuentas:detalle:transferencias:pagina exitosa"
+            }
+          },
+          "internalCampaignImpressions": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event36",
+              "evento_internalCampaignClickthrough": "event36",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:transferencias",
+              "prop4": "cuentas:detalle:transferencias:pagina exitosa",
+              "prop21": "app:privada:personas:cuentas:detalle:transferencias:4 confirmacion"
+            }
+          }
+        }
+      },
+      "contextualSalesOfferRecharges": {
+        "spanishName": "tarjeta de credito one click",
+        "applicationCode": "130",
+        "defaultGateway": "cuentas:detalle:comprar tiempo aire:pagina exitosa",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "event": "app on click start",
+            "pageName": "comprar tiempo aire",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "credit card holder",
+              "eVar59": "tarjeta de credito one click:app on click start:comprar tiempo aire",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:comprar tiempo aire",
+              "prop4": "cuentas:detalle:comprar tiempo aire:pagina exitosa"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event36",
+              "evento_internalCampaignClickthrough": "event36",
+              "event36": "evento_internalCampaignClickthrough",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:comprar tiempo aire",
+              "prop4": "cuentas:detalle:comprar tiempo aire:pagina exitosa"
+            }
+          },
+          "internalCampaignImpressions": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignImpressions_1": "event36",
+              "evento_internalCampaignClickthrough": "event36",
+              "prop1": "cuentas",
+              "prop2": "cuentas:detalle",
+              "prop3": "cuentas:detalle:comprar tiempo aire",
+              "prop4": "cuentas:detalle:comprar tiempo aire:pagina exitosa",
+              "prop21": "app:privada:personas:cuentas:detalle:comprar tiempo aire:3 confirmacion"
+            }
+          }
+        }
+      },
+      "crossSaleOfferOneClick": {
+        "spanishName": "tarjeta de credito one click",
+        "applicationCode": "130",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "pageName": "cuentas:detalle:transferencias:pagina exitosa",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "eVar65": "credit card holder",
+              "eVar59": "tarjeta de credito one click:app on click start:me interesa ventas contextuales"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          }
+        }
+      },
+      "crossSaleOfferOneClickRecharges": {
+        "spanishName": "tarjeta de credito one click",
+        "applicationCode": "130",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "pageName": "cuentas:detalle:comprar tiempo aire:pagina exitosa",
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "eventsInfo": {
+              "eVar65": "credit card holder",
+              "eVar59": "tarjeta de credito one click:app on click start:comprar tiempo aire"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          }
+        }
+      },
+      "mobileTopUpsPass": {
+          "spanishName": "cuentas",
+          "applicationCode": "135",
+          "projectName": "Glomo",
+          "tags": {
+
+              "advancedFootprint": {
+                  "pageName": "detalle:recargas",
+                  "requiresLogin": true,
+                  "pageType": "informacion",
+                  "event": "huella Avanzada",
+                  "isAction": false,
+                  "eventsInfo": {
+                    "prop21": "app:privada:personas:cuentas:detalle",
+                    "prop24": "informacion"
+                  }
+              },
+
+              "appOnClickStart": {
+                  "pageName": "detalle:recargas",
+                  "requiresLogin": true,
+                  "pageType": "informacion",
+                  "isAction": true,
+                  "event": "app on click start",
+                  "eventsInfo": {
+                      "eVar65": "tag registration",
+                      "eVar45": "registrar tag:app on click start:recargas",
+                      "prop45": "registrar tag:app on click start:recargas",
+                      "eVar46": "operativa:registrar tag",
+                      "prop46": "operativa:registrar tag",
+                      "customLink": "AMACTION:registrar tag:app on click start:recargas",
+                      "eVar59": "registrar tag:app on click start:recargas"
+                  }
+              }
+          }
+      },
+      "pushNotificationEnrollments": {
+          "spanishName": "notificaciones:detalle",
+          "applicationCode": "",
+          "projectName": "Glomo",
+          "tags": {
+              "notificationDetailFootprint": {
+                  "requiresLogin": true,
+                  "pageType": "informacion",
+                  "isAction": true
+              }
+          }
+      },
+      "rejectedCardShortcut": {
+              "spanishName": "shortcuts",
+              "applicationCode": "",
+              "projectName": "Glomo",
+              "tags": {
+                "rejectedCardShortcutFootprint": {
+                  "requiresLogin": false,
+                  "pageType": "informacion",
+                  "isAction": false,
+                  "event": "link click",
+                  "eventsInfo": {
+                    "evento_linkclick": "event6",
+                    "eVar6": "internal link;tarjeta rechazada",
+                    "customLink": "internal link;tarjeta rechazada"
+                  }
+                }
+              }
+      },
+      "restructurePlan": {
+        "spanishName": "plan de reestructura",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "posicion global",
+            "ignoreSpanishName": false,
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "restructure plan"
+            }
+          }
+        }
+      },
+      "fixedPaymentPlan": {
+        "spanishName": "plan de pagos fijos",
+        "applicationCode": "011",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "evar65" : "payment plan",
+              "customLink": "AMACTION:plan de pagos fijos:app on click start:posicion global"
+            }
+          },
+          "internalCampaignClickThrough": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": true,
+            "eventsInfo": {
+              "evento_internalCampaignClickthrough": "event36"
+            }
+          }
+        }
+      },
+      "errorsFixedPaymentPlan": {
+        "spanishName": "prestamos",
+        "applicationCode": "",
+        "tags": {
+          "errorsPPF": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "pageName": "plan de pagos fijos:pagar tarjeta"
+          }
+        }
+      },
+      "paymentNotToGenerateInterest": {
+        "spanishName": "prestamos",
+        "applicationCode": "",
+        "tags": {
+          "errorPPFNotInterest": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "pageName": "plan de pagos fijos:pago para no generar intereses"
+          }
+        }
+      },
+      "errorPPFServicesPayMinimal": {
+        "spanishName": "prestamos",
+        "applicationCode": "",
+        "tags": {
+          "errorsPPFServices": {
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "isAction": false,
+            "pageName": "plan de pagos fijos:error carga de datos",
+            "errorType": "serverError",
+            "eventsInfo": {
+              "evento_errorPage": "event32"
+            }
+          }
+        }
+      },
+      "geolocationConsent": {
+        "spanishName": "geolocalizacion",
+        "projectName": "Glomo",
+        "tags": {
+          "requestPermissionsPage": {
+            "pageName": "solicitud de permisos",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:solicitud de permisos"
+            }
+          },
+          "confirmationPage": {
+            "pageName": "solicitud de permisos:confirmacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:solicitud de permisos",
+              "prop3": "geolocalizacion:solicitud de permisos:confirmacion"
+            }
+          },
+          "permissionsDeniedPage": {
+            "pageName": "solicitud permiso de ubicacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:solicitud permiso de ubicacion"
+            }
+          },
+          "landingPage": {
+            "pageName": "landing",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:landing"
+            }
+          },
+          "privacyNoticePage": {
+            "pageName": "solicitud de permisos:aviso de privacidad",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:solicitud de permisos",
+              "prop3": "geolocalizacion:solicitud de permisos:aviso de privacidad"
+            }
+          },
+          "gpsOffPage": {
+            "pageName": "activar ubicacion",
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "ignoreSpanishName": false,
+            "isAction": false,
+            "eventsInfo": {
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:activar ubicacion"
+            }
+          },
+          "turnOnPermissionsPage": {
+            "pageName": "solicitud permiso de ubicacion",
+            "requiresLogin": true,
+            "pageType": "information",
+            "isAction": true,
+            "event": "link click",
+            "eventsInfo": {
+              "evento_linkclick": "event6",
+              "eVar6": "internal link;activar ubicacion",
+              "prop1": "geolocalizacion",
+              "prop2": "geolocalizacion:solicitud permiso de ubicacion",
+              "customLink": "internal link;activar ubicacion"
+            }
+          }
+        }
+      },
+      "customersWithoutCUD": {
+        "applicationCode": "130",
+        "spanishName": "actualizar contrato unico digital",
+        "tags": {
+          "advancedFootprint": {
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:informacion actualizacion contrato",
+              "prop1": "informacion actualizacion contrato"
+            },
+            "ignoreSpanishName": true,
+            "isAction": false,
+            "pageName": "informacion actualizacion contrato",
+            "pageType": "informacion",
+            "requiresLogin": true
+          },
+          "appOnClickStart": {
+            "applicationStep": "continuar",
+            "event": "app on click start",
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:informacion actualizacion contrato",
+              "eVar49": "online",
+              "eVar65": "upgrade digital contract",
+              "prop1": "informacion actualizacion contrato"
+            },
+            "isAction": true,
+            "ignoreSpanishName": true,
+            "pageName": "informacion actualizacion contrato",
+            "pageType": "informacion",
+            "requiresLogin": true
+          },
+          "appPageVisits": {
+            "applicationStep": "1 terminos y condiciones",
+            "event": "app page visit",
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:actualizar contrato unico digital:1 terminos y condiciones",
+              "eVar49": "online",
+              "eVar65": "upgrade digital contract",
+              "prop1": "actualizar contrato unico digital",
+              "prop2": "actualizar contrato unico digital:1 terminos y condiciones"
+            },
+            "isAction": false,
+            "pageName": "1 terminos y condiciones",
+            "pageType": "transaccion",
+            "requiresLogin": true
+          },
+          "appStarted": {
+            "applicationStep": "1 terminos y condiciones",
+            "event": "app started",
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:actualizar contrato unico digital:1 terminos y condiciones",
+              "eVar49": "online",
+              "eVar65": "upgrade digital contract",
+              "prop1": "actualizar contrato unico digital",
+              "prop2": "actualizar contrato unico digital:1 terminos y condiciones"
+            },
+            "isAction": true,
+            "pageName": "1 terminos y condiciones",
+            "pageType": "informacion",
+            "requiresLogin": true
+          },
+          "appCompleted": {
+            "applicationStep": "pagina exitosa",
+            "event": "app completed",
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:actualizar contrato unico digital:pagina exitosa",
+              "eVar49": "online",
+              "eVar65": "upgrade digital contract",
+              "prop1": "actualizar contrato unico digital",
+              "prop2": "actualizar contrato unico digital:pagina exitosa"
+            },
+            "isAction": false,
+            "pageName": "pagina exitosa",
+            "pageType": "transaccion",
+            "requiresLogin": true
+          },
+          "communicationError": {
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar1": "app:privada:personas:informacion actualizacion contrato:error comunicacion interrumpida",
+              "eVar32": "error comunicacion interrumpida",
+              "prop1": "informacion actualizacion contrato",
+              "prop2": "informacion actualizacion contrato:error comunicacion interrumpida",
+              "prop32": "error comunicacion interrumpida"
+            },
+            "ignoreSpanishName": true,
+            "isAction": false,
+            "pageName": "informacion actualizacion contrato:error comunicacion interrumpida",
+            "pageType": "informacion",
+            "requiresLogin": true
+          },
+          "operationError": {
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:informacion actualizacion contrato:error operacion no realizada",
+              "eVar32": "error operacion no realizada",
+              "evento_errorPage": "event32",
+              "prop1": "informacion actualizacion contrato",
+              "prop2": "informacion actualizacion contrato:error operacion no realizada",
+              "prop32": "error operacion no realizada"
+            },
+            "ignoreSpanishName": true,
+            "isAction": false,
+            "pageName": "informacion actualizacion contrato:error operacion no realizada",
+            "pageType": "informacion",
+            "requiresLogin": true
+          },
+          "anotherTimeLink": {
+            "eventsInfo": {
+              "eVar1": "app:privada:personas:informacion actualizacion contrato",
+              "eVar6": "interno;en otro momento;app:privada:personas:informacion actualizacion contrato",
+              "evento_linkclick": "event6",
+              "prop1": "informacion actualizacion contrato"
+            },
+            "ignoreSpanishName": true,
+            "isAction": false,
+            "pageName": "informacion actualizacion contrato",
+            "pageType": "informacion",
+            "requiresLogin": true
+          }
+        }
+      },
+      "fidoDeviceAccess": {
+        "spanishName": "fido enrollment",
+        "projectName": "Glomo",
+        "applicationCode": "137",
+        "requiresProducts": false,
+        "tags": {
+          "appOnClickStart": {
+            "pageName": "seguridad y privacidad:accesos y firmas",
+            "ignoreSpanishName": true,
+            "requiresLogin": true,
+            "isAction": true,
+            "applicationStep": "1 metodo de acceso y firma",
+            "pageType": "informacion",
+            "event": "app on click start",
+            "eventsInfo": {
+              "eVar65": "fido enrollment",
+              "eVar45": "fido enrollment:app on click start:activar switch huella digital",
+              "eVar59": "fido enrollment:app on click start:activar switch huella digital",
+              "prop45": "fido enrollment:app on click start:activar switch huella digital"
+            }
+          },
+          "appPageVisits": {
+            "pageName": "1 metodo de acceso y firma",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "applicationStep": "1 metodo de acceso y firma",
+            "event": "app page visit",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "fido enrollment"
+            }
+          },
+          "appStarted": {
+            "pageName": "1 metodo de acceso y firma",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 1,
+            "applicationStep": "activar",
+            "event": "app started",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar65": "fido enrollment"
+            }
+          },
+          "stepTwoEnterBiometrics": {
+            "pageName": "2 ingresa biometria",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 2,
+            "applicationStep": "2 ingresa biometria",
+            "event": "app step",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "fido enrollment"
+            }
+          },
+          "stepThreeOTP": {
+            "pageName": "3 otp",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "stepNumber": 3,
+            "applicationStep": "3 otp",
+            "event": "app step",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "fido enrollment"
+            }
+          },
+          "appCompleted": {
+            "pageName": "pagina exitosa",
+            "requiresLogin": true,
+            "pageType": "transaccion",
+            "applicationStep": "pagina exitosa",
+            "applicationState": "finalizado",
+            "event": "app completed",
+            "isAction": false,
+            "eventsInfo": {
+              "eVar65": "fido enrollment"
+            }
+          },
+          "infoChangeAccessMethod": {
+            "pageName": "1 metodo de acceso y firma: info cambiar metodo de acceso",
+            "pageType": "transaccion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "hasChangeTouchId": {
+            "pageName": "detectamos cambios huellas",
+            "pageType": "informacion",
+            "requiresLogin": false,
+            "isAction": false
+          },
+          "hasChangeFaceId": {
+            "pageName": "detectamos cambios reconocimiento facial",
+            "pageType": "informacion",
+            "requiresLogin": false,
+            "isAction": false
+          },
+          "hasTouchIdBeenDeactivated": {
+            "pageName": "detectamos huella desactivada",
+            "pageType": "informacion",
+            "requiresLogin": false,
+            "isAction": false
+          },
+          "hasFaceIdBeenDeactivated": {
+            "pageName": "detectamos reconocimiento facial desactivado",
+            "pageType": "informacion",
+            "requiresLogin": false,
+            "isAction": false
+          },
+          "touchIdNeedsToBeConfiguredAgain": {
+            "pageName": "configuracion huella",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "faceIdNeedsToBeConfiguredAgain": {
+            "pageName": "configuracion reconocimiento facial",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "errorTouchIdAuthentication": {
+            "pageName": "error al ingresar con huella",
+            "pageType": "transaccion",
+            "requiresLogin": false,
+            "errorType": "serverError",
+            "isAction": false
+          },
+          "errorFaceIdAuthentication": {
+            "pageName": "error con el reconocimiento facial",
+            "pageType": "transaccion",
+            "requiresLogin": false,
+            "errorType": "serverError",
+            "isAction": false
+          },
+          "genericError": {
+            "pageName": "error generico",
+            "pageType": "transaccion",
+            "requiresLogin": true,
+            "errorType": "serverError",
+            "isAction": false
+          }
+        }
+      },
+      "standIn": {
+        "projectName": "Glomo Always ON",
+        "spanishName": "",
+        "applicationCode": "",
+        "tags": {
+          "deviceError": {
+            "pageName": "app:privada:personas:error dispositivo no registrado",
+            "pageType": "informacion",
+            "requiresLogin": false,
+            "isAction": false,
+            "eventsInfo": {
+              "evento_errorPage": "event32",
+              "eVar32": "error dispositivo no encontrado",
+              "prop32": "error dispositivo no encontrado"
+            }
+          },
+          "standinDashboard": {
+            "pageName": "app:privada:personas:posicion global",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccount": {
+            "pageName": "cuentas:detalle",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountDetail": {
+            "pageName": "cuentas:detalle:informacion no disponible mas informacion",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountTransfer": {
+            "pageName": "cuentas:detalle:operacion no disponible transferir",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountCardless": {
+            "pageName": "cuentas:detalle:operacion no disponible retiro sin tarjeta",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountServicePayment": {
+            "pageName": "cuentas:detalle:operacion no disponible pagar servicio",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountTransactionDetail": {
+            "pageName": "cuentas:detalle:detalle de movimiento",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          },
+          "limitedAccountOperations": {
+            "pageName": "cuentas:detalle:operaciones no disponibles",
+            "pageType": "informacion",
+            "requiresLogin": true,
+            "isAction": false
+          }
+        }
+      },
+      "supportFixedPayments": {
+        "spanishName": "plan de reestructura",
+        "applicationCode": "",
+        "defaultGateway": "posicion global",
+        "tags": {
+          "appOnClickStart": {
+            "ignoreSpanishName": false,
+            "requiresLogin": true,
+            "pageType": "informacion",
+            "event": "app on click start",
+            "isAction": true,
+            "eventsInfo": {
+              "eVar1" : "app:privada:personas:posicion global",
+              "eVar65": "restructure plan",
+              "eVar45": "plan de reestructura:app on click start:posicion global",
+              "prop1" : "posicion global"
+            }
+          }
+        }
+      },
+      "pushStructuredProducts": {
+        "spanishName": "notificaciones",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "isAction": true,
+            "event": "app on click start",
+            "pageType": "informacion",
+            "customLink": "firmar contrato:app on click start:detalle notificacion",
+            "eventsInfo": {
+              "eVar45": "firmar contrato:app on click start:detalle notificacion",
+              "eVar46": "autogestion:firmar contrato",
+              "eVar59": "firmar contrato:app on click start:detalle notificacion",
+              "eVar65": "signing structured products",
+              "prop1" : "notificaciones",
+              "prop2" : "notificaciones:detalle",
+              "pev2": "firmar contrato:app on click start:detalle notificacion"
+            }
+          }
+        }
+      },
+      "pushPatrimonialProducts": {
+        "spanishName": "notificaciones",
+        "applicationCode": "",
+        "tags": {
+          "appOnClickStart": {
+            "requiresLogin": false,
+            "isAction": true,
+            "event": "app on click start",
+            "pageType": "informacion",
+            "customLink": "activacion contrato:app on click start:detalle notificacion",
+            "eventsInfo": {
+              "eVar45": "activacion contrato:app on click start:detalle notificacion",
+              "eVar46": "autogestion:activacion contrato",
+              "eVar59": "activacion contrato:app on click start:detalle notificacion",
+              "eVar65": "equity contract activation",
+              "prop2" : "notificaciones:detalle"
+            }
+          }
+        }
+      }
+    }
+  }
+}

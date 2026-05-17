@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="112" viewBox="0 0 272 112">
+  <defs>
+    <linearGradient id="ilu_success_s-a" x1="30.293%" x2="71.409%" y1="12.928%" y2="90.257%">
+      <stop offset="0%" stop-color="#192647"/>
+      <stop offset="0%" stop-color="#192647" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#192647" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(96 16)">
+    <path fill="url(#ilu_success_s-a)" fill-rule="nonzero" d="M79.9844961,43.9534884 C79.9844961,63.8604651 63.8449612,80 43.9379845,80 C24.0310078,80 7.90697674,63.8604651 7.90697674,43.9534884 C7.90697674,24.0465116 24.0465116,7.92248062 43.9534884,7.92248062 C63.8604651,7.92248062 79.9844961,24.0620155 79.9844961,43.9534884"/>
+    <path fill="#28AD68" fill-rule="nonzero" d="M72.4806202,36.1860465 C72.4806202,56.1860465 56.2790698,72.4031008 36.2945736,72.4031008 C16.3100775,72.4031008 0.0775193798,56.2170543 0.0775193798,36.2325581 C0.0775193798,16.248062 16.2635659,0.015503876 36.248062,-1.11179026e-05 C56.2325581,-0.015503876 72.4651163,16.1860465 72.4806202,36.1860465"/>
+    <polyline stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.2" points="17.659 38.109 28.806 49.256 54.884 23.163"/>
+  </g>
+</svg>

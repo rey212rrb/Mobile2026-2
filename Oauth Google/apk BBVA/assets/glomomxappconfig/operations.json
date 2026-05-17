@@ -1,0 +1,3691 @@
+{
+  "data": [
+    {
+      "id": "TRANSFER",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "CONTAINS",
+              "values": [
+                "MXN",
+                "USD"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "MXN",
+                      "USD"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "MXN",
+                        "USD"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OPERATIVE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.FOREIGN_CURRENCY",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "USD"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OPERATIVE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.FOREIGN_CURRENCY",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "USD"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": true,
+            "disableConditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "INOPERATIVE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENT_BALANCE",
+                "validations": [
+                  {
+                    "operator": "LESS_THAN_OR_EQUAL_TO",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "INDICATOR",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "IS_ADDITIONAL"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": true,
+              "conditions": [
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": true,
+              "conditions": []
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": true,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "MXN",
+                        "USD"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OPERATIVE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.FOREIGN_CURRENCY",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "USD"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "USD"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "MXN",
+                        "USD"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.FOREIGN_CURRENCY",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "USD"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "INTERNAL_TRANSFER",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OTHER",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "INTERBANK_TRANSFER",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "DATE_TIME",
+                  "validations": [
+                    {
+                      "operator": "GREATER_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "6:00 AM"
+                      ]
+                    },
+                    {
+                      "operator": "LESS_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "5:30 PM"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "WEEKDAY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OFF"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": [
+            {
+              "id": "CURRENT_BALANCE",
+              "validations": [
+                {
+                  "operator": "GREATER_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "10"
+                  ]
+                },
+                {
+                  "operator": "LESS_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "20000"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "DATE_TIME",
+                  "validations": [
+                    {
+                      "operator": "GREATER_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "6:00 AM"
+                      ]
+                    },
+                    {
+                      "operator": "LESS_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "5:30 PM"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "WEEKDAY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OFF"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": [
+            {
+              "id": "CURRENT_BALANCE",
+              "validations": [
+                {
+                  "operator": "GREATER_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "10"
+                  ]
+                },
+                {
+                  "operator": "LESS_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "20000"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": true,
+            "disableConditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "INOPERATIVE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENT_BALANCE",
+                "validations": [
+                  {
+                    "operator": "LESS_THAN_OR_EQUAL_TO",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "DATE_TIME",
+                "validations": [
+                  {
+                    "operator": "GREATER_THAN_OR_EQUAL_TO",
+                    "values": [
+                      "6:00 AM"
+                    ]
+                  },
+                  {
+                    "operator": "LESS_THAN_OR_EQUAL_TO",
+                    "values": [
+                      "5:30 PM"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "WEEKDAY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "OFF"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "INDICATOR",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "IS_ADDITIONAL"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "C.CREDIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": [
+            {
+              "id": "CURRENT_BALANCE",
+              "validations": [
+                {
+                  "operator": "GREATER_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "10"
+                  ]
+                },
+                {
+                  "operator": "LESS_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "20000"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            },
+            {
+              "id": "C.CREDIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "DATE_TIME",
+                  "validations": [
+                    {
+                      "operator": "GREATER_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "6:00 AM"
+                      ]
+                    },
+                    {
+                      "operator": "LESS_THAN_OR_EQUAL_TO",
+                      "values": [
+                        "5:30 PM"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "WEEKDAY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "OFF"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "C.DEBIT",
+              "scope": "EXTERNAL",
+              "isSimulated": false,
+              "conditions": []
+            }
+          ],
+          "conditions": [
+            {
+              "id": "CURRENT_BALANCE",
+              "validations": [
+                {
+                  "operator": "GREATER_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "10"
+                  ]
+                },
+                {
+                  "operator": "LESS_THAN_OR_EQUAL_TO",
+                  "values": [
+                    "20000"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SERVICE_PAYMENT",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "MOBILE_TRANSFER",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "OPPORTUNITIES",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "OPERATIVE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "MOBILE_TOP_UP",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "CASH_ADVANCE",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "CREDIT_CARD_DEBT_PAYMENT",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "OPERATIVE",
+                        "BLOCKED",
+                        "PENDING_DELIVERY",
+                        "PENDING_EMBOSSING"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "OPERATIVE",
+                        "BLOCKED",
+                        "PENDING_DELIVERY",
+                        "PENDING_EMBOSSING"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "C.CREDIT",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "STATUS",
+                  "validations": [
+                    {
+                      "operator": "CONTAINS",
+                      "values": [
+                        "OPERATIVE",
+                        "BLOCKED",
+                        "PENDING_DELIVERY",
+                        "PENDING_EMBOSSING"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "PHYSICAL_SUPPORT",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "DIGITAL",
+                        "HCE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "INDICATOR",
+                  "validations": [
+                    {
+                      "operator": "NOT_EQUAL_TO",
+                      "values": [
+                        "IS_ADDITIONAL"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "checkOnlyForOperative": true,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED",
+                      "PENDING_DELIVERY",
+                      "PENDING_EMBOSSING"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "INDICATOR",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "IS_ADDITIONAL"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "A.VISTA",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "ENTERPRISE_PERIPHERAL",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "FALSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.CUENTA_EXPRESS",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "A.DIGITAL",
+              "scope": "OWN",
+              "isSimulated": false,
+              "conditions": [
+                {
+                  "id": "CURRENCY",
+                  "validations": [
+                    {
+                      "operator": "EQUAL_TO",
+                      "values": [
+                        "MXN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "id": "STATUS",
+              "validations": [
+                {
+                  "operator": "CONTAINS",
+                  "values": [
+                    "OPERATIVE"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INTERNATIONAL_TRANSFER",
+      "conditions": [
+        {
+          "id": "LEVEL_ACCOUNT",
+          "validations": [
+            {
+              "level": 4,
+              "IS_DIGITAL": false
+            }
+          ]
+        },
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "CONTAINS",
+              "values": [
+                "MXN",
+                "USD"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": true,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "MXN",
+                      "USD"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [
+            {
+              "id": "SWIFT",
+              "scope": "EXTERNAL",
+              "isSimulated": true,
+              "conditions": []
+            },
+            {
+              "id": "ABA",
+              "scope": "EXTERNAL",
+              "isSimulated": true,
+              "conditions": []
+            },
+            {
+              "id": "BIC",
+              "scope": "EXTERNAL",
+              "isSimulated": true,
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "EDIT_ALIAS",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED",
+                      "PENDING_DELIVERY",
+                      "PENDING_EMBOSSING"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.DEBIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "D.COMMON",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "L.CONSUMER",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "PAY_CREDIT_CONSUMER",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "L.CONSUMER",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "PAY_MORTGAGE_LOAN",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "L.CONSUMER",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "ASSOCIATE_MOBILE_PHONE_TO_ACCOUNT",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "DISSOCIATE_MOBILE_PHONE_FROM_ACCOUNT",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "TRUE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "TRUE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "SPEI",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "TRUE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "ACCOUNT_STATEMENTS",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED",
+                      "PENDING_DELIVERY",
+                      "PENDING_EMBOSSING"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "PAYROLL_PORTABILITY",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ],
+                "id": "LEVEL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "04",
+                      "05"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ],
+                "id": "LEVEL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "04"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "ASK_MONEY_QR",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "PAY_WITH_QR",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "CHECKS_SECTION",
+      "conditions": [
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "UPDATE_ACCOUNT_EXPEDIENT",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "LEVEL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "02",
+                      "N2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "LEVEL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "02",
+                      "N2"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "UPGRADE_TYPE",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "INCOMPLETE",
+                      "BLOCKED"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "UPGRADE_TYPE",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "INCOMPLETE",
+                      "BLOCKED"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "PIN_REQUEST",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "ACTIVATE_CARD",
+      "conditions": [
+        {
+          "id": "CURRENCY",
+          "validations": [
+            {
+              "operator": "EQUAL_TO",
+              "values": [
+                "MXN"
+              ]
+            }
+          ]
+        }
+      ],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": [
+              {
+                "id": "STATUS",
+                "validations": [
+                  {
+                    "operator": "CONTAINS",
+                    "values": [
+                      "OPERATIVE",
+                      "INOPERATIVE",
+                      "BLOCKED"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "PHYSICAL_SUPPORT",
+                "validations": [
+                  {
+                    "operator": "NOT_EQUAL_TO",
+                    "values": [
+                      "DIGITAL",
+                      "HCE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "SEND_MONEY_CODICEL",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "LINK_CODI_TO_ACCOUNT",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "UNLINK_CODI_FROM_ACCOUNT",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ENTERPRISE_PERIPHERAL",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "FALSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": [
+              {
+                "id": "CURRENCY",
+                "validations": [
+                  {
+                    "operator": "EQUAL_TO",
+                    "values": [
+                      "MXN"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "id": "ADD_VIDEO_SELFIE",
+      "conditions": [],
+      "productTypesCombinations": [
+        {
+          "originProductType": {
+            "id": "A.VISTA",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.CUENTA_EXPRESS",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.DIGITAL",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "A.FOREIGN_CURRENCY",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.CREDIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "disableConditions": [],
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "C.DEBIT",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "D.COMMON",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        },
+        {
+          "originProductType": {
+            "id": "L.CONSUMER",
+            "scope": "OWN",
+            "isSimulated": false,
+            "conditions": []
+          },
+          "destinationProductTypes": [],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

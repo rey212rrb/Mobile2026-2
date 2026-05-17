@@ -1,0 +1,49 @@
+{
+    "data":[
+        {
+            "id": "01",
+            "link": {},
+            "logo": {
+                "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_TELCEL01-SP",
+                "id": "TELCEL",
+                "name": "avatar_TELCEL01-SP"
+            },
+            "name": "TELCEL",
+            "topUpConfiguration": {}
+        },
+        {
+            "id": "03",
+            "link": {},
+            "logo": {
+                "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_MOVISTAR03-SP",
+                "id": "MOVISTAR",
+                "name": "avatar_MOVISTAR03-SP"
+            },
+            "name": "MOVISTAR",
+            "topUpConfiguration": {}
+        },
+        {
+            "id": "05",
+            "link": {},
+            "logo": {
+                "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_UNEFON05-SP",
+                "id": "UNEFON",
+                "name": "avatar_UNEFON05-SP"
+            },
+            "name": "UNEFON",
+            "topUpConfiguration": {}
+        },
+        {
+            "id": "02",
+            "link": {},
+            "logo": {
+                "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_AT&T02-SP",
+                "id": "AT&T",
+                "name": "avatar_AT&T02-SP"
+            },
+            "name": "AT&T",
+            "topUpConfiguration": {}
+        }
+    ]
+}
+

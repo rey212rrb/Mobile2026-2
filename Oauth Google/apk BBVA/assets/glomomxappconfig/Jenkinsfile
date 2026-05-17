@@ -1,0 +1,57 @@
+#!groovy
+
+pipeline {
+    agent {label 'osx'}
+
+    environment{
+        ANDROID_HOME='/usr/local/opt/android-sdk'
+    }
+
+    stages {
+
+        stage('Checkout'){
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                sh '''
+                if [ ! -d bbvaandroid ]
+                then
+                    git clone ssh://git@globaldevtools.bbva.com:7999/sgndk/bbvaandroid.git -b buildlibraryjenkins
+                else 
+                    rm  -rf bbvaandroid
+                    git clone ssh://git@globaldevtools.bbva.com:7999/sgndk/bbvaandroid.git -b buildlibraryjenkins
+                fi
+                cd bbvaandroid/app/src/mexico/assets/
+                if [ ! -d glomoappconfiguration ]
+                then
+                    mkdir glomoappconfiguration
+                else
+                    rm -rf glomoappconfiguration
+                    mkdir glomoappconfiguration
+                fi
+                cd ../../../../../
+                cp *.json bbvaandroid/app/src/mexico/assets/glomoappconfiguration
+                cd bbvaandroid
+                git add . 
+                git commit -m "Updating App Configuration"
+                git push origin HEAD:buildlibraryjenkins
+                '''
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}

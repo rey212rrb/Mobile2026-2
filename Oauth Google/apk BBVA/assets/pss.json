@@ -1,0 +1,32 @@
+{
+  "fingerprintList": [
+    {
+      "mdAlgorithm": "sha256",
+      "value": "0CF408F2 B3893419 B8F57FB7 8ED5F233 8A91B582 27E3F806 85A5A6CB D1B9C0A0"
+    },
+    {
+      "mdAlgorithm": "sha256",
+      "value": "91BBE525 43BBFF18 2BA09D42 DA359EA1 AAF46D68 4C0AFBCB 77667213 FCF415ED"
+    },
+    {
+      "mdAlgorithm": "sha256",
+      "value": "05FC2B1A 1F9B9FE2 7B971233 329BC6B6 1B3B3E41 6317242A 8FEBEC46 00DB0488"
+    },
+    {
+      "mdAlgorithm": "sha256",
+      "value": "194F80F6 EAFB2F71 95003048 2F4DCADA 3B925D21 1319613D 8405AC32 6E4645C9"
+    },
+    {
+      "mdAlgorithm": "sha256",
+      "value": "B7BCA3ED 4C99CF3C 4070CAC9 DDFE128A 1E2C1273 B79FBD7F FCD83900 B6C3B19B"
+    },
+    {
+      "mdAlgorithm":"SHA-256",
+      "value":"00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:01:02:03:04"
+    },
+    {
+      "mdAlgorithm":"SHA-256" ,
+      "value": "00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:01:02:03:04:05:06:07:08:09:10:11:12:13:14:15:16"
+    }
+  ]
+}

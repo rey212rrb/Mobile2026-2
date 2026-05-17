@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="230px" viewBox="0 0 196 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Actions/On-Off</title>
+    <defs>
+        <linearGradient x1="28.4297759%" y1="26.8160682%" x2="93.9317635%" y2="97.2120021%" id="linearGradient-1">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.28542854%" y1="4.08784688%" x2="72.7835422%" y2="74.4860235%" id="linearGradient-2">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Admon---Estados-de-cuenta-v2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Estados-de-cuenta---Opción-seleccionada-/-Cuenta-puntual" transform="translate(-638.000000, -358.000000)">
+            <g id="Group" transform="translate(601.000000, 338.000000)">
+                <g id="On-Off" transform="translate(0.000000, -0.416667)">
+                    <g id="Cuadrados_Blancos">
+                        <rect id="Rectangle" x="0" y="0" width="250" height="250"></rect>
+                    </g>
+                    <g id="Capa_22" transform="translate(37.500000, 20.833333)" fill-rule="nonzero">
+                        <g id="Group">
+                            <path d="M77.0166667,29.3416667 L147.545833,29.3416667 C173.5125,29.3416667 194.5625,50.3916667 194.5625,76.3583333 L194.5625,76.3666667 C194.5625,102.333333 173.5125,123.383333 147.545833,123.383333 L77.0166667,123.383333 C51.05,123.383333 30,102.333333 30,76.3666667 L30,76.3583333 C30.0041667,50.3916667 51.0541667,29.3416667 77.0166667,29.3416667 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                            <path d="M77.0166667,135.129167 L147.545833,135.129167 C173.5125,135.129167 194.5625,156.179167 194.5625,182.145833 L194.5625,182.154167 C194.5625,208.120833 173.5125,229.170833 147.545833,229.170833 L77.0166667,229.170833 C51.05,229.170833 30,208.120833 30,182.154167 L30,182.145833 C30.0041667,156.179167 51.0541667,135.129167 77.0166667,135.129167 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                            <g>
+                                <path d="M117.6375,94.0375 L47.1041667,94.0375 C21.1375,94.0375 0.0875,72.9875 0.0875,47.0208333 L0.0875,47.0125 C0.0916666667,21.05 21.1416667,0 47.1041667,0 L117.633333,0 C143.6,0 164.65,21.05 164.65,47.0166667 L164.65,47.025 C164.65,72.9875 143.6,94.0375 117.6375,94.0375 Z" id="Path" fill="#2DCCCD"></path>
+                                <circle id="Oval" fill="#EAF9FA" cx="117.6375" cy="47.0208333" r="29.3875"></circle>
+                                <path d="M47.1041667,105.795833 L117.633333,105.795833 C143.6,105.795833 164.65,126.845833 164.65,152.8125 L164.65,152.820833 C164.65,178.7875 143.6,199.8375 117.633333,199.8375 L47.1041667,199.8375 C21.1375,199.8375 0.0875,178.7875 0.0875,152.820833 L0.0875,152.8125 C0.0916666667,126.841667 21.1416667,105.795833 47.1041667,105.795833 Z" id="Path" fill="#EB5E62"></path>
+                                <circle id="Oval" fill="#F9DEDE" cx="47.1041667" cy="152.808333" r="29.3875"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

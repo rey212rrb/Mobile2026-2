@@ -1,0 +1,9 @@
+{
+  "server": {
+    "ARTICHOKE_PROD": "https://artichoke.platform.bbva.com",
+    "TEST": "https://t-glomo-mx.prev.grupobbva.com:443/SRVS_A02",
+    "DEV": "https://deglomo.bancomermovil.com:443/SRVS_A02",
+    "PRE_PROD": "https://lo-glomo-mx.prev.grupobbva.com:443/SRVS_A02",
+    "PROD": "https://glomo.bancomermovil.com/SRVS_A02"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Actions/Success@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="30.2929232%" y1="12.9284362%" x2="71.4092923%" y2="90.256894%" id="linearGradient-1">
+            <stop stop-color="#192647" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Actions/Success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Success">
+            <g transform="translate(24.000000, 25.920000)">
+                <path d="M109.2,59.9894171 C109.2,87.1663584 87.1663584,109.2 59.9894171,109.2 C32.8124758,109.2 10.8,87.1663584 10.8,59.9894171 C10.8,32.8124758 32.8336416,10.8 60.0105829,10.8 C87.1875242,10.8 109.2,32.8336416 109.2,59.9894171" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M98.88,49.4188341 C98.88,76.7325773 76.7537473,98.88 49.4611734,98.88 C22.1685996,98.88 0,76.7749242 0,49.4823545 C0,22.1897848 22.1050792,0.0211886279 49.3976531,0 C76.690227,-0.0211582607 98.8588266,22.105091 98.88,49.4188341" id="Path" fill="#28AD68" fill-rule="nonzero"></path>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="9.6" stroke-linecap="round" stroke-linejoin="round" points="24 52.0253832 39.2364515 67.2 74.88 31.68"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

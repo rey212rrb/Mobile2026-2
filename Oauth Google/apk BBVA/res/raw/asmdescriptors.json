@@ -1,0 +1,7 @@
+{
+  "descriptorclass": [
+    "com.noknok.android.client.asm.descriptor.fps.FpAuthDescriptor",
+    "com.noknok.android.client.asm.silent.MyAuthenticatorDescriptor",
+    "com.noknok.android.client.asm.descriptor.fps.UnboundBiometricDescriptor"
+  ]
+}

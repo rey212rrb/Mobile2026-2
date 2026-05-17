@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="30.2929232%" y1="12.9284362%" x2="71.4092923%" y2="90.256894%" id="linearGradient-1">
+            <stop stop-color="#192647" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Actions/Success">
+            <g id="Success" transform="translate(100.000000, 108.000000)">
+                <path d="M455,249.955904 C455,363.19316 363.19316,455 249.955904,455 C136.718649,455 45,363.19316 45,249.955904 C45,136.718649 136.80684,45 250.044096,45 C363.281351,45 455,136.80684 455,249.955904" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M412,205.911809 C412,319.719072 319.807281,412 206.088223,412 C92.3691649,412 0,319.895517 0,206.176477 C0,92.4574366 92.1044968,0.0882859494 205.823555,0 C319.542612,-0.0881594196 411.911777,92.1045459 412,205.911809" id="Path" fill="#28AD68" fill-rule="nonzero"></path>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" points="100 216.77243 163.485214 280 312 132"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+#!groovy
+
+pipeline {
+    agent {label 'osx'}
+
+    environment{
+        ANDROID_HOME='/usr/local/opt/android-sdk'
+    }
+
+    stages {
+
+        stage('Checkout'){
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                sh '''
+                if [ ! -d glomomxandroid ]
+                then
+                    git clone ssh://git@globaldevtools.bbva.com:7999/sgndk/glomomxandroid.git -b buildlibraryjenkins
+                else 
+                    rm  -rf glomomxandroid
+                    git clone ssh://git@globaldevtools.bbva.com:7999/sgndk/glomomxandroid.git -b buildlibraryjenkins
+                fi
+                cd glomomxandroid/app/src/main/
+                if [ ! -d assets ]
+                then
+                    mkdir assets/
+                fi
+                cd assets/
+                if [ ! -d glomomxappworkflow ]
+                then
+                    mkdir glomomxappworkflow/
+                else 
+                    rm glomomxappworkflow/*
+                fi
+                cd ../../../../../
+                cp *.json glomomxandroid/app/src/main/assets/glomomxappworkflow
+                cd glomomxandroid
+                git add . 
+                git commit -m "Updating App Configuration"
+                git push origin HEAD:buildlibraryjenkins
+                '''
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "data": {
+        "TEST": {
+            "appVersion": {
+                "Android": {
+                    "minVersion": 37,
+                    "adviceVersion": 37,
+                    "packageId": "com.bancomer.mbanking",
+                    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking",
+                    "minOsVersion": "0.0",
+                    "forceUseBMovil": false,
+                    "bMovilPackageId": "com.bancomer.mbanking",
+                    "bMovilAppStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking"
+                },
+                "iOS": {
+                    "minVersion": "1.0.20181231",
+                    "adviceVersion": "1.0.20181231",
+                    "bundleId": "com.bbva.glomo.mx",
+                    "appStoreUrl": "https://itunes.apple.com/app/id1153847325",
+                    "minOsVersion": "0",
+                    "forceUseBMovil": false,
+                    "bMovilBundleId": "com.bancomer.bbva.bancomermovil",
+                    "bMovilAppStoreUrl": "https://itunes.apple.com/app/id374824226"
+                }
+            },
+            "feedback": {
+                "enabled": true,
+                "useStaticUrl": true,
+                "feedbackResetIndex": 5,
+                "appURL": "https://www.opinator.com/opi/glomo-app-mexico/",
+                "feedbackUrl": {
+                    "billPayments": "https://www.opinator.com/opi/GM_TEST_MX_SERVICE_PAYMENT_SUCCESS_NPS/",
+                    "mobileTopUp": "https://www.opinator.com/opi/GM_TEST_MX_MOBILE_TOP_UP_SUCCESS_NPS/",
+                    "transactionList": "https://www.opinator.com/opi/GM_TEST_MX_TRANSACTION_LIST_SUCCESS_NPS",
+                    "cardlessWithdrawal": "https://www.opinator.com/opi/GM_TEST_MX_CARDLESS_WITHDRAWAL_SUCCESS_NPS/"
+                }
+            },
+            "contact": {
+                "phone": "8002262663",
+                "preventFraudNumber": "5552262663",
+                "equityPhone": "018001121113"
+            },
+            "ivr": "",
+            "isFullOnboarding": true,
+            "smartAssistant": "0099",
+            "biometricFacial": "",
+            "rateApp": {
+                "value": 4
+            },
+            "landing": {
+                "segment": "personal",
+                "shortcuts": "/content/caas/mexico/glomo/landing/shortcuts/detault.model.json",
+                "background": {
+                  "landing": "/content/dam/caas/mexico/glomo/landing/background/default.png",
+                  "login": "/content/dam/caas/mexico/glomo/dashboard-customization/default_login.jpg.imgcaas.w768.jpg",
+                  "dashboard": "/content/dam/caas/mexico/glomo/dashboard-customization/default_dashboard.jpg.imgcaas.w768.jpg"
+                }
+            }
+        },
+        "ARTICHOKE_PROD": {
+            "appVersion": {
+                "Android": {
+                    "minVersion": 37,
+                    "adviceVersion": 37,
+                    "packageId": "com.bancomer.mbanking",
+                    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking",
+                    "minOsVersion": "0.0",
+                    "forceUseBMovil": false,
+                    "bMovilPackageId": "com.bancomer.mbanking",
+                    "bMovilAppStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking"
+                },
+                "iOS": {
+                    "minVersion": "1.0.20181231",
+                    "adviceVersion": "1.0.20181231",
+                    "bundleId": "com.bbva.glomo.mx",
+                    "appStoreUrl": "https://itunes.apple.com/app/id1153847325",
+                    "minOsVersion": "0",
+                    "forceUseBMovil": false,
+                    "bMovilBundleId": "com.bancomer.bbva.bancomermovil",
+                    "bMovilAppStoreUrl": "https://itunes.apple.com/app/id374824226"
+                }
+            },
+            "feedback": {
+                "enabled": true,
+                "useStaticUrl": true,
+                "feedbackResetIndex": 5,
+                "appURL": "https://www.opinator.com/opi/glomo-app-mexico/",
+                "feedbackUrl": {
+                    "billPayments": "https://www.opinator.com/opi/GM_STAGE_MX_SERVICE_PAYMENT_SUCCESS_NPS/",
+                    "mobileTopUp": "https://www.opinator.com/opi/GM_STAGE_MX_MOBILE_TOP_UP_SUCCESS_NPS/",
+                    "transactionList": "https://www.opinator.com/opi/GM_STAGE_MX_TRANSACTION_LIST_SUCCESS_NPS/",
+                    "cardlessWithdrawal": "https://www.opinator.com/opi/GM_STAGE_MX_CARDLESS_WITHDRAWAL_SUCCESS_NPS/"
+                }
+            },
+            "contact": {
+                "phone": "8002262663",
+                "preventFraudNumber": "5552262663",
+                "equityPhone": "018001121113"
+            },
+            "ivr": "1:0049,2:0049,3:0049,4:0049,5:0049,6:0049,0:0049",
+            "isFullOnboarding": true,
+            "smartAssistant": "0099",
+            "biometricFacial": "",
+            "rateApp": {
+                "value": 4
+            },
+            "landing": {
+                "segment": "personal",
+                "shortcuts": "/content/caas/mexico/glomo/landing/shortcuts/detault.model.json",
+                "background": {
+                  "landing": "/content/dam/caas/mexico/glomo/landing/background/default.png",
+                  "login": "/content/dam/caas/mexico/glomo/dashboard-customization/default_login.jpg.imgcaas.w768.jpg",
+                  "dashboard": "/content/dam/caas/mexico/glomo/dashboard-customization/default_dashboard.jpg.imgcaas.w768.jpg"
+                }
+            }
+        },
+        "DEV": {
+            "appVersion": {
+                "Android": {
+                    "minVersion": 37,
+                    "adviceVersion": 37,
+                    "packageId": "com.bancomer.mbanking",
+                    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking",
+                    "minOsVersion": "0.0",
+                    "forceUseBMovil": false,
+                    "bMovilPackageId": "com.bancomer.mbanking",
+                    "bMovilAppStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking"
+                },
+                "iOS": {
+                    "minVersion": "1.0.20181231",
+                    "adviceVersion": "1.0.20181231",
+                    "bundleId": "com.bbva.glomo.mx",
+                    "appStoreUrl": "https://itunes.apple.com/app/id1153847325",
+                    "minOsVersion": "0",
+                    "forceUseBMovil": false,
+                    "bMovilBundleId": "com.bancomer.bbva.bancomermovil",
+                    "bMovilAppStoreUrl": "https://itunes.apple.com/app/id374824226"
+                }
+            },
+            "feedback": {
+                "enabled": true,
+                "useStaticUrl": true,
+                "feedbackResetIndex": 5,
+                "appURL": "https://www.opinator.com/opi/glomo-app-mexico/",
+                "feedbackUrl": {
+                    "billPayments": "https://www.opinator.com/opi/GM_DEV_MX_SERVICE_PAYMENT_SUCCESS_NPS/",
+                    "mobileTopUp": "https://www.opinator.com/opi/GM_DEV_MX_MOBILE_TOP_UP_SUCCESS_NPS/",
+                    "transactionList": "https://www.opinator.com/opi/GM_DEV_MX_TRANSACTION_LIST_SUCCESS_NPS/",
+                    "cardlessWithdrawal": "https://www.opinator.com/opi/GM_DEV_MX_CARDLESS_WITHDRAWAL_SUCCESS_NPS/"
+                }
+            },
+            "contact": {
+                "phone": "8002262663",
+                "preventFraudNumber": "5552262663",
+                "equityPhone": "018001121113"
+            },
+            "ivr": "",
+            "isFullOnboarding": true,
+            "smartAssistant": "0099",
+            "biometricFacial": "",
+            "rateApp": {
+                "value": 4
+            },
+            "landing": {
+                "segment": "personal",
+                "shortcuts": "/content/caas/mexico/glomo/landing/shortcuts/detault.model.json",
+                "background": {
+                  "landing": "/content/dam/caas/mexico/glomo/landing/background/default.png",
+                  "login": "/content/dam/caas/mexico/glomo/dashboard-customization/default_login.jpg.imgcaas.w768.jpg",
+                  "dashboard": "/content/dam/caas/mexico/glomo/dashboard-customization/default_dashboard.jpg.imgcaas.w768.jpg"
+                }
+            }
+        },
+        "PRE_PROD": {
+            "appVersion": {
+                "Android": {
+                    "minVersion": 37,
+                    "adviceVersion": 37,
+                    "packageId": "com.bancomer.mbanking",
+                    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking",
+                    "minOsVersion": "0.0",
+                    "forceUseBMovil": false,
+                    "bMovilPackageId": "com.bancomer.mbanking",
+                    "bMovilAppStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking"
+                },
+                "iOS": {
+                    "minVersion": "1.0.20181231",
+                    "adviceVersion": "1.0.20181231",
+                    "bundleId": "com.bbva.glomo.mx",
+                    "appStoreUrl": "https://itunes.apple.com/app/id1153847325",
+                    "minOsVersion": "0",
+                    "forceUseBMovil": false,
+                    "bMovilBundleId": "com.bancomer.bbva.bancomermovil",
+                    "bMovilAppStoreUrl": "https://itunes.apple.com/app/id374824226"
+                }
+            },
+            "feedback": {
+                "enabled": true,
+                "useStaticUrl": true,
+                "feedbackResetIndex": 5,
+                "appURL": "https://www.opinator.com/opi/glomo-app-mexico/",
+                "feedbackUrl": {
+                    "billPayments": "https://www.opinator.com/opi/GM_MX_SERVICE_PAYMENT_SUCCESS_NPS/",
+                    "mobileTopUp": "https://www.opinator.com/opi/GM_MX_MOBILE_TOP_UP_SUCCESS_NPS/",
+                    "transactionList": "https://www.opinator.com/opi/GM_MX_TRANSACTION_LIST_SUCCESS_NPS/",
+                    "cardlessWithdrawal": "https://www.opinator.com/opi/GM_MX_CARDLESS_WITHDRAWAL_SUCCESS_NPS/"
+                }
+            },
+            "contact": {
+                "phone": "8002262663",
+                "preventFraudNumber": "5552262663",
+                "equityPhone": "018001121113"
+            },
+            "ivr": "1:0099,2:0099,3:0099,4:0099,5:0099,6:0099,0:0099",
+            "isFullOnboarding": true,
+            "smartAssistant": "0099",
+            "biometricFacial": "",
+            "rateApp": {
+                "value": 4
+            },
+            "landing": {
+                "segment": "personal",
+                "shortcuts": "/content/caas/mexico/glomo/landing/shortcuts/detault.model.json",
+                "background": {
+                  "landing": "/content/dam/caas/mexico/glomo/landing/background/default.png",
+                  "login": "/content/dam/caas/mexico/glomo/dashboard-customization/default_login.jpg.imgcaas.w768.jpg",
+                  "dashboard": "/content/dam/caas/mexico/glomo/dashboard-customization/default_dashboard.jpg.imgcaas.w768.jpg"
+                }
+            }
+        },
+        "PROD": {
+            "appVersion": {
+                "Android": {
+                    "minVersion": 37,
+                    "adviceVersion": 37,
+                    "packageId": "com.bancomer.mbanking",
+                    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking",
+                    "minOsVersion": "0.0",
+                    "forceUseBMovil": false,
+                    "bMovilPackageId": "com.bancomer.mbanking",
+                    "bMovilAppStoreUrl": "https://play.google.com/store/apps/details?id=com.bancomer.mbanking"
+                },
+                "iOS": {
+                    "minVersion": "1.0.20181231",
+                    "adviceVersion": "1.0.20181231",
+                    "bundleId": "com.bbva.glomo.mx",
+                    "appStoreUrl": "https://itunes.apple.com/app/id1153847325",
+                    "minOsVersion": "0",
+                    "forceUseBMovil": false,
+                    "bMovilBundleId": "com.bancomer.bbva.bancomermovil",
+                    "bMovilAppStoreUrl": "https://itunes.apple.com/app/id374824226"
+                }
+            },
+            "feedback": {
+                "enabled": true,
+                "useStaticUrl": true,
+                "feedbackResetIndex": 5,
+                "appURL": "https://www.opinator.com/opi/glomo-app-mexico/",
+                "feedbackUrl": {
+                    "billPayments": "https://www.opinator.com/opi/GM_MX_SERVICE_PAYMENT_SUCCESS_NPS/",
+                    "mobileTopUp": "https://www.opinator.com/opi/GM_MX_MOBILE_TOP_UP_SUCCESS_NPS/",
+                    "transactionList": "https://www.opinator.com/opi/GM_MX_TRANSACTION_LIST_SUCCESS_NPS/",
+                    "cardlessWithdrawal": "https://www.opinator.com/opi/GM_MX_CARDLESS_WITHDRAWAL_SUCCESS_NPS/"
+                }
+            },
+            "contact": {
+                "phone": "8002262663",
+                "preventFraudNumber": "5552262663",
+                "equityPhone": "018001121113"
+            },
+            "ivr": "1:0099,2:0099,3:0099,4:0099,5:0099,6:0099,0:0099",
+            "isFullOnboarding": true,
+            "smartAssistant": "0099",
+            "biometricFacial": "",
+            "rateApp": {
+                "value": 4
+            },
+            "landing": {
+                "segment": "personal",
+                "shortcuts": "/content/caas/mexico/glomo/landing/shortcuts/detault.model.json",
+                "background": {
+                    "landing": "/content/dam/caas/mexico/glomo/landing/background/default.png",
+                    "login": "/content/dam/caas/mexico/glomo/dashboard-customization/default_login.jpg.imgcaas.w768.jpg",
+                    "dashboard": "/content/dam/caas/mexico/glomo/dashboard-customization/default_dashboard.jpg.imgcaas.w768.jpg"
+                }
+            }
+        }
+    }
+}

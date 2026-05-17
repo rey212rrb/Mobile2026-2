@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="MICROSOFTXX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M48,24.0000239 C48,37.2548447 37.2547969,48 23.9999761,48 C10.7451553,48 0,37.2548447 0,24.0000239 C0,10.7452031 10.7451553,0 23.9999761,0 C30.3690542,-0.0126646699 36.480931,2.51181449 40.9845582,7.01544176 C45.4881855,11.519069 48.0126647,17.6309458 48,24.0000239" id="forma1" fill="#F4F4F4" fill-rule="nonzero"></path>
+        <polygon id="forma2" fill="#F25022" fill-rule="nonzero" points="11 11 23.0148 11 23.0148 23.0148 11 23.0148"></polygon>
+        <polygon id="forma3" fill="#7FBA00" fill-rule="nonzero" points="24.2692 11 36.284 11 36.284 23.0148 24.2692 23.0148"></polygon>
+        <polygon id="forma4" fill="#00A4EF" fill-rule="nonzero" points="11 24.2692 23.0148 24.2692 23.0148 36.284 11 36.284"></polygon>
+        <polygon id="forma5" fill="#FFB900" fill-rule="nonzero" points="24.2692 24.2692 36.284 24.2692 36.284 36.284 24.2692 36.284"></polygon>
+    </g>
+</svg>

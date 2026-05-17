@@ -1,0 +1,458 @@
+{
+  "op": "popAndPush",
+  "payload": {
+    "page": "points",
+    "components": [
+      {
+        "tagName": "customerPointsComponent",
+        "type": "UI",
+        "properties": {
+          "customerPointsParentLayout": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_DARK_AQUA"
+            }
+          },
+          "rewardBackgroundImage": {
+            "source": {
+              "type": "resource",
+              "value": "ilu_points_big"
+            }
+          },
+          "emptyRewardBackgroundImage": {
+            "source": {
+              "type": "resource",
+              "value": "ilu_no_points_big"
+            }
+          },
+          "pointsText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_light"
+            }
+          },
+          "exchangeAmountText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium"
+            }
+          },
+          "descriptionText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book_italic"
+            }
+          },
+          "titleText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium"
+            }
+          },
+          "pointsSeparatorView": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_AQUA"
+            }
+          },
+          "pointsInfoText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book_italic"
+            }
+          },
+          "helpPointsIconImage": {
+            "source": {
+              "type": "resource",
+              "value": "info_icon"
+            }
+          },
+          "helpPointsIconTintImage": {
+            "type": "resource",
+            "value": "BBVA_WHITE"
+          },
+          "alternativeFontType": {
+            "type": "resource",
+            "value": "benton_sans_light"
+          },
+          "helpPointsOutputText": {
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_WHITE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium"
+            }
+          },
+          "pointsButton": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_DARKER_AQUA"
+            }
+          },
+          "noPointsLiterals": [
+            {
+              "id": "noPointsDescription1",
+              "value": "key_points_dashboard_no_points_text"
+            },
+            {
+              "id": "noPointsDescription2",
+              "value": "key_points_how_to_get_points_text"
+            }
+          ],
+          "redeemableLiterals": [
+            {
+              "id": "pointsDescription",
+              "value": "key_points_expire_text"
+            }
+          ],
+          "emptyLiterals": [
+            {
+              "id": "emptyDescription1",
+              "value": "key_points_get_points_bbva"
+            },
+            {
+              "id": "emptyDescription2",
+              "value": "key_points_no_points_to_redeem_text"
+            },
+            {
+              "id": "emptyDescription3",
+              "value": "key_points_how_to_get_points_text"
+            }
+          ],
+          "errorLiterals": [
+            {
+              "id": "errorDescription1",
+              "value": "key_points_error_loading_text"
+            },
+            {
+              "id": "errorDescription2",
+              "value": "key_points_reload_text"
+            }
+          ],
+          "redeemPointsInfoLiterals": [
+            {
+              "id": "pointsInfo",
+              "value": "key_points_redeem_points_info_text"
+            },
+            {
+              "id": "pointsNoPurchaseInfo",
+              "value": "key_points_no_purchase_to_redeem_text"
+            }
+          ],
+          "redeemPointsLiterals": [
+            {
+              "id": "pointsInfo",
+              "value": "key_points_redeem_points"
+            }
+          ],
+          "exchangeAmountLiterals": [
+            {
+              "id": "pointsInfo",
+              "value": "key_points_equivalent_to_text"
+            }
+          ]
+        }
+      },
+      {
+        "tagName": "cardDatePoints",
+        "type": "UI",
+        "properties": {
+          "datePointsTextView": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium_italic"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_DARK_GOLD"
+            },
+            "text": {
+              "type": "resource",
+              "value": "key_points_from_date_to_date_text"
+            }
+          },
+          "patternDateStart": {
+            "type": "resource",
+            "value": "key_points_pattern_date_start"
+          },
+          "patternDateEnd": {
+            "type": "resource",
+            "value": "key_points_pattern_date_end"
+          },
+          "patternServerDate": {
+            "type": "resource",
+            "value": "key_points_pattern_date_server"
+          },
+          "pointsTextView": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_600"
+            }
+          },
+          "descriptionPointsTextView": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_500"
+            },
+            "text": {
+              "type": "resource",
+              "value": "key_points_balance_text"
+            }
+          },
+          "helpTintColorPreviousBalancePoints": {
+            "type": "resource",
+            "value": "BBVA_DARK_AQUA"
+          },
+          "helpTintColorGeneratedPoints": {
+            "type": "resource",
+            "value": "BBVA_AQUA"
+          },
+          "helpTintColorUsedPoints": {
+            "type": "resource",
+            "value": "BBVA_CORAL"
+          },
+          "helpTintColorExpiredPoints": {
+            "type": "resource",
+            "value": "BBVA_LIGHT_CORAL"
+          },
+          "previousBalancePointsText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_previous_balance_text"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "generatedPointsText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_generated_text"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "usedPointsText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_used_text"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "expiredPointsText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_expired_text"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "amountPreviousBalancePointsText": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "amountGeneratedPointsText": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "amountAppliedPointsText": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "amountExpiredPointsText": {
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "informationMessageBodyText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_info_title_text"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "informationImageView": {
+            "source": {
+              "type": "resource",
+              "value": "info_icon"
+            },
+            "informationTintIcon": {
+              "type": "resource",
+              "value": "BBVA_LIGHT_BLUE"
+            }
+          },
+          "informationContainer": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_WHITE_LIGHT_BLUE_t30"
+            }
+          },
+          "informationMessageHeaderText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_disclaimer_crea_card"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "informationHeaderImageView": {
+            "source": {
+              "type": "resource",
+              "value": "info_icon"
+            },
+            "informationHeaderTintIcon": {
+              "type": "resource",
+              "value": "BBVA_LIGHT_BLUE"
+            }
+          },
+          "informationHeaderContainer": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_WHITE_LIGHT_BLUE_t30"
+            }
+          },
+          "warningMessageBodyText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_info_title_error_text"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "warningImageView": {
+            "source": {
+              "type": "resource",
+              "value": "alert_icon"
+            },
+            "warningTintIcon": {
+              "type": "resource",
+              "value": "BBVA_LIGHT_RED"
+            }
+          },
+          "warningContainer": {
+            "background-color": {
+              "type": "resource",
+              "value": "BBVA_WHITE_RED_t50"
+            }
+          },
+          "errorMessageBodyText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_error_loading_try_again_text"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "errorMessageButtonText": {
+            "text": {
+              "type": "resource",
+              "value": "key_points_reload_text"
+            },
+            "text-color-state": {
+              "type": "resource",
+              "value": "BBVA_MEDIUM_BLUE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_bold"
+            }
+          },
+          "errorImageView": {
+            "source": {
+              "type": "resource",
+              "value": "alert_icon"
+            },
+            "warningTintIcon": {
+              "type": "resource",
+              "value": "BBVA_LIGHT_RED"
+            }
+          }
+        }
+      },
+      {
+        "tagName": "component-data-manager-card-reward-balance-store",
+        "type": "DM",
+        "properties": {
+          "host": "@global/server"
+        }
+      },
+      {
+        "tagName": "component-data-manager-customer-points-store",
+        "type": "DM",
+        "properties": {
+          "host": "@global/server"
+        }
+      }
+    ]
+  }
+}

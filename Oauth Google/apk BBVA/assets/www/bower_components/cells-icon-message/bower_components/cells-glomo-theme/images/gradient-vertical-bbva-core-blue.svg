@@ -1,0 +1,33 @@
+<svg width="294px" height="238px" viewBox="0 0 294 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M0,1.00899502 C0,0.451742458 0.448078103,0 1.00034362,0 L286.999656,0 C287.552131,0 288,0.44110477 288,1.00899502 L288,230.991005 C288,231.548258 287.551922,232 286.999656,232 L1.00034362,232 C0.447869096,232 0,231.558895 0,230.991005 L0,1.00899502 Z" id="path-1"></path>
+        <filter x="-2.1%" y="-1.7%" width="103.5%" height="104.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Account/Ficha/Producto" transform="translate(3.000000, -230.000000)">
+            <rect fill="#072146" x="0" y="0" width="289" height="1839"></rect>
+            <g id="Component/Panels/Fixed-Button/Default/Normal/No-Commissions">
+                <g transform="translate(1.000000, 232.000000)">
+                    <g id="bg">
+                        <g id="Background">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="bg">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                <use fill="#004481" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <rect id="bg" fill="#004481" mask="url(#mask-2)" x="-128" y="-89" width="556" height="480" rx="1"></rect>
+                            <path d="M139.598203,-95.557984 L426.998418,-95.9999987 C427.551664,-96.0008496 428.000082,-95.5600607 427.999985,-94.9958978 L427.917337,384.899332 C427.917241,385.454732 427.473361,385.90621 426.925193,385.907738 L35,387 L139.598203,-95.557984 Z" id="Path-16" fill="#237ABA" opacity="0.1" mask="url(#mask-2)"></path>
+                            <path d="M264.613375,-95.559157 L426.99915,-95.999996 C427.551991,-96.0014968 428.000082,-95.5612337 427.999985,-94.9970694 L427.917338,384.899327 C427.917243,385.454729 427.467432,385.905974 426.911265,385.907215 L-63,387 L264.613375,-95.559157 Z" id="Path-16" fill="#237ABA" opacity="0.1" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

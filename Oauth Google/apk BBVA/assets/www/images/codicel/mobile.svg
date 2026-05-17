@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="44px" viewBox="0 0 28 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mobile</title>
+    <defs>
+        <linearGradient x1="35.3242887%" y1="1.03629099%" x2="64.6751656%" y2="98.9634413%" id="linearGradient-1">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.2047138%" y1="22.317605%" x2="67.3288877%" y2="73.0104732%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#ECF7F8" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🚥-Change-State-Here" transform="translate(-92.000000, -12.000000)">
+            <g id="mobile" transform="translate(80.000000, 8.000000)">
+                <g id="Cuadrados_Blancos">
+                    <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                    <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                </g>
+                <g id="Capa_11" transform="translate(12.720000, 4.320000)" fill-rule="nonzero">
+                    <path d="M7.18406206,4.8384 L24.8437498,4.8384 C26.0118879,4.8392 26.9591999,5.7864 26.96,6.956 L26.96,41.5624 C26.9591999,42.7312 26.0118879,43.6784 24.8437498,43.68 L7.18406206,43.68 C6.01592396,43.6792 5.06861197,42.732 5.06781187,41.5624 L5.06781187,6.956 C5.06861197,5.7872 6.01512387,4.84 7.18406206,4.8384 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                    <path d="M2.09706067,0 L19.643135,0 C20.8032721,0.0016 21.7417831,0.9432 21.7401849,2.1024 C21.7401849,2.104 21.7401849,2.1048 21.7401849,2.1064 L21.7401849,36.4544 C21.7393828,37.612 20.8008719,38.5512 19.643135,38.5512 L2.09706067,38.5512 C0.939323799,38.5504 0,37.612 0,36.4544 L0,2.1064 C-0.00398772026,0.9464 0.933723137,0.004 2.0930602,0 C2.09466038,0 2.09626057,0 2.09706067,0 Z" id="Path" fill="#1464A5"></path>
+                    <rect id="Rectangle" fill="#49A5E6" x="1.27526808e-05" y="4.8384" width="21.7497713" height="28.8736"></rect>
+                    <polygon id="Path" fill="url(#linearGradient-2)" opacity="0.5" points="0.0288161579 4.8576 0.0288161579 33.6928 11.1125265 33.712 21.740983 14.0712 21.740983 4.8384"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

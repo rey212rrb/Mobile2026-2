@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "currencyCode": "MXN",
+      "symbol": "$",
+      "friendlyName": "Pesos",
+      "fullFriendlyName": "Peso Mexicano",
+      "fullFriendlyNamePlural": "Pesos Mexicanos",
+      "symbolPosition": "LEFT",
+      "negativePosition": "RIGHT",
+      "locale": "es_MX"
+    },
+    {
+      "currencyCode": "CLP",
+      "symbol": "Ch$",
+      "friendlyName": "Pesos (CLP)",
+      "fullFriendlyName": "Peso Chileno",
+      "fullFriendlyNamePlural": "Pesos Chilenos",
+      "symbolPosition": "LEFT",
+      "negativePosition": "RIGHT",
+      "locale": "es_CL"
+    },
+    {
+      "currencyCode": "COP",
+      "symbol": "Col$",
+      "friendlyName": "Pesos (COP)",
+      "fullFriendlyName": "Peso Colombiano",
+      "fullFriendlyNamePlural": "Pesos Colombianos",
+      "symbolPosition": "LEFT",
+      "negativePosition": "RIGHT",
+      "locale": "es_CO"
+    },
+    {
+      "currencyCode": "ARS",
+      "symbol": "Ar$",
+      "friendlyName": "Pesos (ARS)",
+      "fullFriendlyName": "Peso Argentino",
+      "fullFriendlyNamePlural": "Pesos Argentinos",
+      "symbolPosition": "LEFT",
+      "negativePosition": "RIGHT",
+      "locale": "es_AR"
+    },
+    {
+      "currencyCode": "USD",
+      "symbol": "US$",
+      "friendlyName": "Dólares",
+      "fullFriendlyName": "Dólar",
+      "fullFriendlyNamePlural": "Dólares",
+      "symbolPosition": "LEFT",
+      "negativePosition": "RIGHT",
+      "locale": "en_US"
+    },
+    {
+      "currencyCode": "PEN",
+      "symbol": "S/",
+      "friendlyName": "Soles",
+      "fullFriendlyName": "Nuevo Sol Peruano",
+      "fullFriendlyNamePlural": "Nuevos Soles Peruanos",
+      "symbolPosition": "LEFT",
+      "negativePosition": "LEFT",
+      "locale": "es_PE"
+    },
+    {
+      "currencyCode": "EUR",
+      "symbol": "€",
+      "friendlyName": "Euros",
+      "fullFriendlyName": "Euro",
+      "fullFriendlyNamePlural": "Euros",
+      "symbolPosition": "RIGHT",
+      "negativePosition": "LEFT",
+      "locale": "es_ES"
+    },
+    {
+      "currencyCode": "UDI",
+      "symbol": "UDI ",
+      "friendlyName": "UDI",
+      "fullFriendlyName": "UDI",
+      "fullFriendlyNamePlural": "UDI",
+      "symbolPosition": "LEFT",
+      "negativePosition": "LEFT",
+      "locale": "es_MX"
+    },
+    {
+      "currencyCode": "VSM",
+      "symbol": "VSM ",
+      "friendlyName": "VSM",
+      "fullFriendlyName": "VSM",
+      "fullFriendlyNamePlural": "VSM",
+      "symbolPosition": "LEFT",
+      "negativePosition": "LEFT",
+      "locale": "es_MX"
+    },
+    {
+      "currencyCode": "UCF",
+      "symbol": "UDI ",
+      "friendlyName": "UDI",
+      "fullFriendlyName": "UDI",
+      "fullFriendlyNamePlural": "UDI",
+      "symbolPosition": "LEFT",
+      "negativePosition": "LEFT",
+      "locale": "es_MX"
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+{
+  "data": {
+    "ARTICHOKE_PROD": {
+      "authentication": {
+        "data": {
+          "countryId": "mx",
+          "authenticationType": {
+            "userPassword": "02",
+            "userPanPinCvv": "57",
+            "pinToken": "153",
+            "userBiometrics": "62",
+            "refreshToken": "30",
+            "anonymous": "61",
+            "panPinCvv": "84",
+            "userPanDob": "83",
+            "public": "61",
+            "visualMenu": "61",
+            "fido": "106",
+            "userPasswordAlpha": "02",
+            "userFidoAlpha": "106",
+            "userPasswordStandIn": "02"
+          },
+          "consumerID": {
+            "userPassword": "10000033",
+            "userPanPinCvv": "10000088",
+            "pinToken": "10000173",
+            "userBiometrics": "10000033",
+            "refreshToken": "10000033",
+            "anonymous": "10000088",
+            "panPinCvv": "10000088",
+            "userPanDob": "10000088",
+            "public": "10000088",
+            "visualMenu": "10000085",
+            "fido": "10000033",
+            "userPasswordAlpha": "10000187",
+            "userFidoAlpha": "10000187",
+            "userPasswordStandIn": "10000094"
+          }
+        }
+      },
+      "securitySdk": {
+        "data": {
+          "vinTokenNoExport": false
+        }
+      },
+      "signOperation": {
+        "data": {
+          "numberOfRetriesAllowed": 2,
+          "otpSmsTimeout": 180,
+          "showSoftTokenTickImage": false,
+          "checkActivationForSigning": true,
+          "showOtpFailureAsToast": false,
+          "showExtraInformation": false,
+          "generateQrCodeOtps": true,
+          "otpDeviceIdFileName": "propFile",
+          "ivr": "1:0009,2:0009,3:0009,4:0009,5:0009,6:0009,0:0009"
+        }
+      },
+      "accessKeyRecovery": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameMaxLength": 10,
+          "usernameMinLength": 10,
+          "usernamePrefix": "",
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "checkPasswordStrength": false,
+          "passwordStrengthLowRegex": "",
+          "passwordStrengthMediumRegex": "",
+          "passwordStrengthHighRegex": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10,
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "useGlobalValidationRules": true,
+          "validateRepeatPassword": false
+        },
+        "items": []
+      },
+      "deviceActivation": {
+        "data": {
+          "serialToSkip": "BB-03",
+          "legacyKeychainEnabled": true,
+          "phoneNumberPrefix": "55",
+          "addAliasInDevice": false,
+          "pushEnabled": true,
+          "pushApplicationId": "240",
+          "pushServiceId": "PUSH_NOTIFICATIONS",
+          "userStatusCheck": true,
+          "checkCustomerContactDetails": false,
+          "blockCrontoUsers": true,
+          "pushDescription": "",
+          "biometricFacial": "",
+          "numberOfRetriesBiometricFacial": 5,
+          "useServiceConnectFor": [
+            "com.bbva.bbvawalletmx"
+          ]
+        }
+      },
+      "digitalActivation": {
+        "data": {
+          "documentIdentification": false,
+          "digitalValidation": true,
+          "cvvNipEncryption": true,
+          "chatAccountId": "85237869",
+          "firstCollapsedStepVisible": false,
+          "checkChannelStatusWithPan": false,
+          "showRegisteredEmailLayout": false,
+          "showTncStep": false,
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10
+        }
+      },
+      "onboarding": {
+        "data": {
+          "customersFieldsMaxLength": 40,
+          "customersDataMaxLength": 20,
+          "customerMaxAge": 100,
+          "customerMinAge": 18,
+          "colonyMaxLength": 30,
+          "ineOCRMaxLength": 13,
+          "ineRegistrationYearMaxlength": 4,
+          "ineIssueNumberMaxLength": 2,
+          "ineElectoralIdMaxLength": 18,
+          "customerMailMaxLength": 80,
+          "accountLength": 5
+        }
+      },
+      "fullOnboarding": {
+        "data": {
+        }
+      }
+    },
+    "DEV": {
+      "authentication": {
+        "data": {
+          "countryId": "mx",
+          "authenticationType": {
+            "userPassword": "02",
+            "userPanPinCvv": "57",
+            "pinToken": "153",
+            "userBiometrics": "62",
+            "refreshToken": "30",
+            "anonymous": "61",
+            "panPinCvv": "84",
+            "userPanDob": "83",
+            "public": "61",
+            "visualMenu": "61",
+            "fido": "106",
+            "userPasswordAlpha": "02",
+            "userFidoAlpha": "106",
+            "userPasswordStandIn": "02"
+          },
+          "consumerID": {
+            "userPassword": "10000033",
+            "userPanPinCvv": "10000088",
+            "pinToken": "10000173",
+            "userBiometrics": "10000033",
+            "refreshToken": "10000033",
+            "anonymous": "10000088",
+            "panPinCvv": "10000088",
+            "userPanDob": "10000088",
+            "public": "10000088",
+            "visualMenu": "10000085",
+            "fido": "10000033",
+            "userPasswordAlpha": "10000187",
+            "userFidoAlpha": "10000187",
+            "userPasswordStandIn": "10000094"
+          }
+        }
+      },
+      "securitySdk": {
+        "data": {
+          "vinTokenNoExport": false
+        }
+      },
+      "signOperation": {
+        "data": {
+          "numberOfRetriesAllowed": 2,
+          "otpSmsTimeout": 180,
+          "showSoftTokenTickImage": false,
+          "checkActivationForSigning": true,
+          "showOtpFailureAsToast": false,
+          "showExtraInformation": false,
+          "generateQrCodeOtps": true,
+          "otpDeviceIdFileName": "propFile",
+          "ivr": "1:0009,2:0009,3:0009,4:0009,5:0009,6:0009,0:0009"
+        }
+      },
+      "accessKeyRecovery": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameMaxLength": 10,
+          "usernameMinLength": 10,
+          "usernamePrefix": "",
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "checkPasswordStrength": false,
+          "passwordStrengthLowRegex": "",
+          "passwordStrengthMediumRegex": "",
+          "passwordStrengthHighRegex": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10,
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "useGlobalValidationRules": true,
+          "validateRepeatPassword": false
+        },
+        "items": []
+      },
+      "deviceActivation": {
+        "data": {
+          "serialToSkip": "BB-03",
+          "legacyKeychainEnabled": true,
+          "phoneNumberPrefix": "55",
+          "addAliasInDevice": false,
+          "pushEnabled": true,
+          "pushApplicationId": "240",
+          "pushServiceId": "PUSH_NOTIFICATIONS",
+          "userStatusCheck": true,
+          "checkCustomerContactDetails": false,
+          "blockCrontoUsers": true,
+          "pushDescription": "",
+          "biometricFacial": "",
+          "numberOfRetriesBiometricFacial": 5,
+          "useServiceConnectFor": [
+            "com.bbva.bbvawalletmx"
+          ]
+        }
+      },
+      "digitalActivation": {
+        "data": {
+          "documentIdentification": false,
+          "digitalValidation": true,
+          "cvvNipEncryption": true,
+          "chatAccountId": "85237869",
+          "firstCollapsedStepVisible": false,
+          "checkChannelStatusWithPan": false,
+          "showRegisteredEmailLayout": false,
+          "showTncStep": false,
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10
+        }
+      },
+      "onboarding": {
+        "data": {
+          "customersFieldsMaxLength": 40,
+          "customersDataMaxLength": 20,
+          "customerMaxAge": 100,
+          "customerMinAge": 18,
+          "colonyMaxLength": 30,
+          "ineOCRMaxLength": 13,
+          "ineRegistrationYearMaxlength": 4,
+          "ineIssueNumberMaxLength": 2,
+          "ineElectoralIdMaxLength": 18,
+          "customerMailMaxLength": 80,
+          "accountLength": 5
+        }
+      },
+      "fullOnboarding": {
+        "data": {
+        }
+      }
+    },
+    "TEST": {
+      "authentication": {
+        "data": {
+          "countryId": "mx",
+          "authenticationType": {
+            "userPassword": "02",
+            "userPanPinCvv": "57",
+            "pinToken": "153",
+            "userBiometrics": "62",
+            "refreshToken": "30",
+            "anonymous": "61",
+            "panPinCvv": "84",
+            "userPanDob": "83",
+            "public": "61",
+            "visualMenu": "61",
+            "fido": "106",
+            "userPasswordAlpha": "02",
+            "userFidoAlpha": "106",
+            "userPasswordStandIn": "02"
+          },
+          "consumerID": {
+            "userPassword": "10000033",
+            "userPanPinCvv": "10000088",
+            "pinToken": "10000173",
+            "userBiometrics": "10000033",
+            "refreshToken": "10000033",
+            "anonymous": "10000088",
+            "panPinCvv": "10000088",
+            "userPanDob": "10000088",
+            "public": "10000088",
+            "visualMenu": "10000085",
+            "fido": "10000033",
+            "userPasswordAlpha": "10000187",
+            "userFidoAlpha": "10000187",
+            "userPasswordStandIn": "10000094"
+          }
+        }
+      },
+      "securitySdk": {
+        "data": {
+          "vinTokenNoExport": false
+        }
+      },
+      "signOperation": {
+        "data": {
+          "numberOfRetriesAllowed": 2,
+          "otpSmsTimeout": 180,
+          "showSoftTokenTickImage": false,
+          "checkActivationForSigning": true,
+          "showOtpFailureAsToast": false,
+          "showExtraInformation": false,
+          "generateQrCodeOtps": true,
+          "otpDeviceIdFileName": "propFile",
+          "ivr": "1:0049,2:0049,3:0049,4:0049,5:0049,6:0049,0:0049"
+        }
+      },
+      "accessKeyRecovery": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameMaxLength": 10,
+          "usernameMinLength": 10,
+          "usernamePrefix": "",
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "checkPasswordStrength": false,
+          "passwordStrengthLowRegex": "",
+          "passwordStrengthMediumRegex": "",
+          "passwordStrengthHighRegex": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10,
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "useGlobalValidationRules": true,
+          "validateRepeatPassword": false
+        },
+        "items": []
+      },
+      "deviceActivation": {
+        "data": {
+          "serialToSkip": "BB-03",
+          "legacyKeychainEnabled": true,
+          "phoneNumberPrefix": "55",
+          "addAliasInDevice": false,
+          "pushEnabled": true,
+          "pushApplicationId": "240",
+          "pushServiceId": "PUSH_NOTIFICATIONS",
+          "userStatusCheck": true,
+          "checkCustomerContactDetails": false,
+          "blockCrontoUsers": true,
+          "pushDescription": "",
+          "biometricFacial": "",
+          "numberOfRetriesBiometricFacial": 5,
+          "useServiceConnectFor": [
+            "com.bbva.bbvawalletmx"
+          ]
+        }
+      },
+      "digitalActivation": {
+        "data": {
+          "documentIdentification": false,
+          "digitalValidation": true,
+          "cvvNipEncryption": true,
+          "chatAccountId": "85237869",
+          "firstCollapsedStepVisible": false,
+          "checkChannelStatusWithPan": false,
+          "showRegisteredEmailLayout": false,
+          "showTncStep": false,
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10
+        }
+      },
+      "onboarding": {
+        "data": {
+          "customersFieldsMaxLength": 40,
+          "customersDataMaxLength": 20,
+          "customerMaxAge": 100,
+          "customerMinAge": 18,
+          "colonyMaxLength": 30,
+          "ineOCRMaxLength": 13,
+          "ineRegistrationYearMaxlength": 4,
+          "ineIssueNumberMaxLength": 2,
+          "ineElectoralIdMaxLength": 18,
+          "customerMailMaxLength": 80,
+          "accountLength": 5
+        }
+      },
+      "fullOnboarding": {
+        "data": {
+        }
+      }
+    },
+    "PRE_PROD": {
+      "authentication": {
+        "data": {
+          "countryId": "mx",
+          "authenticationType": {
+            "userPassword": "02",
+            "userPanPinCvv": "57",
+            "pinToken": "153",
+            "userBiometrics": "62",
+            "refreshToken": "30",
+            "anonymous": "61",
+            "panPinCvv": "84",
+            "userPanDob": "83",
+            "public": "61",
+            "visualMenu": "61",
+            "fido": "106",
+            "userPasswordAlpha": "02",
+            "userFidoAlpha": "106",
+            "userPasswordStandIn": "02"
+          },
+          "consumerID": {
+            "userPassword": "10000033",
+            "userPanPinCvv": "10000088",
+            "pinToken": "10000173",
+            "userBiometrics": "10000033",
+            "refreshToken": "10000033",
+            "anonymous": "10000088",
+            "panPinCvv": "10000088",
+            "userPanDob": "10000088",
+            "public": "10000088",
+            "visualMenu": "10000085",
+            "fido": "10000033",
+            "userPasswordAlpha": "10000187",
+            "userFidoAlpha": "10000187",
+            "userPasswordStandIn": "10000094"
+          }
+        }
+      },
+      "securitySdk": {
+        "data": {
+          "vinTokenNoExport": false
+        }
+      },
+      "signOperation": {
+        "data": {
+          "numberOfRetriesAllowed": 2,
+          "otpSmsTimeout": 180,
+          "showSoftTokenTickImage": false,
+          "checkActivationForSigning": true,
+          "showOtpFailureAsToast": false,
+          "showExtraInformation": false,
+          "generateQrCodeOtps": true,
+          "otpDeviceIdFileName": "propFile",
+          "ivr": "1:0099,2:0099,3:0099,4:0099,5:0099,6:0099,0:0099"
+        }
+      },
+      "accessKeyRecovery": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameMaxLength": 10,
+          "usernameMinLength": 10,
+          "usernamePrefix": "",
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "checkPasswordStrength": false,
+          "passwordStrengthLowRegex": "",
+          "passwordStrengthMediumRegex": "",
+          "passwordStrengthHighRegex": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10,
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "useGlobalValidationRules": true,
+          "validateRepeatPassword": false
+        },
+        "items": []
+      },
+      "deviceActivation": {
+        "data": {
+          "serialToSkip": "BB-03",
+          "legacyKeychainEnabled": true,
+          "phoneNumberPrefix": "55",
+          "addAliasInDevice": false,
+          "pushEnabled": true,
+          "pushApplicationId": "240",
+          "pushServiceId": "PUSH_NOTIFICATIONS",
+          "userStatusCheck": true,
+          "checkCustomerContactDetails": false,
+          "blockCrontoUsers": true,
+          "pushDescription": "",
+          "biometricFacial": "",
+          "numberOfRetriesBiometricFacial": 5,
+          "useServiceConnectFor": [
+            "com.bbva.bbvawalletmx"
+          ]
+        }
+      },
+      "digitalActivation": {
+        "data": {
+          "documentIdentification": false,
+          "digitalValidation": true,
+          "cvvNipEncryption": true,
+          "chatAccountId": "85237869",
+          "firstCollapsedStepVisible": false,
+          "checkChannelStatusWithPan": false,
+          "showRegisteredEmailLayout": false,
+          "showTncStep": false,
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10
+        }
+      },
+      "onboarding": {
+        "data": {
+          "customersFieldsMaxLength": 40,
+          "customersDataMaxLength": 20,
+          "customerMaxAge": 100,
+          "customerMinAge": 18,
+          "colonyMaxLength": 30,
+          "ineOCRMaxLength": 13,
+          "ineRegistrationYearMaxlength": 4,
+          "ineIssueNumberMaxLength": 2,
+          "ineElectoralIdMaxLength": 18,
+          "customerMailMaxLength": 80,
+          "accountLength": 5
+        }
+      },
+      "fullOnboarding": {
+        "data": {
+        }
+      }
+    },
+    "PROD": {
+      "authentication": {
+        "data": {
+          "countryId": "mx",
+          "authenticationType": {
+            "userPassword": "02",
+            "userPanPinCvv": "57",
+            "pinToken": "153",
+            "userBiometrics": "62",
+            "refreshToken": "30",
+            "anonymous": "61",
+            "panPinCvv": "84",
+            "userPanDob": "83",
+            "public": "61",
+            "visualMenu": "61",
+            "fido": "106",
+            "userPasswordAlpha": "02",
+            "userFidoAlpha": "106",
+            "userPasswordStandIn": "02"
+          },
+          "consumerID": {
+            "userPassword": "10000033",
+            "userPanPinCvv": "10000088",
+            "pinToken": "10000173",
+            "userBiometrics": "10000033",
+            "refreshToken": "10000033",
+            "anonymous": "10000088",
+            "panPinCvv": "10000088",
+            "userPanDob": "10000088",
+            "public": "10000088",
+            "visualMenu": "10000085",
+            "fido": "10000033",
+            "userPasswordAlpha": "10000187",
+            "userFidoAlpha": "10000187",
+            "userPasswordStandIn": "10000094"
+          }
+        }
+      },
+      "securitySdk": {
+        "data": {
+          "vinTokenNoExport": false
+        }
+      },
+      "signOperation": {
+        "data": {
+          "numberOfRetriesAllowed": 2,
+          "otpSmsTimeout": 180,
+          "showSoftTokenTickImage": false,
+          "checkActivationForSigning": true,
+          "showOtpFailureAsToast": false,
+          "showExtraInformation": false,
+          "generateQrCodeOtps": true,
+          "otpDeviceIdFileName": "propFile",
+          "ivr": "1:0099,2:0099,3:0099,4:0099,5:0099,6:0099,0:0099"
+        }
+      },
+      "accessKeyRecovery": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameMaxLength": 10,
+          "usernameMinLength": 10,
+          "usernamePrefix": "",
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "checkPasswordStrength": false,
+          "passwordStrengthLowRegex": "",
+          "passwordStrengthMediumRegex": "",
+          "passwordStrengthHighRegex": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10,
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "useGlobalValidationRules": true,
+          "validateRepeatPassword": false
+        },
+        "items": []
+      },
+      "deviceActivation": {
+        "data": {
+          "serialToSkip": "BB-03",
+          "legacyKeychainEnabled": true,
+          "phoneNumberPrefix": "55",
+          "addAliasInDevice": false,
+          "pushEnabled": true,
+          "pushApplicationId": "240",
+          "pushServiceId": "PUSH_NOTIFICATIONS",
+          "userStatusCheck": true,
+          "checkCustomerContactDetails": false,
+          "blockCrontoUsers": true,
+          "pushDescription": "",
+          "biometricFacial": "",
+          "numberOfRetriesBiometricFacial": 5,
+          "useServiceConnectFor": [
+            "com.bbva.bbvawalletmx"
+          ]
+        }
+      },
+      "digitalActivation": {
+        "data": {
+          "documentIdentification": false,
+          "digitalValidation": true,
+          "cvvNipEncryption": true,
+          "chatAccountId": "85237869",
+          "firstCollapsedStepVisible": false,
+          "checkChannelStatusWithPan": false,
+          "showRegisteredEmailLayout": false,
+          "showTncStep": false,
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 8,
+          "passwordMaxLength": 10
+        }
+      },
+      "onboarding": {
+        "data": {
+          "customersFieldsMaxLength": 40,
+          "customersDataMaxLength": 20,
+          "customerMaxAge": 100,
+          "customerMinAge": 18,
+          "colonyMaxLength": 30,
+          "ineOCRMaxLength": 13,
+          "ineRegistrationYearMaxlength": 4,
+          "ineIssueNumberMaxLength": 2,
+          "ineElectoralIdMaxLength": 18,
+          "customerMailMaxLength": 80,
+          "accountLength": 5
+        }
+      },
+      "fullOnboarding": {
+        "data": {
+        }
+      }
+    }
+  }
+}

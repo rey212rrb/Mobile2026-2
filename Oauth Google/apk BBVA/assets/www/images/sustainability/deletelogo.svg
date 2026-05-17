@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>deletelogo</title>
+    <defs>
+        <linearGradient x1="26.5229514%" y1="5.84420898%" x2="73.477826%" y2="94.1565274%" id="linearGradient-1">
+            <stop stop-color="#1C2645" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#1C2645" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Micro-illustrations-600x600" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="deletelogo">
+            <g id="Cuadrados_Blancos">
+                <rect id="Rectangle" x="0" y="0" width="600" height="600"></rect>
+            </g>
+            <g id="Capa_6" transform="translate(50.000000, 50.000000)" fill-rule="nonzero">
+                <g id="Group">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="305.57" cy="305.57" r="244.43"></circle>
+                    <path d="M488.89,244.32 C488.89,379.36 379.5,488.85 244.57,488.85 C109.64,488.85 0.04,379.57 0.04,244.64 C0.04,109.71 109.32,0.1 244.26,-6.85073937e-05 C379.2,-0.1 488.79,109.29 488.89,244.32" id="Path" fill="#DA3951"></path>
+                    <path d="M332.36,304.07 L272.71,244.42 L332.36,184.77 C340.16,176.96 340.16,164.31 332.35,156.51 C324.54,148.71 311.89,148.71 304.09,156.52 L304.09,156.52 L244.44,216.17 L184.84,156.52 C177.04,148.71 164.38,148.71 156.58,156.51 C148.77,164.31 148.77,176.97 156.57,184.77 L156.57,184.77 L216.23,244.42 L156.57,304.08 C148.77,311.89 148.77,324.54 156.58,332.34 C164.39,340.14 177.04,340.14 184.84,332.33 L244.49,272.68 L304.14,332.33 C312.13,339.95 324.79,339.65 332.41,331.66 C339.78,323.94 339.78,311.79 332.41,304.06 L332.36,304.06 L332.36,304.07 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

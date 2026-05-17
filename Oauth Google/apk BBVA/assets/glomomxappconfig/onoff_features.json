@@ -1,0 +1,512 @@
+{
+  "ARTICHOKE_PROD": {
+    "data": {
+      "features": [
+        {
+          "id": "accessKeyRecovery",
+          "enabled": false
+        },
+        {
+          "id": "cardTransactions",
+          "enabled": true
+        },
+        {
+          "id": "changeUser",
+          "enabled": true
+        },
+        {
+          "id": "customerOnBoarding",
+          "enabled": false
+        },
+        {
+          "id": "deviceActivation",
+          "enabled": false
+        },
+        {
+          "id": "digitalActivation",
+          "enabled": false
+        },
+        {
+          "id": "enableSsl",
+          "enabled": false
+        },
+        {
+          "id": "chatAdvisorSpring",
+          "enabled": false
+        },
+        {
+          "id": "feedbackStaticUrl",
+          "enabled": true
+        },
+        {
+          "id": "userProfile",
+          "enabled": true
+        },
+        {
+          "id": "useGlobalPOIEndpoint",
+          "enabled": false
+        },
+        {
+          "id": "useRecoverRegistry",
+          "enabled": false
+        },
+        {
+          "id": "fullOnBoarding",
+          "enabled": false
+        },
+        {
+          "id": "ineValidationEnabled",
+          "enabled": false
+        },
+        {
+          "id": "assistanceManager",
+          "enabled": true
+        },
+        {
+          "id": "equityContracts",
+          "enabled": true
+        },
+        {
+          "id": "lifeInsurances",
+          "enabled": true
+        },
+        {
+          "id": "smartAssistant",
+          "enabled": true
+        },
+        {
+          "id": "biometrics",
+          "enabled": false
+        },
+        {
+          "id": "equityTransfers",
+          "enabled": true
+        },
+        {
+          "id": "digitalCard",
+          "enabled": true
+        },
+        {
+          "id": "rewards",
+          "enabled": true
+        },
+        {
+          "id": "investmentFunds",
+          "enabled": true
+        },
+        {
+          "id": "geolocation",
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "DEV": {
+    "data": {
+      "features": [
+        {
+          "id": "accessKeyRecovery",
+          "enabled": false
+        },
+        {
+          "id": "cardTransactions",
+          "enabled": true
+        },
+        {
+          "id": "changeUser",
+          "enabled": true
+        },
+        {
+          "id": "customerOnBoarding",
+          "enabled": false
+        },
+        {
+          "id": "deviceActivation",
+          "enabled": false
+        },
+        {
+          "id": "digitalActivation",
+          "enabled": false
+        },
+        {
+          "id": "enableSsl",
+          "enabled": false
+        },
+        {
+          "id": "chatAdvisorSpring",
+          "enabled": false
+        },
+        {
+          "id": "feedbackStaticUrl",
+          "enabled": true
+        },
+        {
+          "id": "userProfile",
+          "enabled": true
+        },
+        {
+          "id": "useGlobalPOIEndpoint",
+          "enabled": false
+        },
+        {
+          "id": "useRecoverRegistry",
+          "enabled": true
+        },
+        {
+          "id": "fullOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "ineValidationEnabled",
+          "enabled": false
+        },
+        {
+          "id": "assistanceManager",
+          "enabled": true
+        },
+        {
+          "id": "equityContracts",
+          "enabled": true
+        },
+        {
+          "id": "lifeInsurances",
+          "enabled": true
+        },
+        {
+          "id": "smartAssistant",
+          "enabled": false
+        },
+        {
+          "id": "biometrics",
+          "enabled": false
+        },
+        {
+          "id": "equityTransfers",
+          "enabled": true
+        },
+        {
+          "id": "digitalCard",
+          "enabled": true
+        },
+        {
+          "id": "rewards",
+          "enabled": false
+        },
+        {
+          "id": "investmentFunds",
+          "enabled": true
+        },
+        {
+          "id": "geolocation",
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "TEST": {
+    "data": {
+      "features": [
+        {
+          "id": "accessKeyRecovery",
+          "enabled": true
+        },
+        {
+          "id": "cardTransactions",
+          "enabled": true
+        },
+        {
+          "id": "changeUser",
+          "enabled": true
+        },
+        {
+          "id": "customerOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "deviceActivation",
+          "enabled": true
+        },
+        {
+          "id": "digitalActivation",
+          "enabled": true
+        },
+        {
+          "id": "enableSsl",
+          "enabled": true
+        },
+        {
+          "id": "chatAdvisorSpring",
+          "enabled": false
+        },
+        {
+          "id": "feedbackStaticUrl",
+          "enabled": false
+        },
+        {
+          "id": "userProfile",
+          "enabled": true
+        },
+        {
+          "id": "useGlobalPOIEndpoint",
+          "enabled": false
+        },
+        {
+          "id": "useRecoverRegistry",
+          "enabled": true
+        },
+        {
+          "id": "fullOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "ineValidationEnabled",
+          "enabled": false
+        },
+        {
+          "id": "assistanceManager",
+          "enabled": true
+        },
+        {
+          "id": "equityContracts",
+          "enabled": true
+        },
+        {
+          "id": "lifeInsurances",
+          "enabled": true
+        },
+        {
+          "id": "smartAssistant",
+          "enabled": false
+        },
+        {
+          "id": "biometrics",
+          "enabled": false
+        },
+        {
+          "id": "equityTransfers",
+          "enabled": true
+        },
+        {
+          "id": "digitalCard",
+          "enabled": true
+        },
+        {
+          "id": "rewards",
+          "enabled": true
+        },
+        {
+          "id": "investmentFunds",
+          "enabled": true
+        },
+        {
+          "id": "geolocation",
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "PRE_PROD": {
+    "data": {
+      "features": [
+        {
+          "id": "accessKeyRecovery",
+          "enabled": true
+        },
+        {
+          "id": "cardTransactions",
+          "enabled": true
+        },
+        {
+          "id": "changeUser",
+          "enabled": true
+        },
+        {
+          "id": "customerOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "deviceActivation",
+          "enabled": true
+        },
+        {
+          "id": "digitalActivation",
+          "enabled": true
+        },
+        {
+          "id": "enableSsl",
+          "enabled": true
+        },
+        {
+          "id": "chatAdvisorSpring",
+          "enabled": false
+        },
+        {
+          "id": "feedbackStaticUrl",
+          "enabled": false
+        },
+        {
+          "id": "userProfile",
+          "enabled": true
+        },
+        {
+          "id": "useGlobalPOIEndpoint",
+          "enabled": true
+        },
+        {
+          "id": "useRecoverRegistry",
+          "enabled": true
+        },
+        {
+          "id": "fullOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "ineValidationEnabled",
+          "enabled": true
+        },
+        {
+          "id": "assistanceManager",
+          "enabled": true
+        },
+        {
+          "id": "equityContracts",
+          "enabled": true
+        },
+        {
+          "id": "lifeInsurances",
+          "enabled": true
+        },
+        {
+          "id": "smartAssistant",
+          "enabled": false
+        },
+        {
+          "id": "biometrics",
+          "enabled": false
+        },
+        {
+          "id": "equityTransfers",
+          "enabled": true
+        },
+        {
+          "id": "digitalCard",
+          "enabled": false
+        },
+        {
+          "id": "rewards",
+          "enabled": false
+        },
+        {
+          "id": "investmentFunds",
+          "enabled": true
+        },
+        {
+          "id": "geolocation",
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "PROD": {
+    "data": {
+      "features": [
+        {
+          "id": "accessKeyRecovery",
+          "enabled": true
+        },
+        {
+          "id": "cardTransactions",
+          "enabled": true
+        },
+        {
+          "id": "changeUser",
+          "enabled": true
+        },
+        {
+          "id": "customerOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "deviceActivation",
+          "enabled": true
+        },
+        {
+          "id": "digitalActivation",
+          "enabled": true
+        },
+        {
+          "id": "enableSsl",
+          "enabled": true
+        },
+        {
+          "id": "chatAdvisorSpring",
+          "enabled": false
+        },
+        {
+          "id": "feedbackStaticUrl",
+          "enabled": false
+        },
+        {
+          "id": "userProfile",
+          "enabled": true
+        },
+        {
+          "id": "useGlobalPOIEndpoint",
+          "enabled": true
+        },
+        {
+          "id": "useRecoverRegistry",
+          "enabled": true
+        },
+        {
+          "id": "fullOnBoarding",
+          "enabled": true
+        },
+        {
+          "id": "ineValidationEnabled",
+          "enabled": true
+        },
+        {
+          "id": "assistanceManager",
+          "enabled": true
+        },
+        {
+          "id": "equityContracts",
+          "enabled": true
+        },
+        {
+          "id": "lifeInsurances",
+          "enabled": true
+        },
+        {
+          "id": "smartAssistant",
+          "enabled": false
+        },
+        {
+          "id": "biometrics",
+          "enabled": false
+        },
+        {
+          "id": "equityTransfers",
+          "enabled": true
+        },
+        {
+          "id": "digitalCard",
+          "enabled": false
+        },
+        {
+          "id": "rewards",
+          "enabled": false
+        },
+        {
+          "id": "investmentFunds",
+          "enabled": true
+        },
+        {
+          "id": "geolocation",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

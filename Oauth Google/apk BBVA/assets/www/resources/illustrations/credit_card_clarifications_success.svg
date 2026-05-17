@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="40px" viewBox="0 0 60 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Avatars/Big/Credit-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Avatars/Big/Credit-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="credit-card">
+            <path d="M0,14 L60,14 L60,2.00585866 C60,0.898053512 59.1052696,0 58.0036926,0 L1.99630737,0 C0.893777255,0 0,0.897060126 0,2.00585866 L0,14 Z" id="block" fill="#D8D8D8"></path>
+            <path d="M0,14 L60,14 L60,2.00585866 C60,0.898053512 59.1052696,0 58.0036926,0 L1.99630737,0 C0.893777255,0 0,0.897060126 0,2.00585866 L0,14 Z" id="block" fill="#F4F4F4" opacity="0.5"></path>
+            <path d="M47,14 L60,14 L60,2.00585866 C60,0.898053512 59.1064574,0 57.9972399,0 L47,0 L47,14 Z" id="block" fill="#5BBEFF"></path>
+            <path d="M0,37.9972399 C0,39.1033337 0.894730389,40 1.99630737,40 L58.0036926,40 C59.1062227,40 60,39.1064574 60,37.9972399 L60,27 L0,27 L0,37.9972399 Z" id="block" fill="#004481"></path>
+            <polygon id="block" fill="#043263" points="0 27 60 27 60 14 0 14"></polygon>
+            <path d="M47,14 L47,27 L35,27 L35,40 L47.9782609,40 L58.0013593,40 C59.1051781,40 60,39.1050211 60,38.0029953 L60,14 L47,14 Z" id="block" fill="#1464A5"></path>
+        </g>
+    </g>
+</svg>

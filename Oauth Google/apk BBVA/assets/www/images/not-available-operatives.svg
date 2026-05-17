@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="29px" viewBox="0 0 44 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Ⓜ️ Clip or 🖼 Microillustration</title>
+    <defs>
+        <linearGradient x1="21.3892004%" y1="17.5788433%" x2="71.3554973%" y2="76.4417742%" id="linearGradient-1">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.000065%" y1="49.9986156%" x2="-0.00138794745%" y2="49.9986156%" id="linearGradient-2">
+            <stop stop-color="#043263" offset="0%"></stop>
+            <stop stop-color="#043263" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Component/Notifications/Notification-Message/Default" transform="translate(-30.000000, -613.000000)">
+            <g id="Component/Lists/List-Clip/Light-Background/No-Link/Illustration-Copy" transform="translate(10.000000, 585.000000)">
+                <g id="🚥-Change-List-State" transform="translate(0.000000, 16.000000)">
+                    <g id="Credit-Card-Dollar-Negative" transform="translate(16.000000, 0.000000)">
+                        <g id="Cuadrados_Blancos">
+                            <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                        <g id="Capa_24" transform="translate(4.560000, 12.000000)" fill-rule="nonzero">
+                            <g id="Group">
+                                <path d="M41.3712,17.1416 L41.3712,6.3992 C41.3712,5.08 40.3016,4.0104 38.9824,4.0104 L6.3704,4.0104 C5.0512,4.0104 3.9816,5.08 3.9816,6.3992 L3.9816,24.1592 C3.9816,25.4784 5.0512,26.548 6.3704,26.548 L31.6912,26.548 C32.9224,27.8576 34.6696,28.6768 36.6096,28.6768 C40.3384,28.6768 43.3608,25.6544 43.3608,21.9256 C43.36,20.0568 42.5992,18.3648 41.3712,17.1416 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                                <path d="M2.3888,0.0296 L35.0008,0.0296 C36.32,0.0296 37.3896,1.0992 37.3896,2.4184 L37.3896,20.1784 C37.3896,21.4976 36.32,22.5672 35.0008,22.5672 L2.3888,22.5672 C1.0696,22.5672 0,21.4976 0,20.1784 L0,2.4184 C0,1.0984 1.0696,0.0296 2.3888,0.0296 Z" id="Path" fill="#1464A5"></path>
+                                <path d="M35.0008,22.5672 C36.32,22.5672 37.3896,21.4976 37.3896,20.1784 L37.3896,2.4184 C37.3896,1.0992 36.32,0.0296 35.0008,0.0296 L24.5912,0.0296 L12.6048,22.5672 L35.0008,22.5672 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                                <rect id="Rectangle" fill="#043263" opacity="0.6" x="0" y="3.2352" width="37.3896" height="3.664"></rect>
+                                <path d="M5.8096,13.9552 L31.5792,13.9552 C31.7512,13.9552 31.8904,14.0944 31.8904,14.2664 L31.8904,16.9416 C31.8904,17.1136 31.7512,17.2528 31.5792,17.2528 L5.8096,17.2528 C5.6376,17.2528 5.4984,17.1136 5.4984,16.9416 L5.4984,14.2664 C5.4984,14.0944 5.6376,13.9552 5.8096,13.9552 Z" id="Path" fill="#FFFFFF"></path>
+                                <g id="Group-3_7_" transform="translate(25.840000, 11.200000)">
+                                    <path d="M13.5232,6.7448 C13.5232,10.4672 10.5048,13.4864 6.7816,13.4864 C3.0584,13.4864 0.052,10.456 0.052,6.7448 C0.052,3.0336 3.0704,0.00316893177 6.7936,0.00316893177 L6.7936,0.00316893177 C10.504,-0.008 13.5232,3.0104 13.5232,6.7448" id="Path" fill="#DA3951"></path>
+                                    <path d="M9.2512,8.404 L7.5688,6.7216 L9.2632,5.0272 C9.4896,4.8008 9.4896,4.4424 9.2632,4.228 C9.0368,4.0136 8.6784,4.0016 8.464,4.228 L6.7696,5.9224 L5.0752,4.228 C4.8488,4.0016 4.4904,4.0016 4.276,4.228 C4.0496,4.4544 4.0496,4.8128 4.276,5.0272 L5.9704,6.7216 L4.276,8.404 C4.1328,8.5472 4.0728,8.7504 4.1328,8.9528 C4.1808,9.144 4.336,9.2992 4.5384,9.3584 C4.7416,9.4184 4.944,9.3584 5.0872,9.2152 L6.7696,7.5208 L8.464,9.2152 C8.6904,9.4296 9.0368,9.4184 9.2512,9.2032 C9.4656,8.988 9.4664,8.6304 9.2512,8.404 L9.2512,8.404 Z" id="Path" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

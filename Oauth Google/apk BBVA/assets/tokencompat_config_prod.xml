@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tokencompat_pinning_config_raw" type="raw">@raw/config_prod</item>
+    <string name="tokencompat_pinning_config_asset">config_prod.xml</string>
+    <string name="tokencompat_storage_mode">SHARED</string>
+    <string name="tokencompat_shared_group" />
+    <string name="tokencompat_origin_app_id">RETAILMX</string>
+    <string name="tokencompat_sts_mode">R2</string>
+    <string name="tokencompat_scheme">https</string>
+    <string name="tokencompat_host">glomo.bancomermovil.com/SRVS_A02</string>
+    <string name="tokencompat_activation_endpoint">security/v1/software-tokens/[softwareTokensId]/activation-data-hash/[activationDataHashId]</string>
+    <string name="tokencompat_activation_http_method">PUT</string>
+    <!-- NOTA: el timeout para la petición de activación de softtoken está definida en segundos -->
+    <integer name="tokencompat_activation_timeout">120</integer>
+    <string name="tokencompat_storage_mode_shared">SHARED</string>
+    <string name="tokencompat_storage_mode_private">PRIVATE</string>
+</resources>

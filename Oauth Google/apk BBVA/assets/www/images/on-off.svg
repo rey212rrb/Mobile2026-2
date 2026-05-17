@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="prefix__a" x1="28.428%" x2="93.931%" y1="26.817%" y2="97.212%">
+            <stop offset="0%" stop-color="#192647"/>
+            <stop offset="0%" stop-color="#192647" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#192647" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="7.283%" x2="72.782%" y1="4.09%" y2="74.486%">
+            <stop offset="0%" stop-color="#192647"/>
+            <stop offset="0%" stop-color="#192647" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#192647" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" transform="translate(22.667 19.067)">
+        <rect width="34.6" height="19.772" x="6.189" y="6.205" fill="url(#prefix__a)" rx="9.886"/>
+        <rect width="34.6" height="19.772" x="6.189" y="28.448" fill="url(#prefix__b)" rx="9.886"/>
+        <rect width="34.6" height="19.772" x=".011" y=".036" fill="#2DCCCD" rx="9.886" transform="rotate(180 17.31 9.922)"/>
+        <circle cx="24.725" cy="9.923" r="6.179" fill="#EAF9FA"/>
+        <rect width="34.6" height="19.772" x=".011" y="22.28" fill="#EB5E62" rx="9.886"/>
+        <circle cx="9.896" cy="32.165" r="6.179" fill="#F9DEDE"/>
+    </g>
+</svg>

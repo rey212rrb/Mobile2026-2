@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="428px" viewBox="0 0 466 428" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Communication/Chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.1982452%" y1="-14.5290863%" x2="68.5275962%" y2="83.2343419%" id="linearGradient-1">
+            <stop stop-color="#192647" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-7.23935543e-15%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#028484" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#028484" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9999909%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#C49735" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#C49735" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Equity_Assistance_MX_UX_v03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Communication/Chat" transform="translate(-92.000000, -111.000000)">
+            <g id="Chat" transform="translate(92.000000, 111.000000)">
+                <path d="M466,306.4 L466,72.9 C466,60.2 455.7,49.9 443,49.9 L202.3,49.9 C178.4,49.9 159,69.3 159,93.2 L159,93.2 L159,203 L85.3,203 C65.8,203 50,218.8 50,238.2 L50,238.2 L50,375.6 L50,424.1 C50,425.8 51.3,427.1 53,427.1 C53.8,427.1 54.6,426.8 55.1,426.2 L91.4,390 L277,390 C289.7,390 300,379.7 300,367 L300,279.5 L415.2,279.5 L456.4,320.6 C458.6,322.8 462.2,322.8 464.4,320.6 C465.5,319.5 466,318.1 466,316.6 L466,306.4 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M23,154.1 L214.7,154.1 C234.2,154.1 250,169.9 250,189.4 L250,318.2 C250,330.9 239.7,341.2 227,341.2 L227,341.2 L41.4,341.2 L5.1,377.4 C3.9,378.6 2,378.6 0.9,377.4 C0.3,376.8 0,376.1 0,375.3 L0,326.8 L0,177.1 C0,164.4 10.3,154.1 23,154.1 Z" id="Path" fill="#2DCCCD" fill-rule="nonzero"></path>
+                <path d="M214.7,154.1 L185.3,154.1 L53.7,341.2 L227,341.2 C239.7,341.2 250,330.9 250,318.2 L250,318.2 L250,189.3 C250,169.9 234.2,154.1 214.7,154.1 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M200.9,251.7 L49.1,251.7 C46.3,251.7 44.1,249.5 44.1,246.7 C44.1,243.9 46.3,241.7 49.1,241.7 L200.9,241.7 C203.7,241.7 205.9,243.9 205.9,246.7 C205.9,249.5 203.7,251.7 200.9,251.7 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M200.9,221.7 L49.1,221.7 C46.3,221.7 44.1,219.5 44.1,216.7 C44.1,213.9 46.3,211.7 49.1,211.7 L200.9,211.7 C203.7,211.7 205.9,213.9 205.9,216.7 C205.9,219.5 203.7,221.7 200.9,221.7 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M128.1,281.5 L49.1,281.5 C46.3,281.5 44.1,279.3 44.1,276.5 C44.1,273.7 46.3,271.5 49.1,271.5 L128.1,271.5 C130.9,271.5 133.1,273.7 133.1,276.5 C133.1,279.3 130.9,281.5 128.1,281.5 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M393,0.9 L132,0.9 C119.3,0.9 109,11.2 109,23.9 L109,207.7 C109,220.4 119.3,230.7 132,230.7 L132,230.7 L365.2,230.7 L410.9,276.4 C412.1,277.6 414,277.6 415.1,276.4 C415.7,275.8 416,275.1 416,274.3 L416,257.5 L416,23.9 C416,11.2 405.7,0.9 393,0.9 L393,0.9 Z" id="Path" fill="#F8CD50" fill-rule="nonzero"></path>
+                <path d="M393,0.9 L336.5,0.9 L174.9,230.7 L365.1,230.7 L410.8,276.4 C412,277.6 413.9,277.6 415,276.4 C415.6,275.8 415.900722,275.1 415.900722,274.3 L415.900722,259 L415.900722,24 C416,11.2 405.7,0.9 393,0.9 L393,0.9 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <path d="M355.7,120.3 L169.3,120.3 C166.5,120.3 164.3,118.1 164.3,115.3 C164.3,112.5 166.5,110.3 169.3,110.3 L355.7,110.3 C358.5,110.3 360.7,112.5 360.7,115.3 C360.7,118.1 358.5,120.3 355.7,120.3 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M355.7,90.3 L169.3,90.3 C166.5,90.3 164.3,88.1 164.3,85.3 C164.3,82.5 166.5,80.3 169.3,80.3 L355.7,80.3 C358.5,80.3 360.7,82.5 360.7,85.3 C360.7,88.1 358.5,90.3 355.7,90.3 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M266.2,150.3 L169.3,150.3 C166.5,150.3 164.3,148.1 164.3,145.3 C164.3,142.5 166.5,140.3 169.3,140.3 L266.2,140.3 C269,140.3 271.2,142.5 271.2,145.3 C271.2,148.1 269,150.3 266.2,150.3 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

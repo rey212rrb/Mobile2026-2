@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="rmh94sw6la" x1="24.387%" x2="76.896%" y1="4.562%" y2="106.341%">
+            <stop offset="0%" stop-color="#192647" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#192647" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="brxggs0rbb" x1="100.001%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#043263"/>
+            <stop offset="100%" stop-color="#043263" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path d="M0 0H64V64H0z" transform="translate(-96 -216) translate(96 216)"/>
+                </g>
+                <g fill-rule="nonzero">
+                    <g>
+                        <path fill="url(#rmh94sw6la)" d="M57.6 17.005c0-.232-.189-.421-.421-.421h-9.252l1.427-1.426c.165-.165.165-.431 0-.597L41.94 7.148c-.164-.164-.43-.164-.595 0l-8.959 9.012-8.959-9.012c-.164-.165-.43-.165-.596 0h-.001l-7.416 7.411c-.165.165-.165.431 0 .597l1.427 1.427H7.445c-.232 0-.421.189-.421.421v9.412h1.405v29.081c0 1.785 1.446 3.23 3.23 3.23h15.033v.422h11.24v-.421h15.032c.91 0 1.776-.384 2.389-1.056.044-.05.087-.1.129-.154.07-.087.14-.178.198-.273.036-.056.07-.115.103-.174l.024-.04c.255-.472.387-.999.388-1.534v-29.08H57.6v-9.413z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="#1464A5" d="M1.405 19.393H49.17v29.081c0 1.785-1.446 3.23-3.23 3.23H4.635c-1.785 0-3.231-1.445-3.231-3.23v-29.08z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="url(#brxggs0rbb)" d="M23.585 19.393L6.118 51.705H45.94c1.785 0 3.231-1.446 3.231-3.231v-29.08H23.585z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="#2DCCCD" d="M19.668 19.393H30.907V52.127H19.668zM10.61 10.351L8.391 8.133c-.165-.165-.165-.431 0-.597L15.803.123c.164-.165.43-.165.596 0h.001L26.565 10.35l-15.955.001z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="#2DCCCD" d="M40.11 10.351l2.22-2.218c.165-.165.165-.431 0-.597L34.917.123c-.164-.164-.43-.164-.595 0L24.157 10.35l15.954.001z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="#043263" d="M50.576 19.393H0V9.981c0-.232.189-.421.421-.421h49.734c.232 0 .421.189.421.421v9.412z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                        <path fill="#02A5A5" d="M18.965 9.137H31.609V19.393H18.965z" transform="translate(-96 -216) translate(96 216) translate(6.4 4.822)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

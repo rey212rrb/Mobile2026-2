@@ -1,0 +1,2146 @@
+{
+  "data": {
+    "featureConfig": {
+      "recharges": {
+        "data": {
+          "recharge_type": [
+            {
+              "type": "mobile",
+              "icon": "ic_top_up_mobile",
+              "title": "Recargas y paquetes",
+              "subtitle": "Recarga saldo para tu teléfono o el de un familiar,100% digital."
+            },
+            {
+              "type": "pase",
+              "icon": "ic_top_up_pase",
+              "title": "Registra y recarga de Tag",
+              "subtitle": "Registra y recarga tu Tag. Viaja de manera práctica y fácil."
+            },
+            {
+              "type": "blackHawk",
+              "icon": "ic_top_up_gift",
+              "title": "Tarjetas de regalo digitales",
+              "subtitle": "Adquiere tarjetas de Google Play,\n Amazon, Spotify y muchas más."
+            }
+          ]
+        }
+      },
+      "welcome": {
+        "data": {
+          "tncUrl": "",
+          "countryLogo": "logo_bancomer",
+          "isExistingUser": false,
+          "existingUserPath": "",
+          "showIntroductoryButtonLayout": false,
+          "showRegisterAsLink": false,
+          "switcherUserKey": ""
+        },
+        "items": [
+          {
+            "newUser": {
+              "steps": [
+                {
+                  "id": 0,
+                  "step_title": "stepConcept",
+                  "visible": false,
+                  "animation_file": "Welcome_Step_01_V01"
+                },
+                {
+                  "id": 1,
+                  "step_title": "stepSafety",
+                  "visible": false,
+                  "animation_file": "Welcome_Step_02_V01"
+                },
+                {
+                  "id": 2,
+                  "step_title": "stepFacilitator",
+                  "visible": true,
+                  "animation_file": "Welcome_Step_03_V01"
+                },
+                {
+                  "id": 3,
+                  "step_title": "stepTransparency",
+                  "visible": true,
+                  "animation_file": "Welcome_Step_04_V01"
+                }
+              ]
+            },
+            "switcherUser": {
+              "steps": [
+                {
+                  "id": 0,
+                  "step_title": "stepConcept",
+                  "visible": false,
+                  "animation_file": "Welcome_Step_01_V01"
+                },
+                {
+                  "id": 1,
+                  "step_title": "stepFacilitator",
+                  "visible": true,
+                  "animation_file": "Welcome_Step_02_V01"
+                },
+                {
+                  "id": 2,
+                  "step_title": "stepSafety",
+                  "visible": true,
+                  "animation_file": "Welcome_Step_03_V01"
+                },
+                {
+                  "id": 3,
+                  "step_title": "stepTransparency",
+                  "visible": false,
+                  "animation_file": "Welcome_Step_04_V01"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "whatsNew": {
+        "data": {},
+        "enable": false,
+        "images_enabled": false,
+        "items": [
+          {
+            "id": 0,
+            "step_title": "stepLogo",
+            "visible": true,
+            "image_file": "bank_logo_mx"
+          },
+          {
+            "id": 1,
+            "step_title": "stepOne",
+            "visible": true,
+            "image_file": "wn_step_one"
+          },
+          {
+            "id": 2,
+            "step_title": "stepTwo",
+            "visible": false,
+            "image_file": "wn_step_two"
+          },
+          {
+            "id": 3,
+            "step_title": "stepThree",
+            "visible": false,
+            "image_file": "wn_step_three"
+          },
+          {
+            "id": 5,
+            "step_title": "stepFive",
+            "visible": false,
+            "image_file": "wn_step_five"
+          },
+          {
+            "id": 4,
+            "step_title": "stepFour",
+            "visible": false,
+            "image_file": "bank_logo_mx"
+          }
+        ]
+      },
+      "facialBiometricInstructions": {
+        "items": [
+          {
+            "id": 0,
+            "step_title": "facialStepOne",
+            "visible": true,
+            "animation_file": "Facial_Instructions_Step_01"
+          },
+          {
+            "id": 1,
+            "step_title": "facialStepTwo",
+            "visible": true,
+            "animation_file": "Facial_Instructions_Step_02"
+          },
+          {
+            "id": 2,
+            "step_title": "facialStepThree",
+            "visible": true,
+            "animation_file": "Facial_Instructions_Step_03"
+          }
+        ]
+      },
+      "registration": {
+      },
+      "login": {
+        "data": {
+          "usernameValidationRegex": "^[0-9]+$",
+          "usernameFormat": "2 8",
+          "usernameLength": 10,
+          "usernamePrefix": "",
+          "passwordValidationRegex": "^[0-9A-Za-z]+$",
+          "passwordMinLength": 6,
+          "passwordMaxLength": 10,
+          "loginBannerImageHolderHeight": 260,
+          "loginBannerImageName": "login_banner_mx",
+          "loginBannerImageUrl": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_loginBancomer-LO",
+          "biometricFaceAnimationFile": "animations/face_icon.json",
+          "addCloseIconInNoInternetConnectionScreen": true,
+          "usernameKeyboard": {
+            "alphanumeric": false,
+            "number": true
+          },
+          "passwordKeyboard": {
+            "alphanumeric": true,
+            "number": false
+          },
+          "showNotification": true,
+          "showSoftToken": false,
+          "showTokenLayout": true,
+          "showRegistration": true,
+          "showWarningIconInChangeUser": false,
+          "showSnackbarOnSessionExpire": true
+        },
+        "items": []
+      },
+      "dashboard": {
+        "data": {
+          "dashboardOperatives": [
+            {
+              "id": "TRANSFER",
+              "rank": 1,
+              "isFavorite": true,
+              "isCreditCardOperative": true,
+              "isAccountOperative": true,
+              "enable": true,
+              "visibility": true
+            },
+            {
+              "id": "OPPORTUNITIES",
+              "rank": 2,
+              "isFavorite": true,
+              "isCreditCardOperative": false,
+              "isAccountOperative": false,
+              "enable": true,
+              "visibility": true
+            },
+            {
+              "id": "MOBILE_TRANSFER",
+              "rank": 3,
+              "isFavorite": true,
+              "isCreditCardOperative": false,
+              "isAccountOperative": true,
+              "enable": true,
+              "visibility": true
+            },
+            {
+              "id": "CREDIT_CARD_DEBT_PAYMENT",
+              "rank": 4,
+              "isFavorite": false,
+              "isCreditCardOperative": true,
+              "isAccountOperative": true,
+              "enable": true,
+              "visibility": true
+            },
+            {
+              "id": "SERVICE_PAYMENT",
+              "rank": 5,
+              "isFavorite": false,
+              "isCreditCardOperative": false,
+              "isAccountOperative": true,
+              "enable": true,
+              "visibility": true
+            },
+            {
+              "id": "MOBILE_TOP_UP",
+              "rank": 6,
+              "isFavorite": false,
+              "isCreditCardOperative": false,
+              "isAccountOperative": true,
+              "enable": true,
+              "visibility": true
+            }
+          ],
+          "dashboardNotifications": [
+            {
+              "id": "creditBureau",
+              "order": 1,
+              "enable": true
+            },
+            {
+              "id": "assistanceManager",
+              "order": 2,
+              "enable": true,
+              "isAssistanceManagerFirstTime": false,
+              "isAssistanceManagerSeen": false,
+              "flagFirstTimeAssistanceManager": false
+            },
+            {
+              "id": "notificationsSettings",
+              "order": 3,
+              "enable": true,
+              "sessionCount": 0,
+              "declineDate": "",
+              "isNotificationsSettingsSessionsEnd": false,
+              "isNotificationsSettingsSeen": false,
+              "notificationReminderShownAfterDays": 6,
+              "notificationReminderShowForSessions": 3
+            }
+          ],
+          "isTransactionModule": false,
+          "transactionsCount": 0,
+          "biometricBanner": true,
+          "notificationReminderCard": true,
+          "showDisposedBalance": true,
+          "productNumberLength": 4,
+          "productNumberLengthTransfer": 5,
+          "showInitialLoans": false,
+          "showInfoLoans": true,
+          "oneClickBannerLocations": [
+            1
+          ],
+          "oneClickOfferValidityDateFormat": "dd/MM/yyyy",
+          "notificationReminderShownAfterDays": 6,
+          "notificationReminderShowForSessions": 3,
+          "showDecimalSeparator": false,
+          "showCurrencySymbolInTitle": false,
+          "showLoansInOneGroup": true,
+          "animateFooter": false,
+          "includeAllOperations": false,
+          "showPocketCard": true,
+          "useFinancialOverview": true,
+          "showBalanceInHeader": false
+        },
+        "items": [
+          {
+            "showAccounts": true,
+            "showCards": true,
+            "showDeposits": true,
+            "showFunds": false,
+            "showLoans": true,
+            "showInsurances": true,
+            "showOffers": true,
+            "showOffersNPA": true,
+            "showAccumulatedPoints": false,
+            "showAccountUpgrade": true
+          }
+        ]
+      },
+      "operations": {
+        "dashboard": [
+          {
+            "id": "TRANSFER",
+            "rank": 1,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [
+              {
+                "id": "INTERNAL_TRANSFER"
+              },
+              {
+                "id": "INTERBANK_TRANSFER"
+              }
+            ],
+            "categories": [
+              "CARDS",
+              "ACCOUNTS",
+              "FREQUENTS"
+            ]
+          },
+          {
+            "id": "SERVICE_PAYMENT",
+            "rank": 5,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "ACCOUNTS"
+            ]
+          },
+          {
+            "id": "CREDIT_CARD_DEBT_PAYMENT",
+            "rank": 4,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "CARDS",
+              "ACCOUNTS"
+            ]
+          },
+          {
+            "id": "OPPORTUNITIES",
+            "rank": 2,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#FFF7893B",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "FREQUENTS"
+            ]
+          },
+          {
+            "id": "MOBILE_TRANSFER",
+            "rank": 3,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#ff02a5a5",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "ACCOUNTS",
+              "FREQUENTS"
+            ]
+          },
+          {
+            "id": "MOBILE_TOP_UP",
+            "rank": 6,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "ACCOUNTS"
+            ]
+          },
+          {
+            "id": "ACTIVATE_CARD",
+            "isMoneyFlow": true,
+            "rank": 7,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "CARDS"
+            ]
+          },
+          {
+            "id": "ACCOUNT_STATEMENTS",
+            "isMoneyFlow": true,
+            "rank": 9,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "data": [],
+            "categories": [
+              "CARDS",
+              "ACCOUNTS"
+            ]
+          },
+          {
+            "id": "PAY_WITH_QR",
+            "isMoneyFlow": true,
+            "rank": 14,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": [],
+            "categories": [
+              "ACCOUNTS"
+            ]
+          }
+        ],
+        "products": [
+          {
+            "id": "TRANSFER",
+            "rank": 1,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "standInMessageEnabled": true,
+            "isMoneyFlow": true,
+            "data": [
+              {
+                "id": "INTERNAL_TRANSFER"
+              },
+              {
+                "id": "INTERBANK_TRANSFER"
+              }
+            ]
+          },
+          {
+            "id": "SERVICE_PAYMENT",
+            "rank": 2,
+            "isMoneyFlow": true,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "MOBILE_TOP_UP",
+            "rank": 5,
+            "isMoneyFlow": true,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "MOBILE_TRANSFER",
+            "isMoneyFlow": true,
+            "rank": 3,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D02a5a5",
+            "normalColor": "#ff02a5a5",
+            "data": []
+          },
+          {
+            "id": "CREDIT_CARD_DEBT_PAYMENT",
+            "isMoneyFlow": true,
+            "rank": 4,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "CASH_ADVANCE",
+            "isMoneyFlow": true,
+            "rank": 6,
+            "visibility": false,
+            "enabled": false,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "OPPORTUNITIES",
+            "isMoneyFlow": false,
+            "rank": 7,
+            "visibility": false,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#FFF7893B",
+            "data": []
+          },
+          {
+            "id": "ACCOUNT_STATEMENTS",
+            "isMoneyFlow": true,
+            "rank": 8,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "PIN_REQUEST",
+            "isMoneyFlow": true,
+            "rank": 5,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "ACTIVATE_CARD",
+            "isMoneyFlow": true,
+            "rank": 1,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "PAYROLL_PORTABILITY",
+            "isMoneyFlow": true,
+            "rank": 9,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "INTERNATIONAL_TRANSFER",
+            "rank": 18,
+            "isMoneyFlow": true,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": [
+              {
+                "id": "INTERNAL_TRANSFER"
+              },
+              {
+                "id": "INTERBANK_TRANSFER"
+              }
+            ]
+          },
+          {
+            "id": "EDIT_ALIAS",
+            "isMoneyFlow": false,
+            "rank": 10,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "ASSOCIATE_MOBILE_PHONE_TO_ACCOUNT",
+            "isMoneyFlow": false,
+            "rank": 11,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "DISSOCIATE_MOBILE_PHONE_FROM_ACCOUNT",
+            "isMoneyFlow": false,
+            "rank": 12,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "ASK_MONEY_QR",
+            "isMoneyFlow": true,
+            "rank": 13,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "PAY_WITH_QR",
+            "isMoneyFlow": true,
+            "rank": 14,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "UPDATE_ACCOUNT_EXPEDIENT",
+            "isMoneyFlow": false,
+            "rank": 15,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "PAY_CREDIT_CONSUMER",
+            "isMoneyFlow": false,
+            "rank": 16,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "PAY_MORTGAGE_LOAN",
+            "isMoneyFlow": false,
+            "rank": 16,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+          {
+            "id": "CHECKS_SECTION",
+            "rank": 17,
+            "isMoneyFlow": true,
+            "visibility": true,
+            "enabled": true,
+            "standInMessageEnabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          },
+        {
+          "id": "LINK_CODI_TO_ACCOUNT",
+          "isMoneyFlow": false,
+          "rank": 18,
+          "visibility": true,
+          "enabled": true,
+          "pressedColor": "#4D004481",
+          "normalColor": "#19ffffff",
+          "data": []
+        },
+        {
+          "id": "UNLINK_CODI_FROM_ACCOUNT",
+          "isMoneyFlow": false,
+          "rank": 19,
+          "visibility": true,
+          "enabled": true,
+          "pressedColor": "#4D004481",
+          "normalColor": "#19ffffff",
+          "data": []
+        },
+        {
+          "id": "SEND_MONEY_CODICEL",
+          "rank": 20,
+          "isMoneyFlow": true,
+          "visibility": true,
+          "enabled": true,
+          "pressedColor": "#4D004481",
+          "normalColor": "#19ffffff",
+          "data": []
+        },
+          {
+            "id": "ADD_VIDEO_SELFIE",
+            "isMoneyFlow": false,
+            "rank": 21,
+            "visibility": true,
+            "enabled": true,
+            "pressedColor": "#4D004481",
+            "normalColor": "#19ffffff",
+            "data": []
+          }
+        ]
+      },
+      "sideMenu": {
+        "data": {},
+        "items": [
+          {
+            "itemId": "DEVELOPER_MENU",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 17,
+            "data": []
+          },
+          {
+            "itemId": "PROFILE",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": -1,
+            "data": []
+          },
+          {
+            "itemId": "CONFIGURATION",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 1,
+            "data": []
+          },
+          {
+            "itemId": "SECURITY_SETTINGS",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 2,
+            "data": []
+          },
+          {
+            "itemId": "FEEDBACK",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 3,
+            "data": []
+          },
+          {
+            "itemId": "PAYMENT_CART",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 4,
+            "data": []
+          },
+          {
+            "itemId": "HISTORICAL",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 5,
+            "data": []
+          },
+          {
+            "itemId": "SMART_TOKEN",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : true,
+            "rank": 6,
+            "data": []
+          },
+          {
+            "itemId": "SUSTAINABILITY",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 6,
+            "data": []
+          },
+          {
+            "itemId": "PROMOTIONS",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 6,
+            "data": []
+          },
+          {
+            "itemId": "QR_PAYMENTS",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 7,
+            "data": []
+          },
+          {
+            "itemId": "CARDLESS_WITHDRAWAL",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 9,
+            "data": []
+          },
+          {
+            "itemId": "EXCHANGE_RATE",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 10,
+            "data": []
+          },
+          {
+            "itemId": "ATM_BRANCHES",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 11,
+            "data": []
+          },
+          {
+            "itemId": "MEMBER_GET_MEMBER_CAMPAING",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 21,
+            "data": []
+          },
+          {
+            "itemId": "CLARIFICATION_LIST",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 12,
+            "data": []
+          },
+          {
+            "itemId": "ASSISTANCE_MANAGER",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 13,
+            "data": []
+          },
+          {
+            "itemId": "ASSISTANCE",
+            "androidAction": "800-226-2663",
+            "iOSAction": "800-226-2663",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 14,
+            "data": [
+              {
+                "itemId": "LINEA_BANCOMER",
+                "name": "Línea Bancomer",
+                "androidAction": "com.bbva.conmigo",
+                "iOSAction": "lineaBancomer://",
+                "iOSInStoreUrl": "https://itunes.apple.com/mx/app/linea-bancomer/id990830942?l=en&mt=8",
+                "imageUrl": ""
+              }
+            ]
+          },
+          {
+            "itemId": "CALL_BBVA",
+            "androidAction": "800-226-2663",
+            "iOSAction": "+8002262663",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 15,
+            "data": []
+          },
+          {
+            "itemId": "CHATBOT",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 17,
+            "data": []
+          },
+          {
+            "itemId": "PROGRESS",
+            "androidAction": "https://bbvalabs.com/glomo/halloffame/?l=es-MX",
+            "iOSAction": "https://bbvalabs.com/glomo/halloffame/?l=es-MX",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 18,
+            "data": []
+          },
+          {
+            "itemId": "ABOUT",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": true,
+            "visibleAtLoginScreen": true,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": true,
+            "enabledAtLoginScreen": true,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : false,
+            "rank": 19,
+            "data": []
+          },
+          {
+            "itemId": "SA",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": false,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": false,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 20,
+            "data": []
+          },
+          {
+            "itemId": "MOBILE_PAYMENT",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  false,
+            "enabledAtStandin" : false,
+            "rank": 6,
+            "data": []
+          },
+          {
+            "itemId": "EXIT",
+            "name": "Salir",
+            "androidAction": "",
+            "iOSAction": "",
+            "visibleAtDashboardScreen": true,
+            "visibleForRememberedUserAtLoginScreen": false,
+            "visibleAtLoginScreen": false,
+            "enabledAtDashboardScreen": true,
+            "enabledForRememberedUserAtLoginScreen": false,
+            "enabledAtLoginScreen": false,
+            "visibleAtStandin":  true,
+            "enabledAtStandin" : true,
+            "rank": -2,
+            "data": []
+          }
+        ]
+      },
+      "footer": {
+        "item": [
+          {
+            "id": "INICIO",
+            "visibility": true,
+            "androidAction": "",
+            "isTextVisible": false,
+            "iOSAction": "",
+            "rank": 1,
+            "standInMessageEnabled": false,
+            "iOSIcons": {
+              "active": "footer_nav_house_active",
+              "inactive": "footer_nav_house_inactive",
+              "smallBadge": "",
+              "bigBadge": ""
+            },
+            "androidIcons": {
+              "active": "",
+              "inactive": "",
+              "smallBadge": "",
+              "bigBadge": ""
+            }
+          },
+          {
+            "id": "CHECK_UP",
+            "visibility": true,
+            "isTextVisible": false,
+            "androidAction": "",
+            "iOSAction": "",
+            "rank": 2,
+            "standInMessageEnabled": true,
+            "iOSIcons": {
+              "active": "footer_nav_check_up_active",
+              "inactive": "footer_nav_check_up_inactive",
+              "smallBadge": "",
+              "bigBadge": ""
+            },
+            "androidIcons": {
+              "active": "",
+              "inactive": "",
+              "smallBadge": "",
+              "bigBadge": ""
+            }
+          },
+          {
+            "id": "NOTIFICATIONS",
+            "visibility": true,
+            "androidAction": "",
+            "isTextVisible": false,
+            "iOSAction": "",
+            "rank": 4,
+            "standInMessageEnabled": true,
+            "iOSIcons": {
+              "active": "footer_nav_notification_active",
+              "inactive": "footer_nav_notification_inactive",
+              "smallBadge": "footer_nav_notices_red1",
+              "bigBadge": "footer_nav_notices_red2"
+            },
+            "androidIcons": {
+              "active": "",
+              "inactive": "",
+              "smallBadge": "",
+              "bigBadge": ""
+            }
+          },
+          {
+            "id": "OPPORTUNITIES",
+            "visibility": true,
+            "androidAction": "",
+            "iOSAction": "",
+            "isTextVisible": false,
+            "rank": 3,
+            "standInMessageEnabled": true,
+            "iOSIcons": {
+              "active": "opportunities_active",
+              "inactive": "opportunities_inactive",
+              "smallBadge": "opportunities_red1",
+              "bigBadge": "opportunities_red2"
+            },
+            "androidIcons": {
+              "active": "",
+              "inactive": "",
+              "smallBadge": "",
+              "bigBadge": ""
+            }
+          },
+          {
+            "id": "ASSISTANCE",
+            "visibility": true,
+            "androidAction": "",
+            "isTextVisible": false,
+            "iOSAction": "",
+            "rank": 4,
+            "standInMessageEnabled": true,
+            "iOSIcons": {
+              "active": "icon_help_footer_assist",
+              "inactive": "icon_help_footer_assist_gray",
+              "smallBadge": "",
+              "bigBadge": ""
+            },
+            "androidIcons": {
+              "active": "",
+              "inactive": "",
+              "smallBadge": "",
+              "bigBadge": ""
+            }
+          }
+        ]
+      },
+      "shortcuts": {
+        "android": [
+          {
+            "id": "extra_dynamic_shortcut_transfer",
+            "extraShortcutId": "TRANSFER",
+            "shortLabel": "Transferir",
+            "longLabel": "Transferir",
+            "disableMessage": "Transferir",
+            "icon": "ic_shortcut_transfers",
+            "rank": 0,
+            "enabled": true
+          },
+          {
+            "id": "extra_dynamic_shortcut_cardless_withdrawal",
+            "extraShortcutId": "MOBILE_TRANSFER",
+            "shortLabel": "Retiro sin tarjeta",
+            "longLabel": "Retiro sin tarjeta",
+            "disableMessage": "Retiro sin tarjeta",
+            "icon": "ic_shortcut_mobile_pay",
+            "rank": 1,
+            "enabled": true
+          },
+          {
+            "id": "extra_dynamic_shortcut_bill_pay",
+            "extraShortcutId": "SERVICE_PAYMENT",
+            "shortLabel": "Pagar servicio",
+            "longLabel": "Pagar servicio",
+            "disableMessage": "Pagar servicio",
+            "icon": "ic_shortcut_sales",
+            "rank": 2,
+            "enabled": true
+          },
+          {
+            "id": "extra_dynamic_shortcut_card_pay",
+            "extraShortcutId": "CREDIT_CARD_DEBT_PAYMENT",
+            "shortLabel": "Pagar tarjeta de crédito",
+            "longLabel": "Pagar tarjeta de crédito",
+            "disableMessage": "Pagar tarjeta de crédito",
+            "icon": "ic_shortcut_card",
+            "rank": 4,
+            "enabled": true
+          }
+        ],
+        "accounts": [
+          "OWN_TRANSFER",
+          "SERVICE_PAYMENT",
+          "MOBILE_TRANSFER",
+          "MOBILE_TOP_UP"
+        ],
+        "cards": [
+          "OWN_TRANSFER"
+        ],
+        "accountsAndCards": [
+          "REJECTED_CARD",
+          "SERVICE_PAYMENT",
+          "OWN_TRANSFER",
+          "MOBILE_TRANSFER",
+          "CREDIT_CARD_DEBT_PAYMENT",
+          "MOBILE_TOP_UP"
+        ]
+      },
+      "productDetails": {
+        "showDetailsScreenScrollTutorialTooltip": true,
+        "singleTapTime": 1500,
+        "accounts": {
+          "data": {
+            "loadTransactions": true,
+            "seeAllTransactionsLink": false,
+            "showPostBalances": false,
+            "showTitle": false,
+            "accountFormat": "4 4 4 4 4",
+            "shortAccountNumFormat": "3 3 4",
+            "showRetryOnErrorCase": true,
+            "maxMonthsForTransactions": 1,
+            "transactionLimit": 5,
+            "maxDaysForTransactions": -90
+          },
+          "items": []
+        },
+        "cards": {
+          "data": {
+            "cardFormat": "4 4 4 4",
+            "showPaymentDates": true,
+            "paymentDatesFormat": "dd MMMM",
+            "showPendingTransactions": true,
+            "showRewards": true,
+            "showLastPeriodAmount": true,
+            "showMinimumAmountPaymentInfo": true,
+            "showCVV": false,
+            "showCardSwitch": true,
+            "showCardSwitchForDebit": false,
+            "showCardSwitchMoreOptions": false,
+            "onOffRetryPossible": true,
+            "fixedOnOffLabel": false,
+            "showOnOffWarning": true,
+            "loadTransactions": true,
+            "showPaymentLayout": true,
+            "seeAllTransactionsLink": false,
+            "showRetryOnErrorCase": true,
+            "showCalendarReminder": false,
+            "maxMonthsForTransactions": 1,
+            "transactionLimit": 5,
+            "maxDaysForTransactions": -90,
+            "visiblePaymentAmounts": [
+              "MINIMUM_AMOUNT",
+              "MINIMUM_AMOUNT_TO_AVOID_INTEREST"
+            ]
+          },
+          "items": []
+        },
+        "deposits": {
+          "data": {
+            "loadTransactions": false,
+            "seeAllTransactionsLink": true,
+            "showRetryOnErrorCase": true
+          },
+          "items": []
+        },
+        "funds": {
+          "data": {
+            "loadTransactions": false,
+            "seeAllTransactionsLink": false,
+            "showRetryOnErrorCase": true
+          },
+          "items": []
+        },
+        "loans": {
+          "data": {
+            "loanFormat": "4 7 5 5",
+            "isTransactionModule": false,
+            "loadTransactions": false,
+            "seeAllTransactionsLink": false,
+            "showRetryOnErrorCase": true,
+            "showLoanTitleIcon": true,
+            "showLoanStatus": false,
+            "showLoanReceipt": true,
+            "loanPendingMaturityDate": "9999-01-01",
+            "loanUpdatingMaturityDate": "9999-02-02",
+            "showInstallments": false,
+            "isPendingAmountPrincipals": false
+          },
+          "items": []
+        }
+      },
+      "moreInfo": {
+        "accounts": {
+          "data": {
+            "showQrCode": true,
+            "showProductType": false,
+            "showParticipants": false,
+            "groupParticipants": false,
+            "showAdditionalParticipants": true,
+            "showAssociatedProducts": false,
+            "showConditions": false,
+            "showDescription": true,
+            "showOpeningDate": false,
+            "accountsMoreInfoExpands": false,
+            "shareOptionOnLabel": true,
+            "moreInfoAction": "COPY",
+            "accountNumberDigitsToShow": 10,
+            "visibleAccountProducts": [
+              "DEBIT_CARD"
+            ],
+            "showPocketsFor": [
+              "MXN"
+            ]
+          },
+          "items": []
+        },
+        "cards": {
+          "data": {
+            "showQrCode": false,
+            "showProductType": false,
+            "showSpecialConditions": true,
+            "cardsMoreInfoExpands": false,
+            "showParticipants": false,
+            "groupParticipants": false,
+            "showDescription": true,
+            "showEndAndCutOffDate": false,
+            "showCardCreditLimit": true,
+            "showConditionsInfo": false,
+            "cardExpirationDateFormat": "MM/yyyy",
+            "moreInfoAction": "COPY"
+          },
+          "items": []
+        },
+        "deposits": {
+          "data": {
+            "showParticipants": false,
+            "groupParticipants": false,
+            "showAssociatedProducts": true,
+            "showConditions": false,
+            "depositsMoreInfoExpands": false,
+            "moreInfoAction": "COPY"
+          },
+          "items": []
+        },
+        "funds": {
+          "data": {
+            "fundNumberType": "ISIN",
+            "moreInfoAction": "COPY"
+          },
+          "items": []
+        },
+        "loans": {
+          "data": {
+            "showDescription": false,
+            "showCapital": true,
+            "showStatus": false,
+            "showInstallmentsNumber": true,
+            "showParticipants": false,
+            "groupParticipants": false,
+            "showAssociatedProducts": false,
+            "showSpecialConditions": true,
+            "loansMoreInfoExpands": false,
+            "shareOptionOnLabel": true,
+            "moreInfoAction": "COPY"
+          },
+          "items": []
+        }
+      },
+      "transfer": {
+        "data": {
+          "showTransferSnackBar": true,
+          "dateSection": false,
+          "conceptSection": true,
+          "showConceptInInterbank": true,
+          "showTransferTypeSection": false,
+          "showTermsAndConditionSection": false,
+          "showReference": true,
+          "showDestinationAlias": true,
+          "showSavedContactsBtn": false,
+          "overdraftAllowed": false,
+          "resetAllPrecedingStepsOnOriginOrDestChange": true,
+          "showSkeletonForDisabledConceptStep": true,
+          "showCurrencySwitcher": false,
+          "referenceStringLength": 7,
+          "showDynamicAvailableBalance": true,
+          "canMakeANewTransferAfterASuccessfulTransfer": false,
+          "zeroDestinationsShowAstronaut": true,
+          "canAccessFrequentContacts": true,
+          "bankId": "0012",
+          "internalAccountPrefix": "",
+          "showAmountExtraInfoOnSuccessScreen": false,
+          "showOriginAccCurrentBalanceInOverdraftWarningMsg": true,
+          "showContactBankNameInDestination": false,
+          "makeSimulatedCallAtAmountStep": false,
+          "showTotalAmountAtSummary": true,
+          "speiPortalUrl": "https://portal.bancomer.com/aclaraciones/aclaraciones-transferencias-SPEI.jsp",
+          "newDestination": {
+            "useReceivers": true,
+            "handleReceiversErrors": false,
+            "useRecoverRegistry": true,
+            "canSaveNewContact": true,
+            "receiversProductTypeID": "",
+            "receiversNumberFormat": "",
+            "minimumDigitsToValidate": 10,
+            "maximumDigitsToValidate": 20,
+            "minimumDigitsToCard": 15,
+            "maximumDigitsToCard": 16,
+            "totalDigitsToClabe": 18,
+            "magicQueryMaxLength": 20,
+            "showChooseAnotherRecipientBtn": false,
+            "hasGreyScaleBackGround": true,
+            "showSearchImage": true,
+            "showKeyboardByDefault": false,
+            "isNewDestinationEditable": true
+          },
+          "availabelShareOptions": [
+            {
+              "transferType": "OWN_TRANSFER",
+              "shareOptions": [
+                "SHARE_OPERATION"
+              ]
+            },
+            {
+              "transferType": "INTERNAL_TRANSFER",
+              "shareOptions": [
+                "SHARE_OPERATION"
+              ]
+            },
+            {
+              "transferType": "INTERBANK_TRANSFER",
+              "shareOptions": [
+                "SPEI_INFO",
+                "SHARE_OPERATION"
+              ]
+            },
+            {
+              "transferType": "EQUITY_TRANSFER",
+              "shareOptions": [
+                "SHARE_OPERATION"
+              ]
+            }
+          ],
+          "productTypes": [
+            {
+              "id": "ACCOUNT",
+              "productTypeId": "ACCOUNT",
+              "numberTypeId": "CCC",
+              "name": "Cuenta",
+              "minLength": 20,
+              "maxLength": 20
+            },
+            {
+              "id": "CLABE",
+              "productTypeId": "ACCOUNT",
+              "numberTypeId": "CLABE",
+              "name": "CLABE",
+              "minLength": 18,
+              "maxLength": 18
+            },
+            {
+              "id": "DEBIT_CARD",
+              "productTypeId": "CARD",
+              "numberTypeId": "PAN",
+              "name": "Tarjeta de débito",
+              "minLength": 15,
+              "maxLength": 16
+            },
+            {
+              "id": "CREDIT_CARD",
+              "productTypeId": "CARD",
+              "numberTypeId": "PAN",
+              "name": "Tarjeta de crédito",
+              "minLength": 15,
+              "maxLength": 16
+            },
+            {
+              "id": "SPEI",
+              "productTypeId": "ACCOUNT",
+              "numberTypeId": "SPEI",
+              "name": "Celular",
+              "minLength": 10,
+              "maxLength": 10
+            }
+          ],
+          "showDestinationTitleTutorialTooltip": true,
+          "showScreenScrollTutorialTooltip": true,
+          "accountClabeFormat": "4 4 4 6",
+          "cardFormat": "4 4 4 4"
+        },
+        "items": []
+      },
+      "transactionSearch": {
+        "data": {
+          "allowsAmountRange": true,
+          "allowsLimitsForDateRange": false,
+          "accountsDateRangeLimit": 0,
+          "cardsDateRangeLimit": 0,
+          "showTransactionsSearch": false,
+          "allowSort": true,
+          "allowSortByDate": true,
+          "allowSortByAmount": false,
+          "showPendingTransactionState": true,
+          "showExtendedInfo": true,
+          "currencySelection": false,
+          "showHelpIcon": false,
+          "showTransactionType": true,
+          "sortTransactionsByStatus": false,
+          "showWithholdingTransactions": false,
+          "callAssistanceDuringErrorOnTransactionDetailsLoad": false,
+          "shareTransactionDetails": false,
+          "showClarificationFeature": true,
+          "allowSeeTransactionDetailsOnBlockedAccount": true,
+          "creditCardInstallmentInternalCodeId": "27",
+          "accounts": {
+            "showWithholdingTransactions": false,
+            "showPendingTransactionState": true,
+            "showTransactionType": true,
+            "sortTransactionsByStatus": false,
+            "searchByAmount": false,
+            "dateRangeLimit": 0
+          },
+          "cards": {
+            "showWithholdingTransactions": false,
+            "showPendingTransactionState": true,
+            "showTransactionType": true,
+            "sortTransactionsByStatus": false,
+            "searchByAmount": false,
+            "dateRangeLimit": 0
+          },
+          "deposits": {
+            "showWithholdingTransactions": false,
+            "showPendingTransactionState": true,
+            "showTransactionType": false,
+            "sortTransactionsByStatus": false,
+            "searchByAmount": false,
+            "dateRangeLimit": 0
+          },
+          "loans": {
+            "showWithholdingTransactions": false,
+            "showPendingTransactionState": true,
+            "showTransactionType": false,
+            "sortTransactionsByStatus": false,
+            "searchByAmount": false,
+            "dateRangeLimit": 0
+          },
+          "funds": {
+            "showWithholdingTransactions": false,
+            "showPendingTransactionState": true,
+            "showTransactionType": false,
+            "sortTransactionsByStatus": false,
+            "searchByAmount": false,
+            "dateRangeLimit": 0
+          }
+        }
+      },
+      "oneClick": {
+        "data": {
+          "offersHirable": true,
+          "originid": "CRM",
+          "termsAndConditionsProductId": {
+            "LOAN": "CONSUMO",
+            "LIMIT_INCREASE": "TDC"
+          },
+          "showCheckDocumentation": false,
+          "showOCLoanCallBankService": true,
+          "showOCInstantCallBankService": true,
+          "offerTypeUrl": {
+            "PBCCMNOM01": "https://www.bancomer.com/fbin/Contrato_Nomina_Vida_y_Desempleo_tcm1344-679822.pdf",
+            "PBCCMMAG01": "https://www.bancomer.com/fbin/Contrato_Nomina_Magisterial_tcm1344-679819.pdf",
+            "PBCCMNOM02": "https://www.bancomer.com/fbin/Contrato_Nomina_Seg_Vida_tcm1344-679818.pdf",
+            "PBCCMPPI01": "https://www.bancomer.com/fbin/Contrato_Nomina_Seg_Vida_tcm1344-679818.pdf",
+            "PBCCMPPI03": "https://www.bancomer.com/fbin/Contrato_Nomina_sin_Seguro_tcm1344-679825.pdf"
+          },
+          "offerType": {
+            "PBCCMNOM01": "CONTRATO CREDITON NOMINA CON SEGURO DE VIDA Y DESEMPLEO",
+            "PBCCMNOM02": "CONTRATO CREDITON NOMINA CON SEGURO DE VIDA",
+            "PBCCMNOM03": "CONTRATO ADELANTO DE SUELDO",
+            "PBCCMPPI01": "CONTRATO PRESTAMOS PERSONAL CON SEGURO DE VIDA",
+            "PBCCMPPI02": "CONTRATO PRESTAMOS PERSONAL SIN SEGURO",
+            "PBCCMPPI03": "CONTRATO CREDITON NOMINA SIN SEGURO",
+            "PBCCMPPI04": "CONTRATO PRESTAMO PERSONAL INMENDIATO",
+            "PBCCMMAG01": "CONTRATO CREDITO MAGISTERIAL"
+          },
+          "offer": {
+            "0060": "LOAN",
+            "0PPI": "LOAN",
+            "0NOM": "LOAN",
+            "0130": "LIMIT_INCREASE",
+            "0ILC": "LIMIT_INCREASE",
+            "0296": "CREDIT_CARD_HOLDER",
+            "0TDC": "CREDIT_CARD_HOLDER",
+            "ANOM": "PAY_ROLL_ADVANCE",
+            "AUTO": "CAR_LOAN",
+            "0HIP": "MORTGAGE",
+            "HIPO": "MORTGAGE",
+            "0578": "RECOLOCATION",
+            "0640": "INSTANT_CASH",
+            "4046": "INSURANCE",
+            "0595": "CREDIT_CARD_UPGRADE",
+            "00CB": "OC_LOAN",
+            "0REC": "RECOLOCATE",
+            "0PGR": "DEPOSITS",
+            "0SKY": "OC_CARD",
+            "0715": "CONTINGENCY",
+            "0724": "PPF",
+            "4035": "LIFEHEALTH-INSURANCE",
+            "0693": "BUREAU_AUTHORIZATION",
+            "0557": "OC_PAYROLL_PORTABILITY",
+            "0733": "PPF_TDC",
+            "0732": "RESTRUCTURE",
+            "0739": "DECREASE_AUTO",
+            "0740": "DECREASE_CONSUM",
+            "0FIN": "FUNDS",
+            "0GOA": "GOALS",
+            "0762": "PPF_TOTALEROS",
+            "0766": "TDD_AT_HOME",
+            "COMB": "COMBO_LOAN_CARD",
+            "0758": "DYNAMIC_LIVE_INSURANSE_MXN",
+            "0759": "DYNAMIC_LIVE_INSURANSE_USD",
+            "3005": "DAMAGE-INSURANCE",
+            "4025": "SECURE_DIGITAL_GOAL",
+            "0769": "APF_TDC"
+          }
+        }
+      },
+      "ocCreditLimitIncrease": {
+        "data": {
+          "showCurrentNAvailBal": false,
+          "showCurrentLimit": true,
+          "showCardTitle": false,
+          "showTermsAndConditionsFooter": false
+        }
+      },
+      "billPay": {
+        "data": {
+          "maxAliasLength": 10,
+          "telmexId": "000035241",
+          "cfeId": "000578869",
+          "telcelId": "000182251",
+          "searchRegexConfig": "^[a-zA-Z0-9\\s]*$",
+          "amountSelection": true,
+          "showFees": false,
+          "showServiceId": true,
+          "conceptSection": true,
+          "multiSelectService": false,
+          "serviceType": false,
+          "allowEditService": true,
+          "overdraftAllowed": false,
+          "useRecoverRegistry": true,
+          "availabelShareOptions": [
+            "SHARE_OPERATION"
+          ]
+        },
+        "items": []
+      },
+      "cardPay": {
+        "data": {
+          "chooseCurrency": false,
+          "showLastPaymentDate": false,
+          "showPaymentReminder": false,
+          "showCommissionWithTax": false,
+          "showChargeDetails": false,
+          "showOperationNumber": false,
+          "showInfoForDebt": false,
+          "showNewOperation": false,
+          "showProductListHeader": false,
+          "showCardBalance": "disposed",
+          "cardNumberFormat": "",
+          "maxPaymentAmount": "",
+          "paymentMethodsToShow": [
+            "MINIMUM_AMOUNT",
+            "MINIMUM_AMOUNT_TO_AVOID_INTEREST",
+            "TOTAL_DEBT_AMOUNT"
+          ],
+          "availabelShareOptions": [
+            "SHARE_OPERATION"
+          ]
+        }
+      },
+      "mobileTopUp": {
+        "data": {
+          "newPhoneLayoutTemplate": "ALIAS_CONTACT_NAME_TEMPLATE",
+          "contactUpdated": true,
+          "showTermsAndConditions": false,
+          "getOwnPhoneFromUserID": true,
+          "overdraftAllowed": false,
+          "showOwnTopUp": true,
+          "showAmountInHeader": false,
+          "contactUpdatedFormat": "2 4 4",
+          "mobileNumberLength": 10,
+          "useRecoverRegistry": true,
+          "minimumBalanceToTopUp": 20,
+          "defaultProviderName": "TELCEL",
+          "bbvaLabel": true,
+          "availabelShareOptions": [
+            "SHARE_OPERATION"
+          ]
+        },
+        "items": []
+      },
+      "cardlessWithdrawal": {
+        "data": {
+          "showContacts": true,
+          "productNumberLength": 4,
+          "showRemainingTimeSection": false,
+          "showPhoneInForMeSection": false,
+          "validateMinimumAmountForMe": 100,
+          "validateMaximumAmountForMe": 9900,
+          "validateMinimumAmountSomeElse": 100,
+          "validateMaximumAmountSomeElse": 9900,
+          "successSomeElseIsNewOperation": false,
+          "successSomeElseShareOption": true,
+          "successForMeIsNewOperation": false,
+          "successForMeShareOption": false,
+          "showTermsConditions": false,
+          "showConceptStep": true,
+          "showOperationDescribe": false,
+          "validatePhoneNumberStart": 0,
+          "validateLengthPhoneNumber": 10,
+          "onlyPhoneNumber": false,
+          "defaultReceiver": "TELCEL",
+          "availabelShareOptions": [
+            {
+              "forMeOptions": [
+                "SHARE_OPERATION",
+                "ATM_OPERATION"
+              ]
+            },
+            {
+              "someoneElseOptions": [
+                "ATM_OPERATION"
+              ]
+            },
+            {
+              "historicalOptions": []
+            }
+          ],
+          "showPossibleAmounts": true,
+          "possibleAmounts": [
+            100,
+            200,
+            300,
+            500,
+            1000,
+            1500
+          ]
+        },
+        "items": []
+      },
+      "historicalCardlessWithdrawal": {
+        "data": {
+          "showHistoricalMenu": false,
+          "showImageAvatar": true,
+          "showDifferentDetailScreen": true,
+          "showFilters": true,
+          "showErrorList": false,
+          "isTab": true,
+          "statusType": [
+            {
+              "id": "PENDING"
+            },
+            {
+              "id": "EXPIRED"
+            },
+            {
+              "id": "REJECTED"
+            }
+          ],
+          "showListTutorialTooltip": true
+        },
+        "items": []
+      },
+      "locator": {
+        "data": {
+          "showBranchWaitingTime": true,
+          "isKioskAvailable": false,
+          "isFirstFilterAtm": false,
+          "showBranchHas": true,
+          "showBranchTelephone": false,
+          "showCashierAndAccess": false,
+          "showBranchNumber": false,
+          "showAtmNumber": false,
+          "combineAtmData": true,
+          "showLocationMessageView": true,
+          "pageSize": 25
+        },
+        "items": []
+      },
+      "userProfile": {
+        "data": {
+          "showAddress": true,
+          "showDateOfBirth": true,
+          "showContactHeader": false,
+          "catalogId": "",
+          "showAddContact": false,
+          "deleteViaSwipe": false,
+          "maxContactsCount": 2,
+          "showHelpButton": true,
+          "showHalfModalError": true,
+          "enabledEditAvatar": true,
+          "useGlobalValidationRules": true,
+          "updateHeader": false,
+          "validateAvatar": false,
+          "tutorialCount": 0,
+          "bankCallHoursOpen": 8,
+          "bankCallHoursClosing": 23,
+          "showCustomerContracts": true,
+          "modifyPassword": {
+            "passwordEnabled": true,
+            "checkPasswordStrength": false,
+            "passwordStrengthLowRegex": "",
+            "passwordStrengthMediumRegex": "",
+            "passwordStrengthHighRegex": "",
+            "passwordValidationRegex": "^[0-9A-Za-z]+$",
+            "passwordMinLength": 8,
+            "passwordMaxLength": 10,
+            "validateRepeatPassword": false
+          }
+        }
+      },
+      "onboarding": {
+        "data": {
+          "array_states": [
+            "AS",
+            "BC",
+            "BS",
+            "CC",
+            "CL",
+            "CM",
+            "CS",
+            "CH",
+            "DF",
+            "DG",
+            "GT",
+            "GR",
+            "HG",
+            "JC",
+            "MC",
+            "MN",
+            "MS",
+            "NT",
+            "NL",
+            "OC",
+            "PL",
+            "QT",
+            "QR",
+            "SP",
+            "SL",
+            "SR",
+            "TC",
+            "TS",
+            "TL",
+            "VZ",
+            "YN",
+            "ZS",
+            "NE"
+          ],
+          "states_abbreviation": [
+            "AG",
+            "BN",
+            "BS",
+            "CA",
+            "CU",
+            "CO",
+            "CS",
+            "CH",
+            "DF",
+            "DU",
+            "GU",
+            "GO",
+            "HI",
+            "JA",
+            "EM",
+            "MI",
+            "MO",
+            "NA",
+            "NL",
+            "OA",
+            "PU",
+            "QU",
+            "QR",
+            "SL",
+            "SI",
+            "SO",
+            "TA",
+            "TM",
+            "TL",
+            "VE",
+            "YU",
+            "ZA",
+            "NE"
+          ]
+        }
+      },
+      "settings": {
+        "items": {
+          "showFaceRecognition": true,
+          "showAccessMode": false,
+          "showNotifications": false
+        }
+      },
+      "notification": {
+        "data": {
+          "templateId": "KZ9J0101",
+          "eventCode": [
+            {
+              "name": "CARDLESS_WITHDRAWAL",
+              "value": "0000000348"
+            },
+            {
+              "name": "BILL_PAYMENT",
+              "value": "0000000349"
+            },
+            {
+              "name": "MOBILE_TOPUP",
+              "value": "0000000353"
+            },
+            {
+              "name": "INTERBANK_TRANSFER",
+              "value": "0000000350"
+            },
+            {
+              "name": "INTERNAL_TRANSFER",
+              "value": "0000000351"
+            },
+            {
+              "name": "OWN_TRANSFER",
+              "value": "0000000352"
+            },
+            {
+              "name": "CREDIT_CARD_PAYMENT",
+              "value": "0000000351"
+            }
+          ]
+        }
+      },
+      "qrpayments": {
+        "data": {
+          "pageSize": 10,
+          "validateMinimumAmount": 1,
+          "validateMaximumAmount": 100000.00,
+          "availabelShareOptions": [
+            {
+              "payments": [
+                "SHARE_OPERATION"
+              ]
+            }
+          ]
+        }
+      },
+      "historicalQrPayments": {
+        "data": {
+          "showHistoricalMenu": false,
+          "showImageAvatar": true,
+          "showDifferentDetailScreen": true,
+          "showFilters": true,
+          "showErrorList": false,
+          "isTab": true,
+          "statusType": [
+            {
+              "id": "POSTPONE"
+            },
+            {
+              "id": "PAID"
+            },
+            {
+              "id": "CHARGES"
+            },
+            {
+              "id": "SETTING"
+            }
+          ],
+          "showListTutorialTooltip": true
+        },
+        "items": []
+      },
+      "codiConfiguration": {
+        "data": {
+          "validMaximumAmountTransfer": 8000.00,
+          "bankId": "40012",
+          "accountType": "40",
+          "dateFormat": "yyyy-MM-dd'T'HH:mm:ss",
+          "servicePaymentAccount": "012914002"
+        },
+        "items": []
+      },
+      "campaigns": {
+        "facialBiometric": 30,
+        "fido": 10,
+        "codi": 20,
+        "codiCel": 21,
+        "cud": 25,
+        "addressUpdate": 26,
+        "inapp": 9
+      },
+      "tagPase": {
+        "data": {
+          "prefix": [
+            "CPFI",
+            "IMDM",
+            "005",
+            "006",
+            "OHLM",
+            "099"
+          ]
+        }
+      }
+    },
+    "moneyFlowConfig": {
+      "bankPortalURL": "https://www.bancomer.com",
+      "changeOnSimulationError": false,
+      "addConceptHeaderForDefaultConcept": false,
+      "addConceptToRequest": true,
+      "showAmountPaidAndReceivedLabels": false,
+      "conceptStringLength": 20,
+      "conceptInterbankStringLength": 40,
+      "contactAliasStringLength": 10,
+      "contactNameStringLength": 40,
+      "productAliasStringLength": 30,
+      "inLineAccountsListLimit": 3,
+      "receiptDateFormat": "d MMMM yyyy, HH:mm:ss 'h'",
+      "receiptDateFormatWithDash": "d MMMM yyyy, - HH:mm:ss 'h'",
+      "receiptDateFormatWithoutTime": "d MMMM yyyy",
+      "contactUpdatedFormat": "2 4 4",
+      "validCurrencyForOperation": [
+        "MXN"
+      ]
+    },
+    "appConfig": {
+      "allow40XErrorHandlingInArchitecture": true,
+      "allow50XErrorHandlingInArchitecture": true,
+      "allowAppDespiteRootedDevice": true,
+      "apiAggregator": false,
+      "apiAggregatorMaxCount": 6,
+      "appBundleId": "com.bbva.glomo.BBVA",
+      "appName": "BBVA",
+      "bankLogoImageName": "bank_logo_mx",
+      "handleStandardErrorsInBase": false,
+      "idleTimeBackground": 300,
+      "idleTimeForeground": 120,
+      "idleTimeAlertForeground": 0,
+      "legacyKeychainEnabled": false,
+      "localCurrencyCode": "MXN",
+      "locale": "es_MX",
+      "numberOfRetriesAllowed": 3,
+      "otpSmsTimeout": 180,
+      "softTokenAvailable": true,
+      "showOtpAsPassword": false,
+      "swiftCode": "",
+      "showTermsAndCondition": true
+    }
+  }
+}

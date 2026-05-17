@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="56px" viewBox="0 0 55 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>F1CEAC8F-1745-48BB-87C9-75E89F246535</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="30.2929232%" y1="12.9284362%" x2="71.4092923%" y2="90.256894%" id="linearGradient-1">
+            <stop stop-color="#192647" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MX_RequestBranchAppointment_01-01-01-11" transform="translate(-136.000000, -104.000000)">
+            <g id="Component/Panels/Info/Success/Option-1/3-Line-Description" transform="translate(16.000000, 92.000000)">
+                <g id="🖼-Illustration" transform="translate(120.000000, 12.000000)">
+                    <g id="Success" transform="translate(0.000000, 0.960000)">
+                        <path d="M54.6,29.9947085 C54.6,43.5831792 43.5831792,54.6 29.9947085,54.6 C16.4062379,54.6 5.4,43.5831792 5.4,29.9947085 C5.4,16.4062379 16.4168208,5.4 30.0052915,5.4 C43.5937621,5.4 54.6,16.4168208 54.6,29.9947085" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M49.44,24.7094171 C49.44,38.3662886 38.3768737,49.44 24.7305867,49.44 C11.0842998,49.44 0,38.3874621 0,24.7411772 C0,11.0948924 11.0525396,0.0105943139 24.6988266,0 C38.3451135,-0.0105791304 49.4294133,11.0525455 49.44,24.7094171" id="Path" fill="#28AD68" fill-rule="nonzero"></path>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" points="12 26.0126916 19.6182257 33.6 37.44 15.84"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

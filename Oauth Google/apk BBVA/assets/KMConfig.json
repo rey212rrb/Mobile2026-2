@@ -1,0 +1,96 @@
+{
+  "originsConfig" : {
+    "TRUSTDEVICE_SANDBOX": {
+      "loadEndpoint": "https://sandbox-trustd.payments.bbva/deviceregistry/keymanager/create",
+      "renewEndpoint": "https://sandbox-trustd.payments.bbva/deviceregistry/keymanager/renew",
+      "confirmEndpoint": "https://sandbox-trustd.payments.bbva/deviceregistry/keymanager/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TRUSTDEVICE_LOCAL_EMULATOR": {
+      "loadEndpoint": "http://10.0.2.2:9666/deviceregistry/keymanager/create",
+      "renewEndpoint": "http://10.0.2.2:9666/deviceregistry/keymanager/renew",
+      "confirmEndpoint": "http://10.0.2.2:9666/deviceregistry/keymanager/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TOHU_AMAZON": {
+      "loadEndpoint": "https://dev.tohu.bbva/hub/v1/create",
+      "renewEndpoint": "https://dev.tohu.bbva/hub/v1/renew",
+      "confirmEndpoint": "https://dev.tohu.bbva/hub/v1/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TOHU_LOCAL": {
+      "loadEndpoint": "http://localhost:9666/hub/v1/create",
+      "renewEndpoint": "http://localhost:9666/hub/v1/renew",
+      "confirmEndpoint": "http://localhost:9666/hub/v1/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TOHU_PRE": {
+      "loadEndpoint": "https://int.tohu.bbva/hub/v1/create",
+      "renewEndpoint": "https://int.tohu.bbva/hub/v1/renew",
+      "confirmEndpoint": "https://int.tohu.bbva/hub/v1/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TOHU_SANDBOX": {
+      "loadEndpoint": "https://sandbox.payments.bbva/hub/v1/create",
+      "renewEndpoint": "https://sandbox.payments.bbva/hub/v1/renew",
+      "confirmEndpoint": "https://sandbox.payments.bbva/hub/v1/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "TOHU_PRO": {
+      "loadEndpoint": "https://api.payments.bbva/hub/v1/create",
+      "renewEndpoint": "https://api.payments.bbva/hub/v1/renew",
+      "confirmEndpoint": "https://api.payments.bbva/hub/v1/confirm",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "10",
+      "jweEnc": "A128CBC-HS256",
+      "jweAlg": "A128KW"
+    },
+    "VINTEGRIS": {
+      "loadEndpoint": "http://172.17.116.25:8080/keymng-service/caas/keys-management/v1/keys/load",
+      "renewEndpoint": "http://172.17.116.25:8080/keymng-service/caas/keys-management/v1/keys",
+      "confirmEndpoint": "http://172.17.116.25:8080/keymng-service/caas/keys-management/v1/keys",
+      "loadMethod": "POST",
+      "renewMethod": "POST",
+      "confirmMethod": "POST",
+      "renewPeriod": "0",
+      "jweEnc": "A256CBC-HS512",
+      "jweAlg": "A256KW"
+    }
+  },
+  "generalConfig" :
+  {
+    "sslConfigFile":"raw/gp2_sslpinning_config.xml"
+  }
+}

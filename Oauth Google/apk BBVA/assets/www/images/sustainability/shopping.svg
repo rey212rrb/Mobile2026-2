@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shopping</title>
+    <defs>
+        <linearGradient x1="28.3509023%" y1="6.06877879%" x2="71.2235167%" y2="102.953143%" id="linearGradient-1">
+            <stop stop-color="#1C2645" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#1C2645" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9980599%" y1="49.9999729%" x2="-0.00110860904%" y2="49.9999729%" id="linearGradient-2">
+            <stop stop-color="#043263" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#043263" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Micro-illustrations-600x600" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shopping">
+            <g id="Cuadrados_Blancos">
+                <rect id="Rectangle" x="0" y="0" width="600" height="600"></rect>
+            </g>
+            <g id="Capa_74" transform="translate(96.000000, 45.000000)" fill-rule="nonzero">
+                <g id="Group">
+                    <path d="M453.39,186.14 L365.02,186.14 L365.02,127.74 L365.02,127.74 L334.28,97 L200.57,97 L169.83,127.74 L169.83,127.74 L169.83,186.14 L81.46,186.14 C78.91,186.14 76.85,188.2 76.85,190.75 L76.85,506.94 C76.85,508.19 77.36,509.38 78.25,510.24 L123.16,553.7 C124.02,554.53 125.16,554.99 126.36,554.99 L408.5,554.99 C409.69,554.99 410.84,554.53 411.7,553.7 L456.61,510.24 C457.5,509.37 458.01,508.18 458.01,506.94 L458.01,190.75 C458,188.21 455.94,186.14 453.39,186.14 Z M200.57,186.14 L200.57,127.74 L334.28,127.74 L334.28,186.14 L200.57,186.14 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <path d="M331.65,458.17 L49.5,458.17 C48.31,458.17 47.16,457.71 46.3,456.88 L1.4,413.42 C0.51,412.55 0,411.36 0,410.12 L0,93.93 C0,91.38 2.06,89.32 4.61,89.32 L376.54,89.32 C379.09,89.32 381.15,91.38 381.15,93.93 L381.15,410.12 C381.15,411.37 380.64,412.56 379.75,413.42 L334.84,456.88 C333.99,457.71 332.84,458.17 331.65,458.17 Z" id="Path" fill="#1464A5"></path>
+                    <rect id="Rectangle" fill="#2DCCCD" x="92.98" y="30.91" width="30.74" height="58.4"></rect>
+                    <polygon id="Path" fill="#028484" points="288.17 30.91 288.17 30.91 257.43 0.17 123.72 0.17 92.98 30.91"></polygon>
+                    <rect id="Rectangle" fill="#2DCCCD" x="257.43" y="30.91" width="30.74" height="58.4"></rect>
+                    <path d="M376.54,89.32 L288.64,89.32 L92.51,458.17 L331.65,458.17 C332.84,458.17 333.99,457.71 334.85,456.88 L379.76,413.42 C380.65,412.55 381.16,411.36 381.16,410.12 L381.16,93.93 C381.15,91.38 379.09,89.32 376.54,89.32 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

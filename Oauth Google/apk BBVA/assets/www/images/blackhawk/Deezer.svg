@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="50.0259447%" x2="99.9540114%" y2="50.0259447%" id="linearGradient-1">
+            <stop stop-color="#FF9900" offset="0%"></stop>
+            <stop stop-color="#FF8000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.135386806%" y1="50.0259447%" x2="99.443908%" y2="50.0259447%" id="linearGradient-2">
+            <stop stop-color="#FF8000" offset="0%"></stop>
+            <stop stop-color="#CC1953" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.73223904%" y1="27.7180947%" x2="91.622709%" y2="72.4288543%" id="linearGradient-3">
+            <stop stop-color="#FFD100" offset="0%"></stop>
+            <stop stop-color="#FD5A22" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00147768675%" y1="50.0259447%" x2="99.8637588%" y2="50.0259447%" id="linearGradient-4">
+            <stop stop-color="#CC1953" offset="0%"></stop>
+            <stop stop-color="#241284" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-3.95842133%" y1="59.223341%" x2="103.823658%" y2="40.8013279%" id="linearGradient-5">
+            <stop stop-color="#CC1953" offset="0%"></stop>
+            <stop stop-color="#241284" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0933279059%" y1="50.0259447%" x2="99.8606835%" y2="50.0259447%" id="linearGradient-6">
+            <stop stop-color="#222B90" offset="0%"></stop>
+            <stop stop-color="#3559A6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.50497909%" y1="65.3604651%" x2="101.50002%" y2="34.6642267%" id="linearGradient-7">
+            <stop stop-color="#222B90" offset="0%"></stop>
+            <stop stop-color="#367B99" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.4984291%" y1="67.4401533%" x2="49.9958084%" y2="49.0093644%" id="linearGradient-8">
+            <stop stop-color="#358C7B" offset="0%"></stop>
+            <stop stop-color="#33A65E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-3.1746928%" y1="38.6792118%" x2="103.537221%" y2="61.4040175%" id="linearGradient-9">
+            <stop stop-color="#FFCC00" offset="0%"></stop>
+            <stop stop-color="#CE1938" offset="99.99%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DEEZERXXXXX" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M48,24.0000239 C48,37.2548447 37.2547969,48 23.9999761,48 C10.7451553,48 0,37.2548447 0,24.0000239 C0,10.7452031 10.7451553,0 23.9999761,0 C30.3690542,-0.0126646699 36.480931,2.51181449 40.9845582,7.01544176 C45.4881855,11.519069 48.0126647,17.6309458 48,24.0000239" id="forma1" fill="#000000" fill-rule="nonzero"></path>
+        <polygon id="forma2" fill="url(#linearGradient-1)" fill-rule="nonzero" points="12.782624 29.9432 12.782624 34.4972 5 34.4972 5 29.9432"></polygon>
+        <polygon id="forma3" fill="url(#linearGradient-2)" fill-rule="nonzero" points="22.18496 29.9432 22.18496 34.4972 14.398736 34.4972 14.398736 29.9432"></polygon>
+        <polygon id="forma5" fill="url(#linearGradient-3)" fill-rule="nonzero" points="22.18496 21.865808 14.398736 21.865808 14.398736 17.311808 22.18496 17.311808"></polygon>
+        <polygon id="forma6" fill="url(#linearGradient-4)" fill-rule="nonzero" points="31.60112 29.9432 31.60112 34.4972 23.814896 34.4972 23.814896 29.9432"></polygon>
+        <polygon id="forma7" fill="url(#linearGradient-5)" fill-rule="nonzero" points="31.60112 23.62736 31.60112 28.18136 23.814896 28.18136 23.814896 23.62736"></polygon>
+        <polygon id="forma8" fill="url(#linearGradient-6)" fill-rule="nonzero" points="41 29.9432 41 34.4972 33.217376 34.4972 33.217376 29.9432"></polygon>
+        <polygon id="forma9" fill="url(#linearGradient-7)" fill-rule="nonzero" points="41 23.62736 41 28.18136 33.217376 28.18136 33.217376 23.62736"></polygon>
+        <polygon id="forma10" fill="url(#linearGradient-8)" fill-rule="nonzero" points="41 17.311808 41 21.865808 33.217376 21.865808 33.217376 17.311808 41 17.311808"></polygon>
+        <polygon id="forma11" fill="#40AB5D" fill-rule="nonzero" points="41 11 41 15.554 33.217376 15.554 33.217376 11"></polygon>
+        <polygon id="forma4" fill="url(#linearGradient-9)" fill-rule="nonzero" points="22.18496 23.62736 22.18496 28.18136 14.398736 28.18136 14.398736 23.62736"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🖼 Illustration@1x</title>
+    <defs>
+        <linearGradient x1="26.5217853%" y1="5.84388265%" x2="73.4782355%" y2="94.1561382%" id="linearGradient-1">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="26.5217645%" y1="5.84296712%" x2="73.4782147%" y2="94.1552434%" id="linearGradient-2">
+            <stop stop-color="#192647" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="25.6282909%" y1="11.1137176%" x2="76.0301254%" y2="73.8750927%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#EBF6F7" stop-opacity="0.2" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard-copy-58" transform="translate(-126.000000, -91.000000)">
+            <g id="Clock" transform="translate(120.000000, 84.000000)">
+                <g id="Cuadrados_Blancos">
+                    <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
+                </g>
+                <g id="Group" transform="translate(6.666667, 7.066667)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="41.2933333" cy="40.8933333" r="32.04"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-2)" fill-rule="nonzero" cx="32.04" cy="32.0546667" r="32.04"></circle>
+                    <g>
+                        <circle id="Oval" fill="#52A5DF" fill-rule="nonzero" cx="32.04" cy="32.0533333" r="27.712"></circle>
+                        <path d="M32.04,0.056 C14.3973333,0.056 0.0426666667,14.4106667 0.0426666667,32.0533333 C0.0426666667,49.696 14.3973333,64.052 32.04,64.052 C49.6826667,64.052 64.0373333,49.6986667 64.0373333,32.0533333 C64.0373333,14.408 49.6826667,0.056 32.04,0.056 Z M32.04,59.7653333 C16.7586667,59.7653333 4.328,47.3333333 4.328,32.0533333 C4.328,16.7733333 16.76,4.34133333 32.04,4.34133333 C47.32,4.34133333 59.752,16.7733333 59.752,32.0533333 C59.752,47.3333333 47.316,59.7653333 32.04,59.7653333 Z" id="Shape" fill="#20669F" fill-rule="nonzero"></path>
+                        <g transform="translate(4.133333, 4.133333)" id="Path">
+                            <path d="M41.7626667,3.764 L13.936,52.0026667 C27.2573333,59.6866667 44.2853333,55.1173333 51.9693333,41.796 C59.6533333,28.4746667 55.084,11.448 41.7626667,3.764 Z"></path>
+                            <path d="M27.9066667,0.0786291237 C12.5306667,0.0773333333 0.0653333333,12.5413333 0.0626664145,27.9173333 C0.0613333333,37.8453333 5.348,47.0226667 13.9346667,52.0026667 L41.7613333,3.764 C37.5466667,1.34133333 32.768,0.0706666667 27.9066667,0.0786291237 Z" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.5"></path>
+                        </g>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="32.04" cy="9.51066667" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="32.04" cy="54.5933333" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="54.58" cy="32.0533333" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="9.892" cy="32.0533333" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="20.7693333" cy="12.5266667" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="43.3106667" cy="51.58" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="51.5653333" cy="20.7826667" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="12.5133333" cy="43.324" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="12.5133333" cy="20.7826667" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="51.5653333" cy="43.324" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="43.3106667" cy="12.5266667" r="1.31466667"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="20.7693333" cy="51.58" r="1.31466667"></circle>
+                        <polygon id="Path" fill="#20669F" fill-rule="nonzero" points="34.3546667 35.1653333 29.6973333 34.9946667 29.5826667 13.4253333 34.3546667 16.4826667"></polygon>
+                        <path d="M42.212,36.5666667 C43.3933333,37.156 43.872,38.5906667 43.2826667,39.772 C42.7346667,40.8706667 41.4426667,41.3746667 40.2946667,40.9386667 L31.108,36.8946667 C29.9226667,36.316 29.432,34.8866667 30.0106667,33.7013333 C30.556,32.584 31.868,32.0733333 33.0253333,32.5253333 L42.212,36.5666667 Z" id="Path" fill="#0B3460" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

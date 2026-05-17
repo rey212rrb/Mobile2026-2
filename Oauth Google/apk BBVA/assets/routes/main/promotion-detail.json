@@ -1,0 +1,102 @@
+{
+  "op": "popAndPush",
+  "payload": {
+    "page": "promotion-detail",
+    "components": [
+      {
+        "tagName": "siteInformationComponent",
+        "type": "UI",
+        "properties": {
+          "distanceOutputText": {
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium"
+            }
+          },
+          "distanceFormat": {
+            "type": "resource",
+            "value": "key_promotions_near_you_text"
+          },
+          "addressOutputText": {
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_600"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "additionalInformationOutputText": {
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_500"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_book"
+            }
+          },
+          "howToGoOutputText": {
+            "text": {
+              "type": "resource",
+              "value": "key_how_to_get_text"
+            },
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_MEDIUM_BLUE"
+            },
+            "text-font": {
+              "type": "resource",
+              "value": "benton_sans_medium"
+            }
+          },
+          "onlineCommerceIcon": {
+            "scale": {
+              "value": "fit-xy"
+            },
+            "source": {
+              "type": "resource",
+              "value": "online_icon"
+            }
+          },
+          "onlineCommerceIconTint": {
+            "type": "resource",
+            "value": "BBVA_MEDIUM_BLUE"
+          },
+          "emailIcon": {
+            "scale": {
+              "value": "fit-xy"
+            },
+            "source": {
+              "type": "resource",
+              "value": "email_icon"
+            }
+          },
+          "emailIconTint": {
+            "type": "resource",
+            "value": "BBVA_MEDIUM_BLUE"
+          },
+          "phoneIcon": {
+            "scale": {
+              "value": "fit-xy"
+            },
+            "source": {
+              "type": "resource",
+              "value": "telephone_icon"
+            }
+          },
+          "phoneIconTint": {
+            "type": "resource",
+            "value": "BBVA_MEDIUM_BLUE"
+          },
+          "cameraZoom": 16.5
+        }
+      }
+    ]
+  }
+}

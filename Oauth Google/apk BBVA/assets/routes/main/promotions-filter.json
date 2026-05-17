@@ -1,0 +1,88 @@
+{
+  "op": "popAndPush",
+  "payload": {
+    "page": "promotions-filter",
+    "components": [
+      {
+        "tagName": "typePromotionsOptionsCircleComponent",
+        "type": "UI",
+        "properties": {
+          "title": {
+            "text": {
+              "type": "resource",
+              "value": "key_promotion_type_text"
+            },
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_500"
+            },
+            "text-font": {
+              "type": "font",
+              "value": "benton_sans_bold"
+            }
+          },
+          "itemTextTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_text_options_circle"
+          },
+          "itemIconTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_icon_options_circle"
+          },
+          "itemBackgroundTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_background_options_circle"
+          },
+          "itemTextSize": {
+            "type": "resource",
+            "value": "m"
+          },
+          "itemTextFont": {
+            "type": "font",
+            "value": "benton_sans_book"
+          }
+        }
+      },
+      {
+        "tagName": "typeCommerceOptionsCircleComponent",
+        "type": "UI",
+        "properties": {
+          "title": {
+            "text": {
+              "type": "resource",
+              "value": "key_commerce_type_text"
+            },
+            "text-color": {
+              "type": "resource",
+              "value": "BBVA_500"
+            },
+            "text-font": {
+              "type": "font",
+              "value": "benton_sans_bold"
+            }
+          },
+          "itemTextTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_text_options_circle"
+          },
+          "itemIconTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_icon_options_circle"
+          },
+          "itemBackgroundTintColor": {
+            "type": "resource",
+            "value": "selector_tint_item_background_options_circle"
+          },
+          "itemTextSize": {
+            "type": "resource",
+            "value": "m"
+          },
+          "itemTextFont": {
+            "type": "font",
+            "value": "benton_sans_book"
+          }
+        }
+      }
+    ]
+  }
+}

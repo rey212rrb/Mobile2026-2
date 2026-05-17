@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="146px" viewBox="0 0 264 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>76630FE0-A27C-473D-923F-FC18690A414D</title>
+    <g id="Edit_Postal_Address_MX_VD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edit_Postal_Address_MX_01_04_01_2" transform="translate(-29.000000, -378.000000)">
+            <g id="INE-IFE-B-C-D-E" transform="translate(29.000000, 378.000000)">
+                <rect id="background" fill="#E9E9E9" x="0" y="0" width="264" height="146" rx="6"></rect>
+                <g id="OCR" transform="translate(0.000000, 88.000000)">
+                    <rect id="background" fill="#FFFFFF" transform="translate(214.386207, 14.500000) rotate(-360.000000) translate(-214.386207, -14.500000) " x="164.772414" y="-1.28785871e-14" width="99.2275862" height="29"></rect>
+                    <rect id="background-copy" fill="#666666" opacity="0.1" transform="translate(82.386207, 14.500000) rotate(-360.000000) translate(-82.386207, -14.500000) " x="0" y="1.93178806e-14" width="164.772414" height="29"></rect>
+                    <path d="M0,29 L264,29 L264,52 C264,55.3137085 261.313708,58 258,58 L6,58 C2.6862915,58 1.29399067e-15,55.3137085 0,52 L0,29 L0,29 Z" id="background-copy-2" fill="#666666" opacity="0.1" transform="translate(132.000000, 43.500000) rotate(-360.000000) translate(-132.000000, -43.500000) "></path>
+                    <text id="1234567890123" transform="translate(215.696552, 14.500000) rotate(-360.000000) translate(-215.696552, -14.500000) " font-family="BentonSansBBVA-Medium, Benton Sans BBVA" font-size="10" font-weight="400" line-spacing="16" fill="#121212">
+                        <tspan x="177.281552" y="17.5">1234567890123</tspan>
+                    </text>
+                    <text id="IDMEX1234567890&lt;&lt;" transform="translate(104.124138, 14.500000) rotate(-360.000000) translate(-104.124138, -14.500000) " font-family="BentonSansBBVA-Book, Benton Sans BBVA" font-size="10" font-weight="300" line-spacing="16" fill="#666666">
+                        <tspan x="53.8941379" y="15.5">IDMEX1234567890&lt;&lt;</tspan>
+                    </text>
+                    <text id="APELLIDO&lt;APELLIDO&lt;NO" transform="translate(163.434483, 43.500000) rotate(-360.000000) translate(-163.434483, -43.500000) " font-family="BentonSansBBVA-Book, Benton Sans BBVA" font-size="10" font-weight="300" line-spacing="16" fill="#666666">
+                        <tspan x="85.2144828" y="44.5">APELLIDO&lt;APELLIDO&lt;NOMBRE&lt;&lt;</tspan>
+                    </text>
+                </g>
+                <rect id="magnetic-band" fill="#121212" x="0" y="15" width="264" height="30"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

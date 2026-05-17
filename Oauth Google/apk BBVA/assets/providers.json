@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "id": "01",
+      "name": "Telcel",
+      "logo": {
+        "id": "TELCEL",
+        "name": "avatar_TELCEL01-SP",
+        "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_TELCEL01-SP"
+      },
+      "topUpConfiguration": {
+        "possibleAmounts": [
+          {
+            "amount": 20,
+            "currency": "MXN"
+          },
+          {
+            "amount": 30,
+            "currency": "MXN"
+          },
+          {
+            "amount": 50,
+            "currency": "MXN"
+          },
+          {
+            "amount": 80,
+            "currency": "MXN"
+          },
+          {
+            "amount": 100,
+            "currency": "MXN"
+          },
+          {
+            "amount": 150,
+            "currency": "MXN"
+          },
+          {
+            "amount": 200,
+            "currency": "MXN"
+          },
+          {
+            "amount": 300,
+            "currency": "MXN"
+          },
+          {
+            "amount": 500,
+            "currency": "MXN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "name": "Movistar",
+      "logo": {
+        "id": "MOVISTAR",
+        "name": "avatar_MOVISTAR03-SP",
+        "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_MOVISTAR03-SP"
+      },
+      "topUpConfiguration": {
+        "possibleAmounts": [
+          {
+            "amount": 30,
+            "currency": "MXN"
+          },
+          {
+            "amount": 50,
+            "currency": "MXN"
+          },
+          {
+            "amount": 100,
+            "currency": "MXN"
+          },
+          {
+            "amount": 150,
+            "currency": "MXN"
+          },
+          {
+            "amount": 200,
+            "currency": "MXN"
+          },
+          {
+            "amount": 300,
+            "currency": "MXN"
+          },
+          {
+            "amount": 500,
+            "currency": "MXN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "name": "Unefon",
+      "logo": {
+        "id": "UNEFON",
+        "name": "avatar_UNEFON05-SP",
+        "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_UNEFON05-SP"
+      },
+      "topUpConfiguration": {
+        "possibleAmounts": [
+          {
+            "amount": 50,
+            "currency": "MXN"
+          },
+          {
+            "amount": 100,
+            "currency": "MXN"
+          },
+          {
+            "amount": 150,
+            "currency": "MXN"
+          },
+          {
+            "amount": 200,
+            "currency": "MXN"
+          },
+          {
+            "amount": 300,
+            "currency": "MXN"
+          },
+          {
+            "amount": 500,
+            "currency": "MXN"
+          },
+          {
+            "amount": 750,
+            "currency": "MXN"
+          },
+          {
+            "amount": 1000,
+            "currency": "MXN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "name": "At&t",
+      "logo": {
+        "id": "AT&T",
+        "name": "avatar_AT&T02-SP",
+        "url": "https://archivingbbva.axtel.mx:443/v2/documents/logo?key=avatar_AT%26T02-SP"
+      },
+      "topUpConfiguration": {
+        "possibleAmounts": [
+          {
+            "amount": 50,
+            "currency": "MXN"
+          },
+          {
+            "amount": 100,
+            "currency": "MXN"
+          },
+          {
+            "amount": 150,
+            "currency": "MXN"
+          },
+          {
+            "amount": 200,
+            "currency": "MXN"
+          },
+          {
+            "amount": 300,
+            "currency": "MXN"
+          },
+          {
+            "amount": 500,
+            "currency": "MXN"
+          },
+          {
+            "amount": 1000,
+            "currency": "MXN"
+          }
+        ]
+      }
+    }
+  ]
+}

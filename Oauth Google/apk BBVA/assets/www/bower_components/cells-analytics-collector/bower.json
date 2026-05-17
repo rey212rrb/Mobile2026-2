@@ -1,0 +1,21 @@
+{
+  "name": "cells-analytics-collector",
+  "version": "13.2.2",
+  "description": "Cells Analytics Collector",
+  "main": "cells-analytics-collector.js",
+  "authors": [
+    "pablo.hidalgo <pablo.hidalgo@bbva.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "external",
+    "src"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,30 @@
+{
+  "TEST": {
+    "976971810811": {
+      "projectId": "cobrospei-beta5",
+      "api_key" : "AIzaSyA9_sZ4SvNtl-_XNC4Q0yzN8nTovXX3sg0"
+    },
+    "670058745038": {
+      "projectId": "cobrospei-beta6",
+      "api_key" : "670058745038"
+    },
+    "501487815695": {
+      "projectId": "cobrospei-beta7",
+      "api_key" : "AIzaSyBxXCvCFVkkrcXkB_Nlu9fP8MTRtlRNMjA"
+    },
+    "586294353908": {
+      "projectId": "cobrospei-beta8",
+      "api_key" : "AIzaSyCOPJLSaXNda0fGm8A07HL-1bJaPpR4B8k"
+    }
+  },
+  "PROD": {
+    "378222339434" : {
+      "projectId": "codi-productivo",
+      "api_key" : "AIzaSyAVLJT9CNKicKtNxFs_JztsnrcSY1gNOzQ"
+    },
+    "37600425090" : {
+      "projectId": "codi-productivo2",
+      "api_key" : "AIzaSyCI62PF98EvaTA-TWljDgVjQzM3VEzVlrI"
+    }
+  }
+}

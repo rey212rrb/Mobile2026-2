@@ -1,0 +1,96 @@
+{
+  "data": {
+    "0011B": {
+      "params": "avatars,indicators,classifications",
+      "expand": true
+    },
+    "0011D": {
+        "params": "indicators,classifications",
+        "expand": true
+    },
+    "AM001": {
+      "params": "customized-formats",
+      "expand": true
+    },
+    "AM002": {
+      "params": "activations",
+      "expand": true
+    },
+    "AM003": {
+      "params": "",
+      "expand": true
+    },
+    "AM004": {
+      "params": "funds",
+      "expand": true
+    },
+    "AM005": {
+      "params": "",
+      "expand": true
+    },
+    "AMD01": {
+      "params": "customized-formats,holds",
+      "expand": true
+    },
+    "AMD02": {
+      "params": "payment-methods,blocks,rewards",
+      "expand": true
+    },
+    "AMD03": {
+      "params": "",
+      "expand": true
+    },
+    "AMD04": {
+      "params": "",
+      "expand": true
+    },
+    "AMD05": {
+      "params": "related-contracts",
+      "expand": true
+    },
+    "AMD07": {
+      "params": "",
+      "expand": false
+    },
+    "AMM01": {
+      "params": "related-contracts,conditions",
+      "expand": false
+    },
+    "AMM02": {
+      "params": "related-contracts,participants,conditions",
+      "expand": false
+    },
+    "AMM03": {
+      "params": "related-contracts,participants",
+      "expand": false
+    },
+    "AMM04": {
+      "params": "",
+      "expand": false
+    },
+    "AMM05": {
+      "params": "commissions,related-contracts",
+      "expand": false
+    },
+    "LM004": {
+      "params": "avatars",
+      "expand": true
+    },
+    "AMO09": {
+      "params": "participants",
+      "expand": true
+    },
+    "TM012": {
+      "params": "participants",
+      "expand": true
+    },
+    "AMO10": {
+      "params": "balances",
+      "expand": true
+    },
+    "AMOC02": {
+      "params": "no preaprobados",
+      "expand": true
+    }
+  }
+}

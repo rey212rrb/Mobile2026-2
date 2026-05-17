@@ -18,4 +18,10 @@
     <color name="icon_circle_green">#E8F5E9</color>
     <!--  Status bar  -->
     <color name="colorPrimaryDark">#F5F5F5</color>
+    <color name="bbva_background_navy">#072146</color>
+    <color name="bbva_text_links">#004481</color>
+    <color name="bbva_button_action">#00A4E4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_divider">#E0E0E0</color>
 </resources>

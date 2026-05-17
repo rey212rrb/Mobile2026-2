@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>0B24D241-01C4-428C-9764-CCCCE21301AF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="26.5229514%" y1="5.84420898%" x2="73.477826%" y2="94.1565274%" id="linearGradient-1">
+            <stop stop-color="#1C2645" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#1C2645" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MX-Simulador_CreditCardPayments-02-01-00-04" transform="translate(-120.000000, -108.000000)">
+            <g id="Component/Panels/Panel-Info/Light-Background/Default/Success" transform="translate(0.000000, 92.000000)">
+                <g id="Actions/Success" transform="translate(120.000000, 16.000000)">
+                    <g id="Succes">
+                        <g id="Cuadrados_Blancos">
+                            <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
+                        </g>
+                        <g id="Capa_5" transform="translate(6.666667, 6.666667)" fill-rule="nonzero">
+                            <g id="Group">
+                                <circle id="Oval" fill="url(#linearGradient-1)" cx="40.7426667" cy="40.7426667" r="32.5906667"></circle>
+                                <g id="Path">
+                                    <path d="M65.1853333,32.576 C65.1853333,50.5813333 50.6,65.18 32.6093333,65.18 C14.6186667,65.18 0.00533333333,50.6093333 0.00533333333,32.6186667 C0.00533333333,14.628 14.576,0.0133333333 32.568,-9.13431916e-06 C50.56,-0.0133333333 65.172,14.572 65.1853333,32.576" fill="#28AD68"></path>
+                                    <path d="M25.868,47.1333333 C25.128,47.1333333 24.416,46.84 23.9,46.3093333 L13.864,36.2733333 C12.7746667,35.184 12.7746667,33.412 13.864,32.324 C14.9533333,31.236 16.7253333,31.2346667 17.8133333,32.324 L25.8813333,40.392 L47.3893333,18.8693333 C48.4786667,17.78 50.2506667,17.78 51.3386667,18.8693333 C52.4266667,19.9586667 52.428,21.7306667 51.3386667,22.8186667 L27.836,46.3106667 C27.32,46.8413333 26.608,47.1333333 25.868,47.1333333 L25.868,47.1333333 Z" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

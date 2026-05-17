@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="545px" height="550px" viewBox="0 0 545 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Micro-Illustrations/Alerts/Caution</title>
+    <defs>
+        <linearGradient x1="24.3164504%" y1="1.68196679%" x2="71.638713%" y2="90.6804359%" id="linearGradient-1">
+            <stop stop-color="#072146" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#072146" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Back" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-49.000000, -50.000000)">
+            <g id="Caution" transform="translate(0.053381, -0.138642)">
+                <g id="Group-2" transform="translate(49.075425, 50.261480)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="296.510539" cy="301.282314" r="248.208431"></circle>
+                    <circle id="Oval" fill="#9C6C01" fill-rule="nonzero" cx="251.042155" cy="250.404094" r="250.398126"></circle>
+                    <g id="Group" transform="translate(229.145199, 117.090277)"></g>
+                    <path d="M251.042155,310.942736 C240.737705,310.942736 232.36534,302.57037 232.36534,292.265921 C232.36534,292.265921 232.36534,292.265921 232.36534,292.265921 L232.36534,136.41112 C232.107728,126.10667 240.222482,117.605499 250.526932,117.219082 C260.831382,116.961471 269.332553,125.076225 269.71897,135.380675 C269.71897,135.767092 269.71897,136.024703 269.71897,136.41112 L269.71897,292.265921 C269.71897,302.57037 261.346604,310.942736 251.042155,310.942736 L251.042155,310.942736 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="251.042155" cy="361.820956" r="21.7681499"></circle>
+                </g>
+                <rect id="Rectangle" x="0" y="0" width="600" height="600"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+            "id":"",
+            "name":"TDC No Preaprobados",
+            "description":"TDC NO PREAPROBADA",
+            "priority":2,
+            "isSimulationAllowed":false,
+            "isImproved":false,
+            "isShownInDashboard":false,
+            "product":{
+                "id":"0SKY",
+                "contractId":"",
+                "productType":{
+                    "id":"CARDS",
+                    "name":"Cards"
+                }
+            },
+            "isRead":false
+        },
+        {
+            "id":"",
+            "name":"Consumo No Preaprobados",
+            "description":"CONSUMO NO PREAPROBADO",
+            "priority":1,
+            "isSimulationAllowed":false,
+            "isImproved":false,
+            "isShownInDashboard":false,
+            "product":{
+                "id":"00CB",
+                "productType":{
+                    "id":"LOANS",
+                    "name":"Loans"
+                }
+            },
+            "isRead":false
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+{
+  "fingerprintUI": {
+    "useBottomSheetDialog": true,
+    "devices": [
+      {"manufacturer": "samsung", "model": "SCV41", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SCV42", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SC-03L", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SC-04L", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SC-05L", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A307", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A505", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A507", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A515", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A705", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A707", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A715", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-A908", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G973", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G975", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G977", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G981", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G986", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-G988", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-N770", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-N970", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-N971", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-N975", "mode": "hide"},
+      {"manufacturer": "samsung", "model": "SM-N976", "mode": "hide"},
+      {"manufacturer": "xiaomi" , "model": ""       , "mode": "hide", "useBiometricForLevel": "29"}
+    ]
+  },
+  "duplicateAuthenticatorSets": [
+    {
+      "aaid": [
+        ["4e4e#4010"],
+        ["4e4e#4011"],
+        ["4e4e#4012"],
+        ["4e4e#4013"],
+        ["4e4e#4018"],
+        ["4e4e#4038"],
+        ["4e4e#403a"],
+        ["4e4e#40aa"],
+        ["4e4e#40ab"],
+        ["4e4e#40ac"],
+        ["4e4e#40ad"],
+        ["4e4e#40ae"],
+        ["4e4e#40af"],
+        ["53EC#C002"],
+        ["0011#0201"],
+        ["0011#0A01"],
+        ["0011#6201"],
+        ["0018#0001"],
+        ["0018#0002"],
+        ["0018#0003"],
+        ["0018#0004"],
+        ["0010#0001"],
+        ["0010#0002"],
+        ["0010#0003"],
+        ["0010#0004"],
+        ["0010#0005"]
+      ]
+    }
+  ],
+  "keyguardValidityDuration": 60,
+  "usePreloadedOnly": false,
+  "useAidlService": false,
+  "sendKSAttestation": "requested",
+  "sendSafetyNet": {
+    "init": "never",
+    "finish": "requested",
+    "protocol": "never"
+  },
+  "sendJailBreakRiskSignal": {
+    "init": "never",
+    "finish": "requested",
+    "protocol": "never"
+  },
+  "sendLocation": {
+    "init": "silently",
+    "finish": "requested",
+    "protocol": "never"
+  },
+  "sendWifiSSID": {
+    "init": "silently",
+    "finish": "requested",
+    "protocol": "never"
+  },
+  "asmSelectionEnabled": true,
+  "allowedSslProtocols": null,
+  "clientOrder": [
+    "LOCAL"
+  ],
+  "multiProtocolSupport": false,
+  "sendFakeUVI": false,
+  "startOnNotification": true,
+  "requestTimeout": 15000,
+  "adaptiveTimeout" : 70,
+  "enableRsa": true,
+  "expireKeysIn2038": false,
+  "strictUpv10": false,
+  "pinSha256Only": false,
+  "useRemoteASM": false,
+  "fido2ExcludeCredentials": true,
+  "conformanceTestEnabled": false,
+  "publicSuffixList": "",
+  "googleApiKey": null,
+  "allowedBrowsers": [
+    "android:apk-key-hash:OJGKRT0HGZNU+LGa8F7GViztV4g",
+    "android:apk-key-hash:nKUXDzgZGd/gRG/NqxixmhQ7MWM",
+    "android:apk-key-hash:Al1SEr87X1zaYRelGHIdcKlNhOA"
+  ],
+  "pinConfig": {
+    "minLength": 4,
+    "maxLength": 4,
+    "maxRepeatDigits": 0,
+    "maxSequentialDigits": 0,
+    "confirmationButton": true,
+    "maxFalseAttempts": 10,
+    "probationPeriod": 0,
+    "lockoutPeriod": 0,
+    "nonReusableOldPINs": 0
+  },
+  "asmFixes": {
+    "0011#0701": {
+      "title": "nnl_fujitsu_iris_title",
+      "description": "nnl_fujitsu_iris_description",
+      "noExtensions": "true",
+      "userVerification": 65
+    },
+    "0011#6701": {
+      "title": "nnl_fujitsu_iris_title",
+      "description": "nnl_fujitsu_iris_description",
+      "noExtensions": "true",
+      "userVerification": 65
+    },
+    "0011#6201": {
+      "title": "nnl_fujitsu_fp_title",
+      "description": "nnl_fujitsu_fp_description",
+      "noExtensions": "true",
+      "userVerification": 3
+    },
+    "0011#0201": {
+      "title": "nnl_fujitsu_fp_title",
+      "description": "nnl_fujitsu_fp_description",
+      "noExtensions": "true",
+      "userVerification": 3
+    },
+    "0010#0001": {
+      "title": "nnl_sharp_fp_title",
+      "description": "nnl_sharp_fp_description",
+      "noExtensions": "true",
+      "userVerification": 3,
+      "icon": "nnl_asm_native_fps_launcher_icon"
+    },
+    "0018#0001": {
+      "title": "nnl_sony_fp_title",
+      "description": "nnl_sony_fp_description",
+      "noExtensions": "true",
+      "userVerification": 3,
+      "icon": "nnl_asm_native_fps_launcher_icon"
+    },
+    "0011#0A01": {
+      "noExtensions": "true"
+    },
+    "0010#0002": {
+      "noExtensions": "true"
+    },
+    "0010#0003": {
+      "noExtensions": "true"
+    },
+    "0010#0004": {
+      "noExtensions": "true"
+    },
+    "0010#0005": {
+      "noExtensions": "true"
+    }
+  },
+  "inactivityTimeout": 60000,
+  "metricConfig": {
+    "unit": "DAY",
+    "count": 2
+  }
+}
